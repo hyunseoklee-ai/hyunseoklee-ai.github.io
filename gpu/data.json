@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 05:25 KST  \u00b7  13:25 PDT",
+  "updated": "2026-05-09 05:26 KST  \u00b7  13:26 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,51 +81,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 2521,
           "mem_total": 24576,
-          "util": 0
+          "util": 79
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 3248,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 3248,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 3248,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 3248,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -134,7 +134,7 @@
         "1",
         "2",
         "3",
-        "a15_4bt_retry",
+        "a15_4bt_v2",
         "dash"
       ],
       "recent_events": [
