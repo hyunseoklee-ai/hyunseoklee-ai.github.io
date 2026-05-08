@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 08:15 KST  \u00b7  16:15 PDT",
+  "updated": "2026-05-09 08:16 KST  \u00b7  16:16 PDT",
   "servers": [
     {
       "gpus": [
@@ -54,7 +54,7 @@
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
-        "a14_extra",
+        "base_4bt",
         "eval_a14",
         "reasoning_a14",
         "reguide",
@@ -71,7 +71,7 @@
         "[06:25:02] OK qwen3vl_2b_thinking_base/ui-vision-basic/scaling  5704s  acc=367/1772 = 20.71%",
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
-        "=== DONE ==="
+        "[12:46:33] OK qwen3vl_2b_stage2/baseline  590s  acc=387/1581 = 24.48%"
       ],
       "summaries": [],
       "name": "alin14"
