@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-09 06:34 KST  \u00b7  14:34 PDT",
+  "updated": "2026-05-09 06:35 KST  \u00b7  14:35 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23686,
+          "mem_used": 24024,
           "mem_total": 24576,
           "util": 100
         },
@@ -13,11 +13,11 @@
           "idx": 1,
           "mem_used": 23035,
           "mem_total": 24576,
-          "util": 96
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 23087,
+          "mem_used": 23403,
           "mem_total": 24576,
           "util": 100
         },
@@ -25,7 +25,7 @@
           "idx": 3,
           "mem_used": 23053,
           "mem_total": 24576,
-          "util": 100
+          "util": 96
         },
         {
           "idx": 4,
@@ -35,13 +35,13 @@
         },
         {
           "idx": 5,
-          "mem_used": 23195,
+          "mem_used": 23543,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 22881,
+          "mem_used": 23203,
           "mem_total": 24576,
           "util": 100
         },
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=110/119 loss=0.364",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=112/119 loss=0.364",
         "[05:22:04] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/scaling",
         "[05:21:54] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/baseline",
         "[05:21:45] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling",
