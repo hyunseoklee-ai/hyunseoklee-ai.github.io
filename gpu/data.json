@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 06:17 KST  \u00b7  14:17 PDT",
+  "updated": "2026-05-09 06:18 KST  \u00b7  14:18 PDT",
   "servers": [
     {
       "gpus": [
@@ -35,7 +35,7 @@
         },
         {
           "idx": 5,
-          "mem_used": 22669,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=82/119 loss=0.3628",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=84/119 loss=0.3628",
         "[05:22:04] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/scaling",
         "[05:21:54] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/baseline",
         "[05:21:45] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling",
