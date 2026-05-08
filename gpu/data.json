@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 05:05 KST  \u00b7  13:05 PDT",
+  "updated": "2026-05-09 05:06 KST  \u00b7  13:06 PDT",
   "servers": [
     {
       "gpus": [
@@ -95,13 +95,13 @@
           "idx": 2,
           "mem_used": 23532,
           "mem_total": 24576,
-          "util": 100
+          "util": 93
         },
         {
           "idx": 3,
           "mem_used": 24234,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 4,
@@ -119,7 +119,7 @@
           "idx": 6,
           "mem_used": 23886,
           "mem_total": 24576,
-          "util": 100
+          "util": 93
         },
         {
           "idx": 7,
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=18/119 loss=1.173",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=20/119 loss=0.9777",
         "[04:52:34] STAGE4: SFT 4B-Thinking",
         "[01:40:18] STAGE5: eval",
         "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%",
