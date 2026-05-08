@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 05:20 KST  \u00b7  13:20 PDT",
+  "updated": "2026-05-09 05:21 KST  \u00b7  13:21 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,49 +81,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 417,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 402,
           "mem_total": 24576,
           "util": 0
         }
@@ -134,7 +134,7 @@
         "1",
         "2",
         "3",
-        "a15_4bt",
+        "a15_4bt_retry",
         "dash"
       ],
       "recent_events": [
@@ -145,14 +145,14 @@
         "[05:18:58] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/baseline",
         "=== alin15 eval trained 4B-Thinking-Stage2 ===",
         "=== ALL DONE ===",
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=41/119 loss=0.481",
         "[01:40:18] STAGE5: eval",
         "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%",
         "[02:25:43] OK qwen3vl_4b_instruct_stage2_self/screenspot/baseline  214s  acc=1150/1272 = 90.41%",
         "[02:22:09] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/scaling  1796s  acc=880/1581 = 55.66%",
         "[01:52:13] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/baseline  715s  acc=925/1581 = 58.51%",
         "=== alin15 eval trained 4B-Instruct-Stage2 ===",
-        "=== ALL DONE ==="
+        "=== ALL DONE ===",
+        "[16:01:49] OK qwen3vl_2b_thinking/scaling  7215s  acc=530/1581 = 33.52%"
       ],
       "summaries": [
         {
