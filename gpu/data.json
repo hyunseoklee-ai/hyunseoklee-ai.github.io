@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 05:26 KST  \u00b7  13:26 PDT",
+  "updated": "2026-05-09 05:27 KST  \u00b7  13:27 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,51 +81,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 2521,
+          "mem_used": 19083,
           "mem_total": 24576,
-          "util": 79
+          "util": 96
         },
         {
           "idx": 1,
-          "mem_used": 3248,
-          "mem_total": 24576,
-          "util": 99
-        },
-        {
-          "idx": 2,
-          "mem_used": 3248,
-          "mem_total": 24576,
-          "util": 99
-        },
-        {
-          "idx": 3,
-          "mem_used": 2506,
-          "mem_total": 24576,
-          "util": 99
-        },
-        {
-          "idx": 4,
-          "mem_used": 3248,
-          "mem_total": 24576,
-          "util": 99
-        },
-        {
-          "idx": 5,
-          "mem_used": 3248,
-          "mem_total": 24576,
-          "util": 99
-        },
-        {
-          "idx": 6,
-          "mem_used": 2506,
+          "mem_used": 18212,
           "mem_total": 24576,
           "util": 100
         },
         {
-          "idx": 7,
-          "mem_used": 2506,
+          "idx": 2,
+          "mem_used": 18474,
           "mem_total": 24576,
-          "util": 99
+          "util": 97
+        },
+        {
+          "idx": 3,
+          "mem_used": 17526,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 4,
+          "mem_used": 18208,
+          "mem_total": 24576,
+          "util": 98
+        },
+        {
+          "idx": 5,
+          "mem_used": 17576,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 6,
+          "mem_used": 19186,
+          "mem_total": 24576,
+          "util": 97
+        },
+        {
+          "idx": 7,
+          "mem_used": 17444,
+          "mem_total": 24576,
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,6 +138,7 @@
         "dash"
       ],
       "recent_events": [
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=0/119 loss=\u2013",
         "[05:22:04] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/scaling",
         "[05:21:54] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/baseline",
         "[05:21:45] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling",
@@ -151,8 +152,7 @@
         "[02:22:09] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/scaling  1796s  acc=880/1581 = 55.66%",
         "[01:52:13] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/baseline  715s  acc=925/1581 = 58.51%",
         "=== alin15 eval trained 4B-Instruct-Stage2 ===",
-        "=== ALL DONE ===",
-        "[16:01:49] OK qwen3vl_2b_thinking/scaling  7215s  acc=530/1581 = 33.52%"
+        "=== ALL DONE ==="
       ],
       "summaries": [
         {
