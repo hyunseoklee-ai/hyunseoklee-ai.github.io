@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 04:55:50 KST",
+  "updated": "2026-05-09 04:58:06 KST",
   "servers": [
     {
       "gpus": [
@@ -29,7 +29,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 22841,
+          "mem_used": 23117,
           "mem_total": 24576,
           "util": 100
         },
@@ -61,10 +61,7 @@
         "rollout_a14",
         "train_a14"
       ],
-      "recent_events": [
-        "bash: line 1: ===: command not found",
-        "bash: line 1: FAIL: command not found"
-      ],
+      "recent_events": [],
       "summaries": [],
       "name": "alin14"
     },
@@ -97,19 +94,19 @@
         },
         {
           "idx": 4,
-          "mem_used": 23160,
+          "mem_used": 23902,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 21738,
+          "mem_used": 22480,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 23132,
+          "mem_used": 23886,
           "mem_total": 24576,
           "util": 100
         },
@@ -130,7 +127,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=3/119 loss=\u2013",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=7/119 loss=2.008",
         "[04:52:34] STAGE4: SFT 4B-Thinking",
         "[01:40:18] STAGE5: eval",
         "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%",
