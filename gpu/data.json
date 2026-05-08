@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 06:12 KST  \u00b7  14:12 PDT",
+  "updated": "2026-05-09 06:13 KST  \u00b7  14:13 PDT",
   "servers": [
     {
       "gpus": [
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 22881,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
@@ -83,19 +83,19 @@
           "idx": 0,
           "mem_used": 23061,
           "mem_total": 24576,
-          "util": 100
+          "util": 84
         },
         {
           "idx": 1,
           "mem_used": 23876,
           "mem_total": 24576,
-          "util": 100
+          "util": 83
         },
         {
           "idx": 2,
           "mem_used": 23898,
           "mem_total": 24576,
-          "util": 100
+          "util": 98
         },
         {
           "idx": 3,
@@ -113,19 +113,19 @@
           "idx": 5,
           "mem_used": 23764,
           "mem_total": 24576,
-          "util": 100
+          "util": 84
         },
         {
           "idx": 6,
           "mem_used": 23222,
           "mem_total": 24576,
-          "util": 100
+          "util": 90
         },
         {
           "idx": 7,
           "mem_used": 23972,
           "mem_total": 24576,
-          "util": 100
+          "util": 89
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=74/119 loss=0.3961",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=76/119 loss=0.3938",
         "[05:22:04] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/scaling",
         "[05:21:54] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/baseline",
         "[05:21:45] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling",
