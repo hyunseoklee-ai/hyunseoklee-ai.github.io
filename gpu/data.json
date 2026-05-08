@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-09 07:23 KST  \u00b7  15:23 PDT",
+  "updated": "2026-05-09 07:24 KST  \u00b7  15:24 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23660,
+          "mem_used": 32,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
@@ -47,9 +47,9 @@
         },
         {
           "idx": 7,
-          "mem_used": 23721,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -65,13 +65,13 @@
         "=== ALL DATA-EFFICIENCY DONE ===",
         "[18:30:45] OK N=5000  893s  acc=521/1581 = 32.95%",
         "=== [18:15:52] N=5000: eval SS-Pro baseline ===",
+        "=== ALL EXTRA EVALS DONE ===",
+        "[07:23:28] OK qwen3vl_2b_thinking_stage2/ui-vision-basic/scaling  3167s  acc=415/1772 = 23.42%",
         "[06:30:40] OK qwen3vl_2b_thinking_stage2/ui-vision-basic/baseline  338s  acc=398/1772 = 22.46%",
         "[06:25:02] OK qwen3vl_2b_thinking_base/ui-vision-basic/scaling  5704s  acc=367/1772 = 20.71%",
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
-        "[04:26:34] OK qwen3vl_2b_thinking_stage2/osworld-g/baseline  225s  acc=219/510 = 42.94%",
-        "=== DONE ===",
-        "[10:52:11] OK qwen35_08b/scaling  1578s  acc=479/1581 = 30.30%"
+        "=== DONE ==="
       ],
       "summaries": [],
       "name": "alin14"
