@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-09 08:18 KST  \u00b7  16:18 PDT",
+  "updated": "2026-05-09 08:19 KST  \u00b7  16:19 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 32,
+          "mem_used": 11622,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 18,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 94
         },
         {
           "idx": 2,
-          "mem_used": 18,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 95
         },
         {
           "idx": 3,
-          "mem_used": 18,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 95
         },
         {
           "idx": 4,
-          "mem_used": 18,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 95
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 94
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 0
+          "util": 95
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -105,9 +105,9 @@
         },
         {
           "idx": 4,
-          "mem_used": 23168,
+          "mem_used": 23618,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
@@ -125,7 +125,7 @@
           "idx": 7,
           "mem_used": 23674,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
