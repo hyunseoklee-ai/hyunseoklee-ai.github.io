@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 05:31 KST  \u00b7  13:31 PDT",
+  "updated": "2026-05-09 05:32 KST  \u00b7  13:32 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 22927,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 23759,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=7/119 loss=2.169",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=9/119 loss=2.169",
         "[05:22:04] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/scaling",
         "[05:21:54] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/baseline",
         "[05:21:45] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling",
