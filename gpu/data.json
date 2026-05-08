@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 06:39 KST  \u00b7  14:39 PDT",
+  "updated": "2026-05-09 06:40 KST  \u00b7  14:40 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,51 +81,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23061,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 71
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 23876,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 23898,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 22330,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 23800,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 23764,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 23222,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 23972,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,13 +138,8 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-self.log step=119/119 loss=0.4015",
-        "[05:22:04] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/scaling",
-        "[05:21:54] FAIL qwen3vl_4b_thinking_stage2_self/screenspot/baseline",
-        "[05:21:45] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling",
-        "[05:21:36] FAIL qwen3vl_4b_thinking_stage2_self/screenspot-pro/baseline",
-        "=== alin15 eval trained 4B-Thinking-Stage2 (retry) ===",
-        "=== ALL DONE ===",
+        "=== alin15 eval trained 4B-Thinking-Stage2 (retry v2) ===",
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=1/1 loss=0.4015",
         "[05:18:49] STAGE5: eval",
         "[01:40:18] STAGE5: eval",
         "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%",
@@ -152,7 +147,12 @@
         "[02:22:09] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/scaling  1796s  acc=880/1581 = 55.66%",
         "[01:52:13] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/baseline  715s  acc=925/1581 = 58.51%",
         "=== alin15 eval trained 4B-Instruct-Stage2 ===",
-        "=== ALL DONE ==="
+        "=== ALL DONE ===",
+        "[16:01:49] OK qwen3vl_2b_thinking/scaling  7215s  acc=530/1581 = 33.52%",
+        "[14:01:34] OK qwen3vl_2b_thinking/baseline  1123s  acc=481/1581 = 30.42%",
+        "=== alin15 base eval qwen3vl_2b_thinking on SS-Pro (native prompt) ===",
+        "[11:19:41] OK qwen35_2b/scaling  2372s  acc=809/1581 = 51.17%",
+        "[10:40:09] OK qwen35_2b/baseline  636s  acc=784/1581 = 49.59%"
       ],
       "summaries": [
         {
