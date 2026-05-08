@@ -1,4 +1,169 @@
 {
-  "updated": "loading…",
-  "servers": []
+  "updated": "2026-05-09 04:55:50 KST",
+  "servers": [
+    {
+      "gpus": [
+        {
+          "idx": 0,
+          "mem_used": 23326,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 1,
+          "mem_used": 22907,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 2,
+          "mem_used": 22927,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 3,
+          "mem_used": 23053,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 4,
+          "mem_used": 22841,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 5,
+          "mem_used": 23521,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 6,
+          "mem_used": 22881,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 7,
+          "mem_used": 23419,
+          "mem_total": 24576,
+          "util": 100
+        }
+      ],
+      "gpu_type": "NVIDIA GeForce RTX 3090",
+      "tmux_sessions": [
+        "a14_extra",
+        "eval_a14",
+        "reasoning_a14",
+        "reguide",
+        "rollout_a14",
+        "train_a14"
+      ],
+      "recent_events": [
+        "bash: line 1: ===: command not found",
+        "bash: line 1: FAIL: command not found"
+      ],
+      "summaries": [],
+      "name": "alin14"
+    },
+    {
+      "name": "alin15",
+      "gpus": [
+        {
+          "idx": 0,
+          "mem_used": 23127,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 1,
+          "mem_used": 23894,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 2,
+          "mem_used": 23532,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 3,
+          "mem_used": 24232,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 4,
+          "mem_used": 23160,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 5,
+          "mem_used": 21738,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 6,
+          "mem_used": 23132,
+          "mem_total": 24576,
+          "util": 100
+        },
+        {
+          "idx": 7,
+          "mem_used": 24162,
+          "mem_total": 24576,
+          "util": 100
+        }
+      ],
+      "gpu_type": "NVIDIA GeForce RTX 3090",
+      "tmux_sessions": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "a15_4bt",
+        "dash"
+      ],
+      "recent_events": [
+        "[train] qwen3vl-4b-thinking-stage2-self.log step=3/119 loss=\u2013",
+        "[04:52:34] STAGE4: SFT 4B-Thinking",
+        "[01:40:18] STAGE5: eval",
+        "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%",
+        "[02:25:43] OK qwen3vl_4b_instruct_stage2_self/screenspot/baseline  214s  acc=1150/1272 = 90.41%",
+        "[02:22:09] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/scaling  1796s  acc=880/1581 = 55.66%",
+        "[01:52:13] OK qwen3vl_4b_instruct_stage2_self/screenspot-pro/baseline  715s  acc=925/1581 = 58.51%",
+        "=== alin15 eval trained 4B-Instruct-Stage2 ===",
+        "=== ALL DONE ===",
+        "[16:01:49] OK qwen3vl_2b_thinking/scaling  7215s  acc=530/1581 = 33.52%",
+        "[14:01:34] OK qwen3vl_2b_thinking/baseline  1123s  acc=481/1581 = 30.42%",
+        "=== alin15 base eval qwen3vl_2b_thinking on SS-Pro (native prompt) ===",
+        "[11:19:41] OK qwen35_2b/scaling  2372s  acc=809/1581 = 51.17%",
+        "[10:40:09] OK qwen35_2b/baseline  636s  acc=784/1581 = 49.59%",
+        "[10:29:33] OK qwen3vl_4b/scaling  1899s  acc=894/1581 = 56.55%"
+      ],
+      "summaries": [
+        {
+          "label": "qwen3vl_4b_instruct_stage2_self scal",
+          "metric": "88.76%"
+        },
+        {
+          "label": "qwen3vl_2b_thinking_20260508-134250 scal",
+          "metric": "33.52%"
+        },
+        {
+          "label": "sspro_a15_v3_20260508-095754 scal",
+          "metric": "51.17%"
+        },
+        {
+          "label": "sspro_a15_20260508-085759 base",
+          "metric": "57.43%"
+        }
+      ]
+    }
+  ]
 }
