@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 05:40 KST  \u00b7  13:40 PDT",
+  "updated": "2026-05-10 05:41 KST  \u00b7  13:41 PDT",
   "servers": [
     {
       "gpus": [
@@ -29,7 +29,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 23471,
+          "mem_used": 24175,
           "mem_total": 24576,
           "util": 100
         },
@@ -37,11 +37,11 @@
           "idx": 5,
           "mem_used": 24071,
           "mem_total": 24576,
-          "util": 89
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 22979,
+          "mem_used": 24203,
           "mem_total": 24576,
           "util": 100
         },
@@ -71,8 +71,7 @@
         "[06:25:02] OK qwen3vl_2b_thinking_base/ui-vision-basic/scaling  5704s  acc=367/1772 = 20.71%",
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
-        "=== DONE ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 1/1 [ 'loss': '1.505'"
+        "=== DONE ==="
       ],
       "summaries": [],
       "name": "alin14"
