@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 03:51 KST  \u00b7  11:51 PDT",
+  "updated": "2026-05-10 03:52 KST  \u00b7  11:52 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 16719,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 3,
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 18489,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 7,
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 101/600 [ 'loss': '2.119'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 106/600 [ 'loss': '2.119'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -84,13 +84,13 @@
           "idx": 0,
           "mem_used": 23689,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
           "mem_used": 23674,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
@@ -102,25 +102,25 @@
           "idx": 3,
           "mem_used": 23674,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
           "mem_used": 24154,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
           "mem_used": 23674,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
           "mem_used": 23168,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
