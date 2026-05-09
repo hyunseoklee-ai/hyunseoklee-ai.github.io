@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-09 14:16 KST  \u00b7  22:16 PDT",
+  "updated": "2026-05-09 14:17 KST  \u00b7  22:17 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23664,
+          "mem_used": 24066,
           "mem_total": 24576,
           "util": 100
         },
@@ -29,13 +29,13 @@
         },
         {
           "idx": 4,
-          "mem_used": 23909,
+          "mem_used": 23125,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 24051,
+          "mem_used": 24053,
           "mem_total": 24576,
           "util": 100
         },
@@ -89,7 +89,7 @@
           "idx": 1,
           "mem_used": 24154,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
@@ -99,7 +99,7 @@
         },
         {
           "idx": 3,
-          "mem_used": 23168,
+          "mem_used": 23672,
           "mem_total": 24576,
           "util": 100
         },
@@ -113,7 +113,7 @@
           "idx": 5,
           "mem_used": 23168,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
@@ -125,7 +125,7 @@
           "idx": 7,
           "mem_used": 24154,
           "mem_total": 24576,
-          "util": 100
+          "util": 44
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
