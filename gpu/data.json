@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 04:05 KST  \u00b7  12:05 PDT",
+  "updated": "2026-05-10 04:06 KST  \u00b7  12:06 PDT",
   "servers": [
     {
       "gpus": [
@@ -31,7 +31,7 @@
           "idx": 4,
           "mem_used": 19405,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 5,
@@ -41,7 +41,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 18489,
+          "mem_used": 18491,
           "mem_total": 24576,
           "util": 100
         },
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 171/600 [ 'loss': '1.926'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 176/600 [ 'loss': '1.926'"
       ],
       "summaries": [],
       "name": "alin14"
