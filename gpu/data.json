@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 06:09 KST  \u00b7  14:09 PDT",
+  "updated": "2026-05-10 06:10 KST  \u00b7  14:10 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,51 +81,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23595,
+          "mem_used": 9361,
           "mem_total": 24576,
-          "util": 100
+          "util": 63
         },
         {
           "idx": 1,
-          "mem_used": 23854,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 100
+          "util": 58
         },
         {
           "idx": 2,
-          "mem_used": 23760,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 100
+          "util": 67
         },
         {
           "idx": 3,
-          "mem_used": 23726,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 100
+          "util": 71
         },
         {
           "idx": 4,
-          "mem_used": 23840,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 100
+          "util": 29
         },
         {
           "idx": 5,
-          "mem_used": 23774,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 100
+          "util": 30
         },
         {
           "idx": 6,
-          "mem_used": 23288,
+          "mem_used": 9346,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 23138,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,6 +138,7 @@
         "dash"
       ],
       "recent_events": [
+        "[06:09:40] OK qwen3vl_4b_thinking_stage2_best/screenspot/baseline  295s  acc=1142/1272 = 89.78%",
         "[06:04:45] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/scaling  7562s  acc=788/1581 = 49.84%",
         "[03:58:43] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/baseline  1099s  acc=719/1581 = 45.48%",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
@@ -151,13 +152,12 @@
         "=== alin15 eval trained 4B-Thinking-Stage2 (retry v2) ===",
         "=== ALL DONE ===",
         "[05:18:49] STAGE5: eval",
-        "[01:40:18] STAGE5: eval",
-        "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%"
+        "[01:40:18] STAGE5: eval"
       ],
       "summaries": [
         {
-          "label": "qwen3vl_4b_thinking_stage2_best scal",
-          "metric": "49.84%"
+          "label": "qwen3vl_4b_thinking_stage2_best base",
+          "metric": "89.78%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_lr2e6 scal",
