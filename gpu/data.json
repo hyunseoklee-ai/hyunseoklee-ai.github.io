@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-10 05:30 KST  \u00b7  13:30 PDT",
+  "updated": "2026-05-10 05:31 KST  \u00b7  13:31 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 17370,
+          "mem_used": 4866,
           "mem_total": 24576,
-          "util": 100
+          "util": 28
         },
         {
           "idx": 1,
-          "mem_used": 16827,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 8
         },
         {
           "idx": 2,
-          "mem_used": 18269,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 16537,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 10
         },
         {
           "idx": 4,
-          "mem_used": 20851,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 23
         },
         {
           "idx": 5,
-          "mem_used": 16633,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 21383,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 16573,
+          "mem_used": 4851,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -71,8 +71,8 @@
         "[06:25:02] OK qwen3vl_2b_thinking_base/ui-vision-basic/scaling  5704s  acc=367/1772 = 20.71%",
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
-        "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 599/600 [ 'loss': '1.545'"
+        "=== DONE ===",
+        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 1/1 [ 'loss': '1.505'"
       ],
       "summaries": [],
       "name": "alin14"
