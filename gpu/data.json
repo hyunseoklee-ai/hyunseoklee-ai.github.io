@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 15:54 KST  \u00b7  23:54 PDT",
+  "updated": "2026-05-09 15:55 KST  \u00b7  23:55 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,49 +81,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21853,
+          "mem_used": 22317,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 20276,
+          "mem_used": 23146,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 20996,
+          "mem_used": 23868,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 20210,
+          "mem_used": 23980,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 21798,
+          "mem_used": 23008,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 21862,
+          "mem_used": 20972,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 22194,
+          "mem_used": 22688,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 21806,
+          "mem_used": 23922,
           "mem_total": 24576,
           "util": 100
         }
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-lr2e6.log step=1/119 loss=\u2013",
+        "[train] qwen3vl-4b-thinking-stage2-lr2e6.log step=3/119 loss=\u2013",
         "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%",
         "[13:32:42] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/baseline  1128s  acc=679/1581 = 42.95%",
         "[09:52:35] OK qwen3vl_4b_thinking_stage2_self/screenspot/scaling  2677s  acc=1148/1272 = 90.25%",
