@@ -1,19 +1,19 @@
 {
-  "updated": "2026-05-10 03:41 KST  \u00b7  11:41 PDT",
+  "updated": "2026-05-10 03:42 KST  \u00b7  11:42 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23928,
+          "mem_used": 15676,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 1,
           "mem_used": 16827,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 2,
@@ -31,13 +31,13 @@
           "idx": 4,
           "mem_used": 18015,
           "mem_total": 24576,
-          "util": 100
+          "util": 94
         },
         {
           "idx": 5,
           "mem_used": 16633,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 6,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 16573,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 1/1 [ 'loss': '2.637'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 55/600 [ 'loss': '2.637'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 11621,
+          "mem_used": 23183,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 11606,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
