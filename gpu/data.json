@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-10 00:52 KST  \u00b7  08:52 PDT",
+  "updated": "2026-05-10 00:53 KST  \u00b7  08:53 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 16168,
+          "mem_used": 18572,
           "mem_total": 24576,
           "util": 100
         },
@@ -17,19 +17,19 @@
         },
         {
           "idx": 2,
-          "mem_used": 16407,
+          "mem_used": 17699,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 16625,
+          "mem_used": 16667,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 17231,
+          "mem_used": 18479,
           "mem_total": 24576,
           "util": 100
         },
@@ -41,13 +41,13 @@
         },
         {
           "idx": 6,
-          "mem_used": 17033,
+          "mem_used": 17035,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 16847,
+          "mem_used": 16851,
           "mem_total": 24576,
           "util": 100
         }
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-7Bdata.log 2/119 ["
+        "[a14-train] [train-active] qwen2vl-2b-stage2-7Bdata.log 7/119 [ 'loss': '10.16'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -139,7 +139,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-best.log step=21/300 loss=1.002",
+        "[train] qwen3vl-4b-thinking-stage2-best.log step=23/300 loss=1.002",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
         "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%",
         "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%",
