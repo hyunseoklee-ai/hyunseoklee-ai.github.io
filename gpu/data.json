@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 06:47 KST  \u00b7  14:47 PDT",
+  "updated": "2026-05-10 06:48 KST  \u00b7  14:48 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,49 +7,49 @@
           "idx": 0,
           "mem_used": 22910,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
           "mem_used": 22811,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
           "mem_used": 22895,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
           "mem_used": 22895,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
           "mem_used": 22347,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
           "mem_used": 22583,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 22667,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
           "mem_used": 22835,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -81,49 +81,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 10701,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 10696,
           "mem_total": 24576,
-          "util": 0
+          "util": 38
         },
         {
           "idx": 2,
-          "mem_used": 23138,
-          "mem_total": 24576,
-          "util": 100
-        },
-        {
-          "idx": 3,
-          "mem_used": 17,
+          "mem_used": 10686,
           "mem_total": 24576,
           "util": 0
         },
         {
+          "idx": 3,
+          "mem_used": 10700,
+          "mem_total": 24576,
+          "util": 46
+        },
+        {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 9790,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 10686,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 10700,
           "mem_total": 24576,
-          "util": 0
+          "util": 63
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 10686,
           "mem_total": 24576,
           "util": 0
         }
@@ -138,6 +138,7 @@
         "dash"
       ],
       "recent_events": [
+        "[06:47:24] OK qwen3vl_4b_thinking_stage2_best/screenspot/scaling  2264s  acc=1151/1272 = 90.49%",
         "[06:09:40] OK qwen3vl_4b_thinking_stage2_best/screenspot/baseline  295s  acc=1142/1272 = 89.78%",
         "[06:04:45] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/scaling  7562s  acc=788/1581 = 49.84%",
         "[03:58:43] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/baseline  1099s  acc=719/1581 = 45.48%",
@@ -151,13 +152,12 @@
         "[06:56:44] OK qwen3vl_4b_thinking_stage2_self/screenspot-pro/baseline  1014s  acc=667/1581 = 42.19%",
         "=== alin15 eval trained 4B-Thinking-Stage2 (retry v2) ===",
         "=== ALL DONE ===",
-        "[05:18:49] STAGE5: eval",
-        "[01:40:18] STAGE5: eval"
+        "[05:18:49] STAGE5: eval"
       ],
       "summaries": [
         {
-          "label": "qwen3vl_4b_thinking_stage2_best base",
-          "metric": "89.78%"
+          "label": "qwen3vl_4b_thinking_stage2_best scal",
+          "metric": "90.49%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_lr2e6 scal",
