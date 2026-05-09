@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 03:59 KST  \u00b7  11:59 PDT",
+  "updated": "2026-05-10 04:00 KST  \u00b7  12:00 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,49 +7,49 @@
           "idx": 0,
           "mem_used": 17370,
           "mem_total": 24576,
-          "util": 63
+          "util": 100
         },
         {
           "idx": 1,
           "mem_used": 16827,
           "mem_total": 24576,
-          "util": 74
+          "util": 100
         },
         {
           "idx": 2,
           "mem_used": 18269,
           "mem_total": 24576,
-          "util": 89
+          "util": 100
         },
         {
           "idx": 3,
           "mem_used": 16537,
           "mem_total": 24576,
-          "util": 86
+          "util": 100
         },
         {
           "idx": 4,
           "mem_used": 19405,
           "mem_total": 24576,
-          "util": 74
+          "util": 100
         },
         {
           "idx": 5,
           "mem_used": 16633,
           "mem_total": 24576,
-          "util": 86
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 18489,
           "mem_total": 24576,
-          "util": 86
+          "util": 100
         },
         {
           "idx": 7,
           "mem_used": 16573,
           "mem_total": 24576,
-          "util": 81
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 142/600 [ 'loss': '1.918'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-thinkingNative.log 147/600 [ 'loss': '1.918'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 3417,
+          "mem_used": 23183,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 3402,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 3402,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 9346,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 29
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 9346,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 1
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 9346,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 24
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 9346,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 1
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 3402,
+          "mem_used": 23168,
           "mem_total": 24576,
-          "util": 1
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
