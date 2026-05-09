@@ -1,53 +1,53 @@
 {
-  "updated": "2026-05-09 13:29 KST  \u00b7  21:29 PDT",
+  "updated": "2026-05-09 13:30 KST  \u00b7  21:30 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23364,
+          "mem_used": 11622,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 23235,
+          "mem_used": 11607,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 23233,
+          "mem_used": 11607,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 23195,
+          "mem_used": 11607,
           "mem_total": 24576,
-          "util": 95
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 23195,
+          "mem_used": 11607,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 23233,
+          "mem_used": 11607,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 23349,
+          "mem_used": 11607,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 23193,
+          "mem_used": 11607,
           "mem_total": 24576,
           "util": 100
         }
@@ -99,13 +99,13 @@
         },
         {
           "idx": 3,
-          "mem_used": 23674,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 23168,
+          "mem_used": 23170,
           "mem_total": 24576,
           "util": 100
         },
@@ -113,13 +113,13 @@
           "idx": 5,
           "mem_used": 23674,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
           "mem_used": 23168,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
