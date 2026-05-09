@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 16:35 KST  \u00b7  00:35 PDT",
+  "updated": "2026-05-09 16:36 KST  \u00b7  00:36 PDT",
   "servers": [
     {
       "gpus": [
@@ -89,7 +89,7 @@
           "idx": 1,
           "mem_used": 24002,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 2,
@@ -99,21 +99,21 @@
         },
         {
           "idx": 3,
-          "mem_used": 23984,
+          "mem_used": 24004,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 4,
           "mem_used": 23764,
           "mem_total": 24576,
-          "util": 100
+          "util": 91
         },
         {
           "idx": 5,
           "mem_used": 22470,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 6,
@@ -125,7 +125,7 @@
           "idx": 7,
           "mem_used": 23924,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-lr2e6.log step=69/119 loss=0.3484",
+        "[train] qwen3vl-4b-thinking-stage2-lr2e6.log step=70/119 loss=0.3311",
         "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%",
         "[13:32:42] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/baseline  1128s  acc=679/1581 = 42.95%",
         "[09:52:35] OK qwen3vl_4b_thinking_stage2_self/screenspot/scaling  2677s  acc=1148/1272 = 90.25%",
