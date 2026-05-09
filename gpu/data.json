@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 02:25 KST  \u00b7  10:25 PDT",
+  "updated": "2026-05-10 02:26 KST  \u00b7  10:26 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,13 +7,13 @@
           "idx": 0,
           "mem_used": 22910,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
           "mem_used": 22667,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
@@ -25,31 +25,31 @@
           "idx": 3,
           "mem_used": 22895,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
           "mem_used": 22347,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
           "mem_used": 22583,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
           "mem_used": 22667,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
           "mem_used": 22835,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -107,7 +107,7 @@
           "idx": 4,
           "mem_used": 23164,
           "mem_total": 24576,
-          "util": 100
+          "util": 98
         },
         {
           "idx": 5,
@@ -123,7 +123,7 @@
         },
         {
           "idx": 7,
-          "mem_used": 21998,
+          "mem_used": 22000,
           "mem_total": 24576,
           "util": 100
         }
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-best.log step=175/300 loss=0.2707",
+        "[train] qwen3vl-4b-thinking-stage2-best.log step=177/300 loss=0.2707",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
         "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%",
         "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%",
