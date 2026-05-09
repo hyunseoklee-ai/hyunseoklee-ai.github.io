@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-09 14:43 KST  \u00b7  22:43 PDT",
+  "updated": "2026-05-09 14:44 KST  \u00b7  22:44 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21514,
+          "mem_used": 23210,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 21499,
+          "mem_used": 23195,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 21499,
+          "mem_used": 23287,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 21499,
+          "mem_used": 23195,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 21499,
+          "mem_used": 23195,
           "mem_total": 24576,
-          "util": 0
+          "util": 95
         },
         {
           "idx": 5,
-          "mem_used": 21499,
+          "mem_used": 23283,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 21499,
+          "mem_used": 23071,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 21499,
+          "mem_used": 23281,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -83,7 +83,7 @@
           "idx": 0,
           "mem_used": 23689,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
@@ -107,7 +107,7 @@
           "idx": 4,
           "mem_used": 23168,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
@@ -125,7 +125,7 @@
           "idx": 7,
           "mem_used": 23354,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
