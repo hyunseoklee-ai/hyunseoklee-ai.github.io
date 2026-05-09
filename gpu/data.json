@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 09:07 KST  \u00b7  17:07 PDT",
+  "updated": "2026-05-09 09:08 KST  \u00b7  17:08 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,49 +81,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23207,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 92
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 23930,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 23670,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 23534,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 23746,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 23774,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 23496,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 23712,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         }
@@ -138,6 +138,7 @@
         "dash"
       ],
       "recent_events": [
+        "[09:07:58] OK qwen3vl_4b_thinking_stage2_self/screenspot/baseline  300s  acc=1144/1272 = 89.94%",
         "[09:02:58] OK qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling  7574s  acc=702/1581 = 44.40%",
         "[06:56:44] OK qwen3vl_4b_thinking_stage2_self/screenspot-pro/baseline  1014s  acc=667/1581 = 42.19%",
         "=== alin15 eval trained 4B-Thinking-Stage2 (retry v2) ===",
@@ -151,13 +152,12 @@
         "=== ALL DONE ===",
         "[16:01:49] OK qwen3vl_2b_thinking/scaling  7215s  acc=530/1581 = 33.52%",
         "[14:01:34] OK qwen3vl_2b_thinking/baseline  1123s  acc=481/1581 = 30.42%",
-        "=== alin15 base eval qwen3vl_2b_thinking on SS-Pro (native prompt) ===",
-        "[11:19:41] OK qwen35_2b/scaling  2372s  acc=809/1581 = 51.17%"
+        "=== alin15 base eval qwen3vl_2b_thinking on SS-Pro (native prompt) ==="
       ],
       "summaries": [
         {
-          "label": "qwen3vl_4b_thinking_stage2_self scal",
-          "metric": "44.40%"
+          "label": "qwen3vl_4b_thinking_stage2_self base",
+          "metric": "89.94%"
         },
         {
           "label": "qwen3vl_4b_instruct_stage2_self scal",
