@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 13:22 KST  \u00b7  21:22 PDT",
+  "updated": "2026-05-09 13:23 KST  \u00b7  21:23 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 3,
@@ -54,7 +54,7 @@
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
-        "base_4bt",
+        "a14_t2",
         "eval_a14",
         "reasoning_a14",
         "reguide",
