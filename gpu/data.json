@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 00:49 KST  \u00b7  08:49 PDT",
+  "updated": "2026-05-10 00:50 KST  \u00b7  08:50 PDT",
   "servers": [
     {
       "gpus": [
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-best.log step=16/300 loss=1.984",
+        "[train] qwen3vl-4b-thinking-stage2-best.log step=18/300 loss=1.984",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
         "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%",
         "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%",
