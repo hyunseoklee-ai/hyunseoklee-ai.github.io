@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 06:04 KST  \u00b7  14:04 PDT",
+  "updated": "2026-05-10 06:05 KST  \u00b7  14:05 PDT",
   "servers": [
     {
       "gpus": [
@@ -11,7 +11,7 @@
         },
         {
           "idx": 1,
-          "mem_used": 23247,
+          "mem_used": 23329,
           "mem_total": 24576,
           "util": 100
         },
@@ -87,19 +87,19 @@
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 23674,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 276,
           "mem_total": 24576,
           "util": 0
         },
@@ -138,6 +138,7 @@
         "dash"
       ],
       "recent_events": [
+        "[06:04:45] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/scaling  7562s  acc=788/1581 = 49.84%",
         "[03:58:43] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/baseline  1099s  acc=719/1581 = 45.48%",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
         "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%",
@@ -151,13 +152,12 @@
         "=== ALL DONE ===",
         "[05:18:49] STAGE5: eval",
         "[01:40:18] STAGE5: eval",
-        "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%",
-        "[02:25:43] OK qwen3vl_4b_instruct_stage2_self/screenspot/baseline  214s  acc=1150/1272 = 90.41%"
+        "[02:40:32] OK qwen3vl_4b_instruct_stage2_self/screenspot/scaling  889s  acc=1129/1272 = 88.76%"
       ],
       "summaries": [
         {
-          "label": "qwen3vl_4b_thinking_stage2_best base",
-          "metric": "45.48%"
+          "label": "qwen3vl_4b_thinking_stage2_best scal",
+          "metric": "49.84%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_lr2e6 scal",
