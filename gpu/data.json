@@ -1,60 +1,60 @@
 {
-  "updated": "2026-05-09 14:40 KST  \u00b7  22:40 PDT",
+  "updated": "2026-05-09 14:41 KST  \u00b7  22:41 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 32,
+          "mem_used": 9362,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 18,
+          "mem_used": 9347,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 18,
+          "mem_used": 3403,
           "mem_total": 24576,
-          "util": 0
+          "util": 3
         },
         {
           "idx": 3,
-          "mem_used": 18,
+          "mem_used": 9347,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 18,
+          "mem_used": 9347,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 3403,
           "mem_total": 24576,
-          "util": 0
+          "util": 3
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 3403,
           "mem_total": 24576,
-          "util": 0
+          "util": 3
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 3403,
           "mem_total": 24576,
-          "util": 0
+          "util": 2
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
-        "a14_t2",
+        "a14_t3",
         "eval_a14",
         "reasoning_a14",
         "reguide",
@@ -89,7 +89,7 @@
           "idx": 1,
           "mem_used": 23354,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
@@ -113,7 +113,7 @@
           "idx": 5,
           "mem_used": 23674,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
