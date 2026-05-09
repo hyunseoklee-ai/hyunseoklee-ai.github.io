@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-09 13:13 KST  \u00b7  21:13 PDT",
+  "updated": "2026-05-09 13:14 KST  \u00b7  21:14 PDT",
   "servers": [
     {
       "gpus": [
@@ -29,9 +29,9 @@
         },
         {
           "idx": 4,
-          "mem_used": 23089,
+          "mem_used": 18,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
@@ -81,51 +81,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23861,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 23918,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 24228,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 22336,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 23164,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 22416,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 22972,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 22694,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,7 +138,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-N5K.log step=299/300 loss=0.2878",
+        "[train] qwen3vl-4b-thinking-stage2-N5K.log step=1/1 loss=0.2983",
         "[09:52:35] OK qwen3vl_4b_thinking_stage2_self/screenspot/scaling  2677s  acc=1148/1272 = 90.25%",
         "[09:07:58] OK qwen3vl_4b_thinking_stage2_self/screenspot/baseline  300s  acc=1144/1272 = 89.94%",
         "[09:02:58] OK qwen3vl_4b_thinking_stage2_self/screenspot-pro/scaling  7574s  acc=702/1581 = 44.40%",
@@ -170,10 +170,6 @@
         {
           "label": "sspro_a15_v3_20260508-095754 scal",
           "metric": "51.17%"
-        },
-        {
-          "label": "sspro_a15_20260508-085759 base",
-          "metric": "57.43%"
         }
       ]
     }
