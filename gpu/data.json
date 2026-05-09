@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 00:59 KST  \u00b7  08:59 PDT",
+  "updated": "2026-05-10 01:00 KST  \u00b7  09:00 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 19001,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 3,
@@ -31,7 +31,7 @@
           "idx": 4,
           "mem_used": 21095,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 5,
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 17035,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 7,
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "=== alin14 eval trained 2B Stage2 (reguide prompt): /data/hyunseok/ReGUIDE_code/training_output/qwen3vl-2b-stage2 ===",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-7Bdata.log 37/119 [ 'loss': '4.535'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-7Bdata.log 42/119 [ 'loss': '3.867'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -118,7 +118,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 23148,
+          "mem_used": 23150,
           "mem_total": 24576,
           "util": 100
         },
@@ -139,7 +139,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-best.log step=33/300 loss=0.494",
+        "[train] qwen3vl-4b-thinking-stage2-best.log step=34/300 loss=0.494",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
         "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%",
         "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%",
