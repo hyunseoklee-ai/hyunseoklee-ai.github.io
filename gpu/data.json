@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 07:39 KST  \u00b7  15:39 PDT",
+  "updated": "2026-05-11 07:40 KST  \u00b7  15:40 PDT",
   "servers": [
     {
       "gpus": [
@@ -106,13 +106,13 @@
         },
         {
           "idx": 4,
-          "mem_used": 23910,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 23910,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
@@ -126,7 +126,7 @@
           "idx": 7,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -141,6 +141,7 @@
         "holo2-3090"
       ],
       "recent_events": [
+        "[07:39:20] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/scaling",
         "[07:20:51] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/baseline",
         "OK: /data/hyunseok/hf_cache/hub/models--Hcompany--Holo2-8B/snapshots/09cd3b45966f61c8c5ae4bc1424151c682ccc5c8",
         "=== alin15 Phase 12: Holo2-8B + KDE-TTS plug-in eval ===",
@@ -154,8 +155,7 @@
         "[01:04:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot-pro  5399s  acc=596/1581 = 37.70%",
         "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ===",
         "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%",
-        "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%",
-        "[20:18:55] OK qwen3vl_4b_thinking_stage2_max/osworld-g/scaling  1338s  acc=332/510 = 65.10%"
+        "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%"
       ],
       "summaries": [
         {
