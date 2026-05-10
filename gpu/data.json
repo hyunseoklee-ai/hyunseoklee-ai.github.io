@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 01:13 KST  \u00b7  09:13 PDT",
+  "updated": "2026-05-11 01:14 KST  \u00b7  09:14 PDT",
   "servers": [
     {
       "gpus": [
@@ -17,7 +17,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 21333,
+          "mem_used": 22863,
           "mem_total": 24576,
           "util": 100
         },
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 21333,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
