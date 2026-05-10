@@ -1,60 +1,60 @@
 {
-  "updated": "2026-05-10 09:48 KST  \u00b7  17:48 PDT",
+  "updated": "2026-05-10 09:49 KST  \u00b7  17:49 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 32,
+          "mem_used": 1680,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 18,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 18,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 18,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 18,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 1665,
           "mem_total": 24576,
           "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
-        "a14_e3v2",
+        "a14_q2max",
         "eval_a14",
         "reasoning_a14",
         "reguide",
@@ -71,7 +71,8 @@
         "[06:25:02] OK qwen3vl_2b_thinking_base/ui-vision-basic/scaling  5704s  acc=367/1772 = 20.71%",
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
-        "=== DONE ==="
+        "=== DONE ===",
+        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 0/12000 ["
       ],
       "summaries": [],
       "name": "alin14"
@@ -81,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 2521,
           "mem_total": 24576,
-          "util": 0
+          "util": 94
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 3248,
           "mem_total": 24576,
-          "util": 1
+          "util": 99
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 3248,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 2506,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -134,7 +135,7 @@
         "1",
         "2",
         "3",
-        "a15_best",
+        "a15_4btmax",
         "dash"
       ],
       "recent_events": [
