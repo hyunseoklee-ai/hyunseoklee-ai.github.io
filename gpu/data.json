@@ -1,31 +1,31 @@
 {
-  "updated": "2026-05-11 07:57 KST  \u00b7  15:57 PDT",
+  "updated": "2026-05-11 07:58 KST  \u00b7  15:58 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22150,
+          "mem_used": 22450,
           "mem_total": 24576,
-          "util": 56
+          "util": 100
         },
         {
           "idx": 1,
           "mem_used": 21605,
           "mem_total": 24576,
-          "util": 100
+          "util": 96
         },
         {
           "idx": 2,
           "mem_used": 22369,
           "mem_total": 24576,
-          "util": 89
+          "util": 100
         },
         {
           "idx": 3,
           "mem_used": 21005,
           "mem_total": 24576,
-          "util": 27
+          "util": 100
         },
         {
           "idx": 4,
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24133,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 24118,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 24182,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 24182,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 24194,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 24194,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 24188,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 24188,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         }
@@ -141,6 +141,7 @@
         "holo2-3090"
       ],
       "recent_events": [
+        "[07:57:27] OK holo2_8b_kde_plugin_alin15/osworld-g/scaling  681s  acc=355/510 = 69.61%",
         "[07:46:06] OK holo2_8b_kde_plugin_alin15/osworld-g/baseline  406s  acc=261/510 = 51.18%",
         "[07:39:20] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/scaling",
         "[07:20:51] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/baseline",
@@ -154,13 +155,12 @@
         "[01:52:45] OK qwen3vl_2b_thinking_stage2/region_focus/osworld-g  1909s  acc=266/510 = 52.16%",
         "[01:20:56] OK qwen3vl_2b_thinking_stage2/gui_rc/osworld-g  995s  acc=229/510 = 44.90%",
         "[01:04:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot-pro  5399s  acc=596/1581 = 37.70%",
-        "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ===",
-        "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%"
+        "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ==="
       ],
       "summaries": [
         {
-          "label": "holo2_8b_kde_plugin_alin15 base",
-          "metric": "51.18%"
+          "label": "holo2_8b_kde_plugin_alin15 scal",
+          "metric": "69.61%"
         },
         {
           "label": "E1_qwen3vl_2b_thinking_stage2 ",
