@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 07:08 KST  \u00b7  15:08 PDT",
+  "updated": "2026-05-11 07:09 KST  \u00b7  15:09 PDT",
   "servers": [
     {
       "gpus": [
@@ -31,7 +31,7 @@
           "idx": 4,
           "mem_used": 21511,
           "mem_total": 24576,
-          "util": 100
+          "util": 4
         },
         {
           "idx": 5,
@@ -137,7 +137,8 @@
         "3",
         "dash",
         "h200",
-        "h200-backup"
+        "h200-backup",
+        "holo2-3090"
       ],
       "recent_events": [
         "OK: /data/hyunseok/hf_cache/hub/models--Hcompany--Holo2-8B/snapshots/09cd3b45966f61c8c5ae4bc1424151c682ccc5c8",
