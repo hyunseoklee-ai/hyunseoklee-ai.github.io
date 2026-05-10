@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 08:10 KST  \u00b7  16:10 PDT",
+  "updated": "2026-05-11 08:11 KST  \u00b7  16:11 PDT",
   "servers": [
     {
       "gpus": [
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 22343,
           "mem_total": 24576,
-          "util": 45
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,15 +82,15 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24237,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 24222,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
@@ -106,27 +106,27 @@
         },
         {
           "idx": 4,
-          "mem_used": 23916,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 95
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 23916,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 24014,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 24014,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -141,6 +141,7 @@
         "holo2-3090"
       ],
       "recent_events": [
+        "[08:10:33] OK holo2_8b_kde_plugin_alin15/ui-vision-basic/baseline  786s  acc=679/1772 = 38.32%",
         "[07:57:27] OK holo2_8b_kde_plugin_alin15/osworld-g/scaling  681s  acc=355/510 = 69.61%",
         "[07:46:06] OK holo2_8b_kde_plugin_alin15/osworld-g/baseline  406s  acc=261/510 = 51.18%",
         "[07:39:20] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/scaling",
@@ -154,13 +155,12 @@
         "[02:53:48] OK qwen3vl_2b_thinking_stage2/gui_rc/ui-vision-basic  3663s  acc=415/1772 = 23.42%",
         "[01:52:45] OK qwen3vl_2b_thinking_stage2/region_focus/osworld-g  1909s  acc=266/510 = 52.16%",
         "[01:20:56] OK qwen3vl_2b_thinking_stage2/gui_rc/osworld-g  995s  acc=229/510 = 44.90%",
-        "[01:04:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot-pro  5399s  acc=596/1581 = 37.70%",
-        "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ==="
+        "[01:04:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot-pro  5399s  acc=596/1581 = 37.70%"
       ],
       "summaries": [
         {
-          "label": "holo2_8b_kde_plugin_alin15 scal",
-          "metric": "69.61%"
+          "label": "holo2_8b_kde_plugin_alin15 base",
+          "metric": "38.32%"
         },
         {
           "label": "E1_qwen3vl_2b_thinking_stage2 ",
