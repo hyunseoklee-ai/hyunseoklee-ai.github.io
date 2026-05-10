@@ -1,59 +1,60 @@
 {
-  "updated": "2026-05-10 21:51 KST  \u00b7  05:51 PDT",
+  "updated": "2026-05-10 21:52 KST  \u00b7  05:52 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 32,
+          "mem_used": 35,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 18,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 18,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 18,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 18,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
+        "a14_e1",
         "a14_q2max",
         "eval_a14",
         "reasoning_a14",
