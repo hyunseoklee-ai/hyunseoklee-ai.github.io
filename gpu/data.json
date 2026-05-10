@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 06:57 KST  \u00b7  14:57 PDT",
+  "updated": "2026-05-11 06:58 KST  \u00b7  14:58 PDT",
   "servers": [
     {
       "gpus": [
@@ -141,6 +141,7 @@
         "holo2-3090"
       ],
       "recent_events": [
+        "[06:57:36] FAIL holo2_8b_kde_plugin_alin15/osworld-g/baseline",
         "[06:56:36] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/scaling",
         "[06:55:37] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/baseline",
         "OK: /data/hyunseok/hf_cache/hub/models--Hcompany--Holo2-8B/snapshots/09cd3b45966f61c8c5ae4bc1424151c682ccc5c8",
@@ -154,8 +155,7 @@
         "[01:20:56] OK qwen3vl_2b_thinking_stage2/gui_rc/osworld-g  995s  acc=229/510 = 44.90%",
         "[01:04:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot-pro  5399s  acc=596/1581 = 37.70%",
         "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ===",
-        "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%",
-        "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%"
+        "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%"
       ],
       "summaries": [
         {
