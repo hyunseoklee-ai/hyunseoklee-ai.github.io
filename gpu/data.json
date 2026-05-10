@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 07:02 KST  \u00b7  15:02 PDT",
+  "updated": "2026-05-11 07:03 KST  \u00b7  15:03 PDT",
   "servers": [
     {
       "gpus": [
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22673,
+          "mem_used": 23845,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 22658,
+          "mem_used": 23830,
           "mem_total": 24576,
           "util": 0
         }
@@ -141,6 +141,7 @@
         "holo2-3090"
       ],
       "recent_events": [
+        "[07:02:28] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/baseline",
         "OK: /data/hyunseok/hf_cache/hub/models--Hcompany--Holo2-8B/snapshots/09cd3b45966f61c8c5ae4bc1424151c682ccc5c8",
         "=== alin15 Phase 12: Holo2-8B + KDE-TTS plug-in eval ===",
         "[23:34:22] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot-pro  5444s  acc=544/1581 = 34.41%",
@@ -154,8 +155,7 @@
         "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ===",
         "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%",
         "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%",
-        "[20:18:55] OK qwen3vl_4b_thinking_stage2_max/osworld-g/scaling  1338s  acc=332/510 = 65.10%",
-        "[19:56:37] OK qwen3vl_4b_thinking_stage2_max/osworld-g/baseline  261s  acc=291/510 = 57.06%"
+        "[20:18:55] OK qwen3vl_4b_thinking_stage2_max/osworld-g/scaling  1338s  acc=332/510 = 65.10%"
       ],
       "summaries": [
         {
