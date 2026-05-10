@@ -1,53 +1,53 @@
 {
-  "updated": "2026-05-10 19:52 KST  \u00b7  03:52 PDT",
+  "updated": "2026-05-10 19:53 KST  \u00b7  03:53 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 8752,
+          "mem_used": 23262,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 8737,
+          "mem_used": 23247,
           "mem_total": 24576,
           "util": 100
         }
@@ -81,49 +81,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 21513,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 21498,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 21498,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 23978,
+          "mem_used": 21498,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 21498,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 21498,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 21498,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 21498,
           "mem_total": 24576,
           "util": 0
         }
@@ -140,6 +140,7 @@
         "h200-backup"
       ],
       "recent_events": [
+        "[19:52:16] OK qwen3vl_4b_thinking_stage2_max/screenspot/scaling  1357s  acc=1162/1272 = 91.35%",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_max/screenspot/baseline  310s  acc=1147/1272 = 90.17%",
         "[19:24:29] OK qwen3vl_4b_thinking_stage2_max/screenspot-pro/scaling  7117s  acc=837/1581 = 52.94%",
         "[17:25:52] OK qwen3vl_4b_thinking_stage2_max/screenspot-pro/baseline  1159s  acc=752/1581 = 47.56%",
@@ -153,13 +154,12 @@
         "[03:58:43] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/baseline  1099s  acc=719/1581 = 45.48%",
         "=== ALL DONE ===",
         "[19:29:39] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/scaling  7559s  acc=747/1581 = 47.25%",
-        "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%",
-        "[15:52:21] OK qwen3vl_4b_thinking_stage2_N5K/screenspot-pro/scaling  8379s  acc=749/1581 = 47.38%"
+        "[17:23:40] OK qwen3vl_4b_thinking_stage2_lr2e6/screenspot-pro/baseline  1062s  acc=680/1581 = 43.01%"
       ],
       "summaries": [
         {
-          "label": "qwen3vl_4b_thinking_stage2_max base",
-          "metric": "90.17%"
+          "label": "qwen3vl_4b_thinking_stage2_max scal",
+          "metric": "91.35%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_best scal",
