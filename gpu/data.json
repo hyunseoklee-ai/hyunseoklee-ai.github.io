@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 21:36 KST  \u00b7  05:36 PDT",
+  "updated": "2026-05-10 21:37 KST  \u00b7  05:37 PDT",
   "servers": [
     {
       "gpus": [
@@ -139,8 +139,7 @@
         "a15_e1",
         "dash",
         "h200",
-        "h200-backup",
-        "qwen35-rebackup"
+        "h200-backup"
       ],
       "recent_events": [
         "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%",
