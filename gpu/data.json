@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-10 21:37 KST  \u00b7  05:37 PDT",
+  "updated": "2026-05-10 21:38 KST  \u00b7  05:38 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22710,
+          "mem_used": 32,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
@@ -54,7 +54,6 @@
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
-        "a14_jobs",
         "a14_q2max",
         "eval_a14",
         "reasoning_a14",
@@ -112,7 +111,7 @@
         },
         {
           "idx": 5,
-          "mem_used": 23448,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 100
         },
