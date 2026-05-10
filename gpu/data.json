@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 17:40 KST  \u00b7  01:40 PDT",
+  "updated": "2026-05-10 17:41 KST  \u00b7  01:41 PDT",
   "servers": [
     {
       "gpus": [
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "[17:05:58] OK N=500  1064s  acc=496/1581 = 31.37%",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 2339/2910 [ 'loss': '0.9717'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 2344/2910 [ 'loss': '0.9931'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -126,7 +126,7 @@
           "idx": 7,
           "mem_used": 23168,
           "mem_total": 24576,
-          "util": 83
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
