@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 05:38 KST  \u00b7  13:38 PDT",
+  "updated": "2026-05-11 05:39 KST  \u00b7  13:39 PDT",
   "servers": [
     {
       "gpus": [
@@ -11,9 +11,9 @@
         },
         {
           "idx": 1,
-          "mem_used": 22013,
+          "mem_used": 18,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
@@ -41,9 +41,9 @@
         },
         {
           "idx": 6,
-          "mem_used": 21633,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
@@ -106,9 +106,9 @@
         },
         {
           "idx": 4,
-          "mem_used": 21032,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
@@ -135,13 +135,13 @@
         "1",
         "2",
         "3",
-        "a15_e1",
         "dash",
         "h200",
         "h200-backup"
       ],
       "recent_events": [
         "[23:34:22] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot-pro  5444s  acc=544/1581 = 34.41%",
+        "[05:38:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot  1479s  acc=1092/1272 = 85.85%",
         "[05:13:42] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot  1076s  acc=1109/1272 = 87.19%",
         "[04:55:46] OK qwen3vl_2b_thinking_stage2/region_focus/ui-vision-basic  7318s  acc=460/1772 = 25.96%",
         "[02:53:48] OK qwen3vl_2b_thinking_stage2/gui_rc/ui-vision-basic  3663s  acc=415/1772 = 23.42%",
@@ -154,13 +154,12 @@
         "[20:18:55] OK qwen3vl_4b_thinking_stage2_max/osworld-g/scaling  1338s  acc=332/510 = 65.10%",
         "[19:56:37] OK qwen3vl_4b_thinking_stage2_max/osworld-g/baseline  261s  acc=291/510 = 57.06%",
         "[19:52:16] OK qwen3vl_4b_thinking_stage2_max/screenspot/scaling  1357s  acc=1162/1272 = 91.35%",
-        "[19:29:39] OK qwen3vl_4b_thinking_stage2_max/screenspot/baseline  310s  acc=1147/1272 = 90.17%",
-        "[19:24:29] OK qwen3vl_4b_thinking_stage2_max/screenspot-pro/scaling  7117s  acc=837/1581 = 52.94%"
+        "[19:29:39] OK qwen3vl_4b_thinking_stage2_max/screenspot/baseline  310s  acc=1147/1272 = 90.17%"
       ],
       "summaries": [
         {
           "label": "E1_qwen3vl_2b_thinking_stage2 ",
-          "metric": "87.19%"
+          "metric": "85.85%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_max scal",
