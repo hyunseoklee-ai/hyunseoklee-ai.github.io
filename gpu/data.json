@@ -1,35 +1,35 @@
 {
-  "updated": "2026-05-11 04:20 KST  \u00b7  12:20 PDT",
+  "updated": "2026-05-11 04:21 KST  \u00b7  12:21 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21632,
+          "mem_used": 22016,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 20913,
+          "mem_used": 21297,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 21601,
+          "mem_used": 21985,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 21203,
+          "mem_used": 21587,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 20861,
+          "mem_used": 21245,
           "mem_total": 24576,
           "util": 100
         },
@@ -41,13 +41,13 @@
         },
         {
           "idx": 6,
-          "mem_used": 20991,
+          "mem_used": 21375,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 20869,
+          "mem_used": 21253,
           "mem_total": 24576,
           "util": 100
         }
@@ -90,7 +90,7 @@
           "idx": 1,
           "mem_used": 21880,
           "mem_total": 24576,
-          "util": 100
+          "util": 40
         },
         {
           "idx": 2,
@@ -108,7 +108,7 @@
           "idx": 4,
           "mem_used": 21510,
           "mem_total": 24576,
-          "util": 2
+          "util": 100
         },
         {
           "idx": 5,
