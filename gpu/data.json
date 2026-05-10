@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 17:06 KST  \u00b7  01:06 PDT",
+  "updated": "2026-05-10 17:07 KST  \u00b7  01:07 PDT",
   "servers": [
     {
       "gpus": [
@@ -37,7 +37,7 @@
           "idx": 5,
           "mem_used": 16545,
           "mem_total": 24576,
-          "util": 51
+          "util": 100
         },
         {
           "idx": 6,
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "[17:05:58] OK N=500  1064s  acc=496/1581 = 31.37%",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 2167/2910 [ 'loss': '1.047'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 2172/2910 [ 'loss': '1.047'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23159,
+          "mem_used": 9361,
           "mem_total": 24576,
-          "util": 61
+          "util": 18
         },
         {
           "idx": 1,
-          "mem_used": 22338,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 99
+          "util": 12
         },
         {
           "idx": 2,
-          "mem_used": 23102,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 22316,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 98
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 23766,
+          "mem_used": 9346,
           "mem_total": 24576,
-          "util": 99
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 23836,
+          "mem_used": 9346,
+          "mem_total": 24576,
+          "util": 0
+        },
+        {
+          "idx": 6,
+          "mem_used": 11606,
           "mem_total": 24576,
           "util": 100
         },
         {
-          "idx": 6,
-          "mem_used": 23440,
-          "mem_total": 24576,
-          "util": 99
-        },
-        {
           "idx": 7,
-          "mem_used": 22742,
+          "mem_used": 11606,
           "mem_total": 24576,
           "util": 100
         }
@@ -139,7 +139,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-max.log step=732/732 loss=0.2492",
+        "[train] qwen3vl-4b-thinking-stage2-max.log step=1/1 loss=0.2492",
         "[09:11:59] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/scaling  6213s  acc=607/1772 = 34.26%",
         "[07:28:26] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/baseline  456s  acc=566/1772 = 31.94%",
         "[07:20:50] OK qwen3vl_4b_thinking_stage2_best/osworld-g/scaling  1751s  acc=307/510 = 60.20%",
