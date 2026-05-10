@@ -1,53 +1,53 @@
 {
-  "updated": "2026-05-10 20:26 KST  \u00b7  04:26 PDT",
+  "updated": "2026-05-10 20:27 KST  \u00b7  04:27 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23712,
+          "mem_used": 8752,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 23911,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 22577,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 23179,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 22579,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 22947,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 22819,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 22959,
+          "mem_used": 8737,
           "mem_total": 24576,
           "util": 100
         }
@@ -81,33 +81,33 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24101,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 23408,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 23962,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 24030,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 24198,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
@@ -117,15 +117,15 @@
         },
         {
           "idx": 6,
-          "mem_used": 23312,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 23792,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -140,6 +140,7 @@
         "h200-backup"
       ],
       "recent_events": [
+        "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%",
         "[20:18:55] OK qwen3vl_4b_thinking_stage2_max/osworld-g/scaling  1338s  acc=332/510 = 65.10%",
         "[19:56:37] OK qwen3vl_4b_thinking_stage2_max/osworld-g/baseline  261s  acc=291/510 = 57.06%",
         "[19:52:16] OK qwen3vl_4b_thinking_stage2_max/screenspot/scaling  1357s  acc=1162/1272 = 91.35%",
@@ -153,13 +154,12 @@
         "[06:47:24] OK qwen3vl_4b_thinking_stage2_best/screenspot/scaling  2264s  acc=1151/1272 = 90.49%",
         "[06:09:40] OK qwen3vl_4b_thinking_stage2_best/screenspot/baseline  295s  acc=1142/1272 = 89.78%",
         "[06:04:45] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/scaling  7562s  acc=788/1581 = 49.84%",
-        "[03:58:43] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/baseline  1099s  acc=719/1581 = 45.48%",
-        "=== ALL DONE ==="
+        "[03:58:43] OK qwen3vl_4b_thinking_stage2_best/screenspot-pro/baseline  1099s  acc=719/1581 = 45.48%"
       ],
       "summaries": [
         {
-          "label": "qwen3vl_4b_thinking_stage2_max scal",
-          "metric": "65.10%"
+          "label": "qwen3vl_4b_thinking_stage2_max base",
+          "metric": "32.73%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_best scal",
