@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 20:03 KST  \u00b7  04:03 PDT",
+  "updated": "2026-05-10 20:04 KST  \u00b7  04:04 PDT",
   "servers": [
     {
       "gpus": [
@@ -29,7 +29,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 22711,
+          "mem_used": 23783,
           "mem_total": 24576,
           "util": 100
         },
@@ -47,7 +47,7 @@
         },
         {
           "idx": 7,
-          "mem_used": 23247,
+          "mem_used": 23329,
           "mem_total": 24576,
           "util": 100
         }
