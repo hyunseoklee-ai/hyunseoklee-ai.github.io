@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-10 20:52 KST  \u00b7  04:52 PDT",
+  "updated": "2026-05-10 20:53 KST  \u00b7  04:53 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21086,
+          "mem_used": 22668,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 92
         },
         {
           "idx": 3,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 21071,
+          "mem_used": 22653,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
