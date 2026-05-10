@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10 10:15 KST  \u00b7  18:15 PDT",
+  "updated": "2026-05-10 10:16 KST  \u00b7  18:16 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,7 +7,7 @@
           "idx": 0,
           "mem_used": 21790,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 1,
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 16193,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 3,
@@ -29,7 +29,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 17743,
+          "mem_used": 19133,
           "mem_total": 24576,
           "util": 100
         },
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 23085,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 7,
@@ -72,7 +72,7 @@
         "[04:49:58] OK qwen3vl_2b_thinking_base/ui-vision-basic/baseline  449s  acc=361/1772 = 20.37%",
         "[04:42:29] OK qwen3vl_2b_thinking_stage2/osworld-g/scaling  955s  acc=236/510 = 46.27%",
         "[17:05:58] OK N=500  1064s  acc=496/1581 = 31.37%",
-        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 83/2910 [ 'loss': '2.224'"
+        "[a14-train] [train-active] qwen2vl-2b-stage2-max.log 88/2910 [ 'loss': '2.224'"
       ],
       "summaries": [],
       "name": "alin14"
@@ -139,7 +139,7 @@
         "dash"
       ],
       "recent_events": [
-        "[train] qwen3vl-4b-thinking-stage2-max.log step=39/732 loss=1.519",
+        "[train] qwen3vl-4b-thinking-stage2-max.log step=41/732 loss=0.4292",
         "[09:11:59] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/scaling  6213s  acc=607/1772 = 34.26%",
         "[07:28:26] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/baseline  456s  acc=566/1772 = 31.94%",
         "[07:20:50] OK qwen3vl_4b_thinking_stage2_best/osworld-g/scaling  1751s  acc=307/510 = 60.20%",
