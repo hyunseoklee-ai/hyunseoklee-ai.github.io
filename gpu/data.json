@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 01:20 KST  \u00b7  09:20 PDT",
+  "updated": "2026-05-11 01:21 KST  \u00b7  09:21 PDT",
   "servers": [
     {
       "gpus": [
@@ -25,7 +25,7 @@
           "idx": 3,
           "mem_used": 22863,
           "mem_total": 24576,
-          "util": 82
+          "util": 100
         },
         {
           "idx": 4,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 22863,
           "mem_total": 24576,
-          "util": 100
+          "util": 37
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 34,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 21726,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 21866,
+          "mem_used": 20,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         }
@@ -142,6 +142,7 @@
       ],
       "recent_events": [
         "[23:34:22] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot-pro  5444s  acc=544/1581 = 34.41%",
+        "[01:20:56] OK qwen3vl_2b_thinking_stage2/gui_rc/osworld-g  995s  acc=229/510 = 44.90%",
         "[01:04:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot-pro  5399s  acc=596/1581 = 37.70%",
         "=== E1 (alin15): GUI-RC + RegionFocus on Qwen3-VL-2B-Thinking STAGE 2 ===",
         "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%",
@@ -154,13 +155,12 @@
         "[17:25:52] OK qwen3vl_4b_thinking_stage2_max/screenspot-pro/baseline  1159s  acc=752/1581 = 47.56%",
         "=== ALL DONE ===",
         "[09:11:59] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/scaling  6213s  acc=607/1772 = 34.26%",
-        "[07:28:26] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/baseline  456s  acc=566/1772 = 31.94%",
-        "[07:20:50] OK qwen3vl_4b_thinking_stage2_best/osworld-g/scaling  1751s  acc=307/510 = 60.20%"
+        "[07:28:26] OK qwen3vl_4b_thinking_stage2_best/ui-vision-basic/baseline  456s  acc=566/1772 = 31.94%"
       ],
       "summaries": [
         {
           "label": "E1_qwen3vl_2b_thinking_stage2 ",
-          "metric": "37.70%"
+          "metric": "44.90%"
         },
         {
           "label": "qwen3vl_4b_thinking_stage2_max scal",
