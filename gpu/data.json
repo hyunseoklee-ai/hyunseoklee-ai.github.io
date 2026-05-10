@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 06:46 KST  \u00b7  14:46 PDT",
+  "updated": "2026-05-11 06:47 KST  \u00b7  14:47 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,7 +7,7 @@
           "idx": 0,
           "mem_used": 21860,
           "mem_total": 24576,
-          "util": 85
+          "util": 100
         },
         {
           "idx": 1,
@@ -37,13 +37,13 @@
           "idx": 5,
           "mem_used": 21105,
           "mem_total": 24576,
-          "util": 11
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 21787,
           "mem_total": 24576,
-          "util": 69
+          "util": 100
         },
         {
           "idx": 7,
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 419,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 404,
           "mem_total": 24576,
           "util": 0
         }
@@ -141,6 +141,7 @@
         "holo2-3090"
       ],
       "recent_events": [
+        "OK: /data/hyunseok/hf_cache/hub/models--Hcompany--Holo2-8B/snapshots/09cd3b45966f61c8c5ae4bc1424151c682ccc5c8",
         "=== alin15 Phase 12: Holo2-8B + KDE-TTS plug-in eval ===",
         "[23:34:22] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot-pro  5444s  acc=544/1581 = 34.41%",
         "[05:38:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot  1479s  acc=1092/1272 = 85.85%",
@@ -154,8 +155,7 @@
         "[21:46:50] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/scaling  4796s  acc=661/1772 = 37.30%",
         "[20:26:54] OK qwen3vl_4b_thinking_stage2_max/ui-vision-basic/baseline  478s  acc=580/1772 = 32.73%",
         "[20:18:55] OK qwen3vl_4b_thinking_stage2_max/osworld-g/scaling  1338s  acc=332/510 = 65.10%",
-        "[19:56:37] OK qwen3vl_4b_thinking_stage2_max/osworld-g/baseline  261s  acc=291/510 = 57.06%",
-        "[19:52:16] OK qwen3vl_4b_thinking_stage2_max/screenspot/scaling  1357s  acc=1162/1272 = 91.35%"
+        "[19:56:37] OK qwen3vl_4b_thinking_stage2_max/osworld-g/baseline  261s  acc=291/510 = 57.06%"
       ],
       "summaries": [
         {
