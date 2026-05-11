@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:35 KST  \u00b7  17:35 PDT",
+  "updated": "2026-05-11 09:36 KST  \u00b7  17:36 PDT",
   "servers": [
     {
       "gpus": [
@@ -17,7 +17,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 21895,
+          "mem_used": 22233,
           "mem_total": 24576,
           "util": 100
         },
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 3851,
           "mem_total": 24576,
-          "util": 0
+          "util": 77
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 98
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 97
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 97
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 97
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 96
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 98
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 3836,
           "mem_total": 24576,
-          "util": 0
+          "util": 98
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -197,7 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123201[R] reg_eval 0:23"
+        "123201[R] reg_eval 1:23"
       ],
       "recent_events": [
         "==JOB 123201==",
@@ -209,7 +209,7 @@
         "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
         "[sacct] 123197|reg_eval|COMPLETED|0:0|00:04:35",
-        "[sacct] 123201|reg_eval|RUNNING|0:0|00:00:23"
+        "[sacct] 123201|reg_eval|RUNNING|0:0|00:01:23"
       ],
       "summaries": [
         {
