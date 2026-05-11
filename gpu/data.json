@@ -1,53 +1,53 @@
 {
-  "updated": "2026-05-11 13:16 KST  \u00b7  21:16 PDT",
+  "updated": "2026-05-11 13:17 KST  \u00b7  21:17 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21630,
+          "mem_used": 23670,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 21537,
+          "mem_used": 23695,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 21557,
+          "mem_used": 21075,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 20937,
+          "mem_used": 24053,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 21537,
+          "mem_used": 23895,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 21715,
+          "mem_used": 23735,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 21575,
+          "mem_used": 23955,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 21777,
+          "mem_used": 23875,
           "mem_total": 24576,
           "util": 100
         }
@@ -197,7 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123218[R] reg_eval 10:38"
+        "123218[R] reg_eval 11:36"
       ],
       "recent_events": [
         "==JOB 123218==",
@@ -212,7 +212,7 @@
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123217|reg_eval|COMPLETED|0:0|01:22:39",
-        "[sacct] 123218|reg_eval|RUNNING|0:0|00:10:38"
+        "[sacct] 123218|reg_eval|RUNNING|0:0|00:11:36"
       ],
       "summaries": [
         {
