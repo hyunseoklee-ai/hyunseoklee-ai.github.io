@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:24 KST  \u00b7  19:24 PDT",
+  "updated": "2026-05-11 11:25 KST  \u00b7  19:25 PDT",
   "servers": [
     {
       "gpus": [
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 7,
@@ -83,19 +83,19 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23909,
+          "mem_used": 22467,
           "mem_total": 24576,
-          "util": 100
+          "util": 91
         },
         {
           "idx": 1,
-          "mem_used": 23952,
+          "mem_used": 23954,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 2,
-          "mem_used": 23714,
+          "mem_used": 22694,
           "mem_total": 24576,
           "util": 100
         },
@@ -103,11 +103,11 @@
           "idx": 3,
           "mem_used": 24114,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 4,
-          "mem_used": 23612,
+          "mem_used": 24094,
           "mem_total": 24576,
           "util": 100
         },
@@ -119,15 +119,15 @@
         },
         {
           "idx": 6,
-          "mem_used": 24174,
+          "mem_used": 22534,
           "mem_total": 24576,
-          "util": 100
+          "util": 93
         },
         {
           "idx": 7,
           "mem_used": 24214,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -201,7 +201,7 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 50:11"
+        "123215[R] reg_eval 51:12"
       ],
       "recent_events": [
         "==JOB 123215==",
