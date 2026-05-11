@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 12:01 KST  \u00b7  20:01 PDT",
+  "updated": "2026-05-11 12:02 KST  \u00b7  20:02 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,13 +13,13 @@
           "idx": 1,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
@@ -37,13 +37,13 @@
           "idx": 5,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 22
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 100
+          "util": 80
         },
         {
           "idx": 7,
@@ -83,49 +83,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24189,
+          "mem_used": 31,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 6,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 20,
+          "mem_used": 17,
           "mem_total": 24576,
           "util": 0
         }
@@ -139,8 +139,7 @@
         "dash",
         "h200",
         "h200-backup",
-        "holo2_train",
-        "holo2_watcher"
+        "holo2_eval"
       ],
       "recent_events": [
         "[09:08:59] OK holo2_8b_kde_plugin_alin15/screenspot/scaling  1261s  acc=1159/1272 = 91.12%",
@@ -200,7 +199,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 18:16"
+        "123217[R] reg_eval 19:16"
       ],
       "recent_events": [
         "==JOB 123217==",
@@ -214,7 +213,7 @@
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123217|reg_eval|RUNNING|0:0|00:18:16",
+        "[sacct] 123217|reg_eval|RUNNING|0:0|00:19:16",
         "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
