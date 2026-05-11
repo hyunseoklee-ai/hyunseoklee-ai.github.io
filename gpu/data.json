@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:51 KST  \u00b7  17:51 PDT",
+  "updated": "2026-05-11 09:52 KST  \u00b7  17:52 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,13 +19,13 @@
           "idx": 2,
           "mem_used": 20309,
           "mem_total": 24576,
-          "util": 100
+          "util": 63
         },
         {
           "idx": 3,
           "mem_used": 20309,
           "mem_total": 24576,
-          "util": 84
+          "util": 100
         },
         {
           "idx": 4,
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23849,
+          "mem_used": 24089,
           "mem_total": 24576,
           "util": 100
         },
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 19952,
+          "mem_used": 23974,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,19 +106,19 @@
         },
         {
           "idx": 4,
-          "mem_used": 22994,
+          "mem_used": 23894,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 23826,
+          "mem_used": 23866,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 21734,
+          "mem_used": 23974,
           "mem_total": 24576,
           "util": 100
         },
@@ -198,12 +198,12 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [],
       "recent_events": [
-        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
-        "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
         "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
         "[sacct] 123197|reg_eval|COMPLETED|0:0|00:04:35",
-        "[sacct] 123201|reg_eval|COMPLETED|0:0|00:08:37"
+        "[sacct] 123201|reg_eval|COMPLETED|0:0|00:08:37",
+        "[sacct] 123202|bash|FAILED|6:0|00:00:01",
+        "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00"
       ],
       "summaries": [
         {
