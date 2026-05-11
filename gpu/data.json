@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:29 KST  \u00b7  17:29 PDT",
+  "updated": "2026-05-11 09:30 KST  \u00b7  17:30 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,7 +7,7 @@
           "idx": 0,
           "mem_used": 21008,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
@@ -198,20 +198,23 @@
       "tmux_sessions": [
         "123201[P] reg_eval 0:00",
         "123197[P] reg_eval 0:00",
-        "123196[R] reg_eval 2:51"
+        "123196[R] reg_eval 3:52"
       ],
       "recent_events": [
         "==JOB 123196==",
-        "MODEL_REPO=hyunseoki/regUIDE-qwen2vl-7b-stage2-thinking LABEL=qwen2vl_7b_stage2_thinking PROMPT=qwen3vl_native MAX_TOK=2048 ENABLE_THINK=1",
-        "=== untar env from /home \u2192 /tmp (09:26:09) ===",
-        "=== stage model from HF ===",
-        "=== stage code (no-symlink) ===",
-        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
-        "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
-        "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
-        "[sacct] 123196|reg_eval|RUNNING|0:0|00:02:51",
-        "[sacct] 123197|reg_eval|PENDING|0:0|00:00:00",
-        "[sacct] 123201|reg_eval|PENDING|0:0|00:00:00"
+        "[09:29:29] OK qwen2vl_7b_stage2_thinking/screenspot-pro/scaling  5s  acc=0/0 = 0.00%",
+        "[09:29:29] START qwen2vl_7b_stage2_thinking/osworld-g/baseline",
+        "[09:29:35] OK qwen2vl_7b_stage2_thinking/osworld-g/baseline  6s  acc=0/0 = 0.00%",
+        "[09:29:35] START qwen2vl_7b_stage2_thinking/osworld-g/scaling",
+        "[09:29:40] OK qwen2vl_7b_stage2_thinking/osworld-g/scaling  5s  acc=0/0 = 0.00%",
+        "[09:29:40] START qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline",
+        "[09:29:46] OK qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline  6s  acc=0/0 = 0.00%",
+        "[09:29:46] START qwen2vl_7b_stage2_thinking/ui-vision-basic/scaling",
+        "[09:29:51] OK qwen2vl_7b_stage2_thinking/ui-vision-basic/scaling  5s  acc=0/0 = 0.00%",
+        "[09:29:51] START qwen2vl_7b_stage2_thinking/screenspot/baseline",
+        "[09:29:57] OK qwen2vl_7b_stage2_thinking/screenspot/baseline  6s  acc=0/0 = 0.00%",
+        "[09:29:57] START qwen2vl_7b_stage2_thinking/screenspot/scaling",
+        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42"
       ],
       "summaries": [
         {
