@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:54 KST  \u00b7  18:54 PDT",
+  "updated": "2026-05-11 10:55 KST  \u00b7  18:55 PDT",
   "servers": [
     {
       "gpus": [
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 7,
@@ -93,7 +93,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 20372,
+          "mem_used": 22594,
           "mem_total": 24576,
           "util": 100
         },
@@ -105,7 +105,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 20374,
+          "mem_used": 23094,
           "mem_total": 24576,
           "util": 100
         },
@@ -117,7 +117,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 20274,
+          "mem_used": 23854,
           "mem_total": 24576,
           "util": 100
         },
@@ -199,7 +199,7 @@
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
         "123216[P] reg_eval 0:00",
-        "123215[R] reg_eval 20:11"
+        "123215[R] reg_eval 21:11"
       ],
       "recent_events": [
         "==JOB 123215==",
@@ -211,7 +211,7 @@
         "[10:44:39] START holo2_8b_base/screenspot-pro/baseline",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123215|reg_eval|RUNNING|0:0|00:20:11",
+        "[sacct] 123215|reg_eval|RUNNING|0:0|00:21:11",
         "[sacct] 123216|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123217|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
