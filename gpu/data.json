@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 05:34 KST  \u00b7  13:34 PDT",
+  "updated": "2026-05-12 05:35 KST  \u00b7  13:35 PDT",
   "servers": [
     {
       "gpus": [
@@ -31,7 +31,7 @@
           "idx": 4,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 5,
@@ -97,7 +97,7 @@
           "idx": 2,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 3,
@@ -109,25 +109,25 @@
           "idx": 4,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
           "mem_used": 24088,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
           "mem_used": 24088,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -199,8 +199,8 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123444[R] reg_eval 7:33",
-        "123443[R] reg_eval 55:34"
+        "123444[R] reg_eval 8:32",
+        "123443[R] reg_eval 56:33"
       ],
       "recent_events": [
         "==JOB 123444==",
