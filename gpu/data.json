@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 23:20 KST  \u00b7  07:20 PDT",
+  "updated": "2026-05-11 23:21 KST  \u00b7  07:21 PDT",
   "servers": [
     {
       "gpus": [
@@ -196,12 +196,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123386[R] reg_eval 1:02:23"
+        "123386[R] reg_eval 1:03:22"
       ],
       "recent_events": [
         "==JOB 123386==",
-        "[22:41:44] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/baseline  857s  acc=32/792 = 4.04%",
-        "[22:41:44] START qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling",
         "[22:59:04] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling  1040s  acc=226/792 = 28.54%",
         "[22:59:04] START qwen2vl_7b_uground_sft_v3/osworld-g/baseline",
         "[23:02:13] OK qwen2vl_7b_uground_sft_v3/osworld-g/baseline  189s  acc=80/256 = 31.25%",
@@ -212,6 +210,8 @@
         "[23:10:17] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling",
         "[23:16:31] OK qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling  374s  acc=196/888 = 22.07%",
         "[23:16:31] START qwen2vl_7b_uground_sft_v3/screenspot/baseline",
+        "[23:20:56] OK qwen2vl_7b_uground_sft_v3/screenspot/baseline  265s  acc=308/636 = 48.43%",
+        "[23:20:56] START qwen2vl_7b_uground_sft_v3/screenspot/scaling",
         "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28"
       ],
       "summaries": [
