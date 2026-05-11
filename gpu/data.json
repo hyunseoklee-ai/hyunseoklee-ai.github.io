@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 05:36 KST  \u00b7  13:36 PDT",
+  "updated": "2026-05-12 05:37 KST  \u00b7  13:37 PDT",
   "servers": [
     {
       "gpus": [
@@ -97,25 +97,25 @@
           "idx": 2,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 3,
           "mem_used": 24088,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 4,
-          "mem_used": 24084,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 24088,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
@@ -199,8 +199,8 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123444[R] reg_eval 9:32",
-        "123443[R] reg_eval 57:33"
+        "123444[R] reg_eval 10:32",
+        "123443[R] reg_eval 58:33"
       ],
       "recent_events": [
         "==JOB 123444==",
@@ -208,15 +208,15 @@
         "=== untar env from /home \u2192 /tmp (05:26:29) ===",
         "=== stage model from HF ===",
         "=== stage code ===",
+        "=== eval qwen2vl_7b_base_kde ===",
+        "[05:36:35] START qwen2vl_7b_base_kde/screenspot-pro/baseline",
         "==JOB 123443==",
         "MODEL_REPO=Qwen/Qwen3.5-9B LABEL=qwen35_9b_base_kde PROMPT=native MAX_TOK=128 ENABLE_THINK=0",
         "=== untar env from /home \u2192 /tmp (04:38:29) ===",
         "=== stage model from HF ===",
         "=== stage code ===",
         "=== eval qwen35_9b_base_kde ===",
-        "[04:51:47] START qwen35_9b_base_kde/screenspot-pro/baseline",
-        "[05:03:41] OK qwen35_9b_base_kde/screenspot-pro/baseline  714s  acc=486/792 = 61.36%",
-        "[05:03:41] START qwen35_9b_base_kde/screenspot-pro/scaling"
+        "[04:51:47] START qwen35_9b_base_kde/screenspot-pro/baseline"
       ],
       "summaries": [
         {
