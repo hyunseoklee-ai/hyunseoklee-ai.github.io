@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-11 09:08 KST  \u00b7  17:08 PDT",
+  "updated": "2026-05-11 09:09 KST  \u00b7  17:09 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22450,
+          "mem_used": 32,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23413,
+          "mem_used": 31,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 23398,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 23390,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 98
+          "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 23390,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 23410,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 23410,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 23404,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 23404,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -137,10 +137,10 @@
         "3",
         "dash",
         "h200",
-        "h200-backup",
-        "holo2-3090"
+        "h200-backup"
       ],
       "recent_events": [
+        "[09:08:59] OK holo2_8b_kde_plugin_alin15/screenspot/scaling  1261s  acc=1159/1272 = 91.12%",
         "[08:47:58] OK holo2_8b_kde_plugin_alin15/screenspot/baseline  773s  acc=940/1272 = 73.90%",
         "[08:35:05] OK holo2_8b_kde_plugin_alin15/ui-vision-basic/scaling  1472s  acc=790/1772 = 44.58%",
         "[08:10:33] OK holo2_8b_kde_plugin_alin15/ui-vision-basic/baseline  786s  acc=679/1772 = 38.32%",
@@ -149,18 +149,17 @@
         "[07:39:20] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/scaling",
         "[07:20:51] FAIL holo2_8b_kde_plugin_alin15/screenspot-pro/baseline",
         "OK: /data/hyunseok/hf_cache/hub/models--Hcompany--Holo2-8B/snapshots/09cd3b45966f61c8c5ae4bc1424151c682ccc5c8",
+        "=== alin15 Holo2 plug-in DONE Mon May 11 09:08:59 AM KST 2026 ===",
         "[23:34:22] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot-pro  5444s  acc=544/1581 = 34.41%",
         "[05:38:21] OK qwen3vl_2b_thinking_stage2/region_focus/screenspot  1479s  acc=1092/1272 = 85.85%",
         "[05:13:42] OK qwen3vl_2b_thinking_stage2/gui_rc/screenspot  1076s  acc=1109/1272 = 87.19%",
         "[04:55:46] OK qwen3vl_2b_thinking_stage2/region_focus/ui-vision-basic  7318s  acc=460/1772 = 25.96%",
-        "[02:53:48] OK qwen3vl_2b_thinking_stage2/gui_rc/ui-vision-basic  3663s  acc=415/1772 = 23.42%",
-        "[01:52:45] OK qwen3vl_2b_thinking_stage2/region_focus/osworld-g  1909s  acc=266/510 = 52.16%",
-        "[01:20:56] OK qwen3vl_2b_thinking_stage2/gui_rc/osworld-g  995s  acc=229/510 = 44.90%"
+        "[02:53:48] OK qwen3vl_2b_thinking_stage2/gui_rc/ui-vision-basic  3663s  acc=415/1772 = 23.42%"
       ],
       "summaries": [
         {
-          "label": "holo2_8b_kde_plugin_alin15 base",
-          "metric": "73.90%"
+          "label": "holo2_8b_kde_plugin_alin15 scal",
+          "metric": "91.12%"
         },
         {
           "label": "E1_qwen3vl_2b_thinking_stage2 ",
