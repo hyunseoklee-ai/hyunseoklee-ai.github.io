@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:07 KST  \u00b7  18:07 PDT",
+  "updated": "2026-05-11 10:08 KST  \u00b7  18:08 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 21307,
           "mem_total": 24576,
-          "util": 58
+          "util": 100
         },
         {
           "idx": 3,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 21657,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24029,
+          "mem_used": 24069,
           "mem_total": 24576,
           "util": 100
         },
@@ -100,13 +100,13 @@
         },
         {
           "idx": 3,
-          "mem_used": 23970,
+          "mem_used": 24110,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 23534,
+          "mem_used": 24134,
           "mem_total": 24576,
           "util": 100
         },
@@ -200,7 +200,7 @@
         "123208[P] reg_eval 0:00",
         "123207[P] reg_eval 0:00",
         "123206[P] reg_eval 0:00",
-        "123205[R] reg_eval 5:58"
+        "123205[R] reg_eval 6:57"
       ],
       "recent_events": [
         "==JOB 123205==",
@@ -212,7 +212,7 @@
         "[10:03:59] START holo2_8b_base/screenspot-pro/baseline",
         "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
         "[sacct] 123204|env_upg|COMPLETED|0:0|00:05:38",
-        "[sacct] 123205|reg_eval|RUNNING|0:0|00:05:58",
+        "[sacct] 123205|reg_eval|RUNNING|0:0|00:06:57",
         "[sacct] 123206|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123207|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123208|reg_eval|PENDING|0:0|00:00:00"
