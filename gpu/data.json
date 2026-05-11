@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:25 KST  \u00b7  17:25 PDT",
+  "updated": "2026-05-11 09:26 KST  \u00b7  17:26 PDT",
   "servers": [
     {
       "gpus": [
@@ -199,14 +199,10 @@
         "123201[P] reg_eval 0:00",
         "123197[P] reg_eval 0:00",
         "123196[P] reg_eval 0:00",
-        "123195[R] reg_eval 5:33"
+        "123195[R] reg_eval 6:34"
       ],
       "recent_events": [
         "==JOB 123195==",
-        "=== eval holo2_8b_sft_2k_v2 ===",
-        "[09:22:16] START holo2_8b_sft_2k_v2/screenspot-pro/baseline",
-        "[09:22:45] OK holo2_8b_sft_2k_v2/screenspot-pro/baseline  29s  acc=0/0 = 0.00%",
-        "[09:22:45] START holo2_8b_sft_2k_v2/screenspot-pro/scaling",
         "[09:23:15] OK holo2_8b_sft_2k_v2/screenspot-pro/scaling  30s  acc=0/0 = 0.00%",
         "[09:23:15] START holo2_8b_sft_2k_v2/osworld-g/baseline",
         "[09:23:43] OK holo2_8b_sft_2k_v2/osworld-g/baseline  28s  acc=0/0 = 0.00%",
@@ -215,6 +211,10 @@
         "[09:24:12] START holo2_8b_sft_2k_v2/ui-vision-basic/baseline",
         "[09:24:42] OK holo2_8b_sft_2k_v2/ui-vision-basic/baseline  30s  acc=0/0 = 0.00%",
         "[09:24:42] START holo2_8b_sft_2k_v2/ui-vision-basic/scaling",
+        "[09:25:11] OK holo2_8b_sft_2k_v2/ui-vision-basic/scaling  29s  acc=0/0 = 0.00%",
+        "[09:25:11] START holo2_8b_sft_2k_v2/screenspot/baseline",
+        "[09:25:39] OK holo2_8b_sft_2k_v2/screenspot/baseline  28s  acc=0/0 = 0.00%",
+        "[09:25:39] START holo2_8b_sft_2k_v2/screenspot/scaling",
         "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42"
       ],
       "summaries": []
