@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 01:28 KST  \u00b7  09:28 PDT",
+  "updated": "2026-05-12 01:29 KST  \u00b7  09:29 PDT",
   "servers": [
     {
       "gpus": [
@@ -84,7 +84,7 @@
           "idx": 0,
           "mem_used": 31,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 1,
@@ -196,7 +196,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123408[R] reg_eval 38:53"
+        "123408[R] reg_eval 39:53"
       ],
       "recent_events": [
         "==JOB 123408==",
@@ -210,7 +210,7 @@
         "[01:27:31] START holo2_8b_cookbook_2k/osworld-g/baseline",
         "[sacct] 123386|reg_eval|COMPLETED|0:0|01:08:58",
         "[sacct] 123407|q2vl_ugv3|CANCELLED by 54039|0:0|00:00:54",
-        "[sacct] 123408|reg_eval|RUNNING|0:0|00:38:53"
+        "[sacct] 123408|reg_eval|RUNNING|0:0|00:39:53"
       ],
       "summaries": [
         {
