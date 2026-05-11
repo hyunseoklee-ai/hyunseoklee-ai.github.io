@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 06:07 KST  \u00b7  14:07 PDT",
+  "updated": "2026-05-12 06:08 KST  \u00b7  14:08 PDT",
   "servers": [
     {
       "gpus": [
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -199,8 +199,8 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123444[R] reg_eval 40:32",
-        "123443[R] reg_eval 1:28:33"
+        "123444[R] reg_eval 41:32",
+        "123443[R] reg_eval 1:29:33"
       ],
       "recent_events": [
         "==JOB 123444==",
