@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-11 12:38 KST  \u00b7  20:38 PDT",
+  "updated": "2026-05-11 12:39 KST  \u00b7  20:39 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23052,
+          "mem_used": 17912,
           "mem_total": 24576,
-          "util": 100
+          "util": 5
         },
         {
           "idx": 1,
-          "mem_used": 22799,
+          "mem_used": 17897,
           "mem_total": 24576,
-          "util": 97
+          "util": 7
         },
         {
           "idx": 2,
-          "mem_used": 22617,
+          "mem_used": 17897,
           "mem_total": 24576,
-          "util": 0
+          "util": 7
         },
         {
           "idx": 3,
-          "mem_used": 23121,
+          "mem_used": 18487,
           "mem_total": 24576,
-          "util": 100
+          "util": 47
         },
         {
           "idx": 4,
-          "mem_used": 22917,
+          "mem_used": 17341,
           "mem_total": 24576,
-          "util": 99
+          "util": 5
         },
         {
           "idx": 5,
-          "mem_used": 23131,
+          "mem_used": 18487,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 23149,
+          "mem_used": 18487,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 23037,
+          "mem_used": 17897,
           "mem_total": 24576,
-          "util": 100
+          "util": 7
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -199,12 +199,10 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 55:16"
+        "123217[R] reg_eval 56:17"
       ],
       "recent_events": [
         "==JOB 123217==",
-        "MODEL_REPO=hyunseoki/regUIDE-qwen2vl-7b-stage2-thinking LABEL=qwen2vl_7b_stage2_thinking PROMPT=qwen3vl_native MAX_TOK=2048 ENABLE_THINK=1",
-        "=== untar env from /home \u2192 /tmp (11:42:45) ===",
         "=== stage model from HF ===",
         "=== stage code ===",
         "=== eval qwen2vl_7b_stage2_thinking ===",
@@ -215,6 +213,8 @@
         "[12:29:55] START qwen2vl_7b_stage2_thinking/osworld-g/baseline",
         "[12:33:29] OK qwen2vl_7b_stage2_thinking/osworld-g/baseline  214s  acc=142/510 = 27.84%",
         "[12:33:29] START qwen2vl_7b_stage2_thinking/osworld-g/scaling",
+        "[12:38:16] OK qwen2vl_7b_stage2_thinking/osworld-g/scaling  287s  acc=205/510 = 40.20%",
+        "[12:38:16] START qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00"
       ],
       "summaries": [
