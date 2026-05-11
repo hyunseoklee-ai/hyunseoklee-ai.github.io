@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 15:43 KST  \u00b7  23:43 PDT",
+  "updated": "2026-05-11 15:44 KST  \u00b7  23:44 PDT",
   "servers": [
     {
       "gpus": [
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 17661,
           "mem_total": 24576,
-          "util": 0
+          "util": 82
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 78
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 82
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 82
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 74
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 69
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 67
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 17646,
           "mem_total": 24576,
-          "util": 0
+          "util": 63
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -197,8 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123295[P] reg_eval 0:00",
-        "123294[R] q2vl_ugsft 27:11"
+        "123295[P] reg_eval 0:00"
       ],
       "recent_events": [
         "[sacct] 123283|reg_eval|CANCELLED by 54039|0:0|00:00:00",
@@ -206,7 +205,7 @@
         "[sacct] 123285|q2vl_ugsft|FAILED|1:0|00:03:24",
         "[sacct] 123289|q2vl_ugsft|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123291|q2vl_ugsft|CANCELLED by 54039|0:0|00:11:54",
-        "[sacct] 123294|q2vl_ugsft|RUNNING|0:0|00:27:11"
+        "[sacct] 123294|q2vl_ugsft|FAILED|1:0|00:27:34"
       ],
       "summaries": [
         {
