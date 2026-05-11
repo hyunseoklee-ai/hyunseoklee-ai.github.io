@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:26 KST  \u00b7  18:26 PDT",
+  "updated": "2026-05-11 10:27 KST  \u00b7  18:27 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 21307,
           "mem_total": 24576,
-          "util": 78
+          "util": 100
         },
         {
           "idx": 2,
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 24194,
+          "mem_used": 24214,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 23892,
+          "mem_used": 22552,
           "mem_total": 24576,
           "util": 100
         },
@@ -118,7 +118,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 19812,
+          "mem_used": 23714,
           "mem_total": 24576,
           "util": 100
         },
@@ -200,16 +200,17 @@
         "123214[P] reg_eval 0:00",
         "123213[P] reg_eval 0:00",
         "123212[P] reg_eval 0:00",
-        "123211[R] reg_eval 1:43"
+        "123211[R] reg_eval 2:43"
       ],
       "recent_events": [
         "==JOB 123211==",
         "MODEL_REPO=Hcompany/Holo2-8B LABEL=holo2_8b_base PROMPT=holo2_cookbook MAX_TOK=128 ENABLE_THINK=0",
         "=== untar env from /home \u2192 /tmp (10:24:18) ===",
         "=== stage model from HF ===",
+        "=== stage code (no-symlink) ===",
         "[sacct] 123207|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123208|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123211|reg_eval|RUNNING|0:0|00:01:43",
+        "[sacct] 123211|reg_eval|RUNNING|0:0|00:02:43",
         "[sacct] 123212|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123213|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123214|reg_eval|PENDING|0:0|00:00:00"
