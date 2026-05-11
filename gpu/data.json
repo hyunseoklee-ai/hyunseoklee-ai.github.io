@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 04:19 KST  \u00b7  12:19 PDT",
+  "updated": "2026-05-12 04:20 KST  \u00b7  12:20 PDT",
   "servers": [
     {
       "gpus": [
@@ -138,8 +138,7 @@
         "dash",
         "dimo_base",
         "h200",
-        "h200-backup",
-        "qwen35"
+        "h200-backup"
       ],
       "recent_events": [
         "[09:08:59] OK holo2_8b_kde_plugin_alin15/screenspot/scaling  1261s  acc=1159/1272 = 91.12%",
