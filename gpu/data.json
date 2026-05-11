@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:30 KST  \u00b7  17:30 PDT",
+  "updated": "2026-05-11 09:31 KST  \u00b7  17:31 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,7 +7,7 @@
           "idx": 0,
           "mem_used": 21008,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
@@ -197,42 +197,21 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123201[P] reg_eval 0:00",
-        "123197[P] reg_eval 0:00",
-        "123196[R] reg_eval 3:52"
+        "123197[R] reg_eval 0:58"
       ],
       "recent_events": [
-        "==JOB 123196==",
-        "[09:29:29] OK qwen2vl_7b_stage2_thinking/screenspot-pro/scaling  5s  acc=0/0 = 0.00%",
-        "[09:29:29] START qwen2vl_7b_stage2_thinking/osworld-g/baseline",
-        "[09:29:35] OK qwen2vl_7b_stage2_thinking/osworld-g/baseline  6s  acc=0/0 = 0.00%",
-        "[09:29:35] START qwen2vl_7b_stage2_thinking/osworld-g/scaling",
-        "[09:29:40] OK qwen2vl_7b_stage2_thinking/osworld-g/scaling  5s  acc=0/0 = 0.00%",
-        "[09:29:40] START qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline",
-        "[09:29:46] OK qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline  6s  acc=0/0 = 0.00%",
-        "[09:29:46] START qwen2vl_7b_stage2_thinking/ui-vision-basic/scaling",
-        "[09:29:51] OK qwen2vl_7b_stage2_thinking/ui-vision-basic/scaling  5s  acc=0/0 = 0.00%",
-        "[09:29:51] START qwen2vl_7b_stage2_thinking/screenspot/baseline",
-        "[09:29:57] OK qwen2vl_7b_stage2_thinking/screenspot/baseline  6s  acc=0/0 = 0.00%",
-        "[09:29:57] START qwen2vl_7b_stage2_thinking/screenspot/scaling",
-        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42"
+        "==JOB 123197==",
+        "MODEL_REPO=hyunseoki/regUIDE-gta1-7b-sft-stage2 LABEL=gta1_7b_sft_12k PROMPT=gta1 MAX_TOK=64 ENABLE_THINK=0",
+        "=== untar env from /home \u2192 /tmp (09:30:03) ===",
+        "=== stage model from HF ===",
+        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
+        "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
+        "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
+        "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
+        "[sacct] 123197|reg_eval|RUNNING|0:0|00:00:58",
+        "[sacct] 123201|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
-        {
-          "label": "holo2_8b_sft_2k_v2 screenspot-pro base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "holo2_8b_sft_2k_v2 screenspot-pro scal",
-          "metric": "0.00%"
-        },
-        {
-          "label": "holo2_8b_sft_2k_v2 osworld-g base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "holo2_8b_sft_2k_v2 osworld-g scal",
-          "metric": "0.00%"
-        },
         {
           "label": "holo2_8b_sft_2k_v2 ui-vision-basic base",
           "metric": "0.00%"
@@ -247,6 +226,38 @@
         },
         {
           "label": "holo2_8b_sft_2k_v2 screenspot scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking screenspot-pro base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking screenspot-pro scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking osworld-g base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking osworld-g scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking screenspot base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking screenspot scal",
           "metric": "0.00%"
         }
       ]
