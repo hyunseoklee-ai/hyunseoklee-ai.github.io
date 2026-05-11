@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:16 KST  \u00b7  19:16 PDT",
+  "updated": "2026-05-11 11:17 KST  \u00b7  19:17 PDT",
   "servers": [
     {
       "gpus": [
@@ -81,7 +81,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24069,
+          "mem_used": 24089,
           "mem_total": 24576,
           "util": 100
         },
@@ -93,7 +93,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 23994,
+          "mem_used": 24014,
           "mem_total": 24576,
           "util": 100
         },
@@ -105,7 +105,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24234,
+          "mem_used": 23814,
           "mem_total": 24576,
           "util": 100
         },
@@ -117,7 +117,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 23654,
+          "mem_used": 22414,
           "mem_total": 24576,
           "util": 100
         },
@@ -198,7 +198,7 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 42:11"
+        "123215[R] reg_eval 43:12"
       ],
       "recent_events": [
         "==JOB 123215==",
@@ -212,7 +212,7 @@
         "[10:55:26] START holo2_8b_base/screenspot-pro/scaling",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123215|reg_eval|RUNNING|0:0|00:42:11",
+        "[sacct] 123215|reg_eval|RUNNING|0:0|00:43:12",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123217|reg_eval|PENDING|0:0|00:00:00"
       ],
