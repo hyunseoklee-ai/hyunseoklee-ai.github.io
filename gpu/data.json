@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:34 KST  \u00b7  19:34 PDT",
+  "updated": "2026-05-11 11:35 KST  \u00b7  19:35 PDT",
   "servers": [
     {
       "gpus": [
@@ -95,7 +95,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 22414,
+          "mem_used": 20292,
           "mem_total": 24576,
           "util": 100
         },
@@ -201,12 +201,10 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 1:00:11"
+        "123215[R] reg_eval 1:01:12"
       ],
       "recent_events": [
         "==JOB 123215==",
-        "=== eval holo2_8b_base ===",
-        "[10:44:39] START holo2_8b_base/screenspot-pro/baseline",
         "[10:55:26] OK holo2_8b_base/screenspot-pro/baseline  647s  acc=936/1581 = 59.20%",
         "[10:55:26] START holo2_8b_base/screenspot-pro/scaling",
         "[11:19:17] OK holo2_8b_base/screenspot-pro/scaling  1431s  acc=1030/1581 = 65.15%",
@@ -217,6 +215,8 @@
         "[11:25:49] START holo2_8b_base/ui-vision-basic/baseline",
         "[11:29:15] OK holo2_8b_base/ui-vision-basic/baseline  206s  acc=773/1772 = 43.62%",
         "[11:29:15] START holo2_8b_base/ui-vision-basic/scaling",
+        "[11:34:29] OK holo2_8b_base/ui-vision-basic/scaling  314s  acc=787/1772 = 44.41%",
+        "[11:34:29] START holo2_8b_base/screenspot/baseline",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00"
       ],
       "summaries": []
