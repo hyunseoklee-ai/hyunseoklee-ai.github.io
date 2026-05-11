@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:37 KST  \u00b7  19:37 PDT",
+  "updated": "2026-05-11 11:38 KST  \u00b7  19:38 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,49 +7,49 @@
           "idx": 0,
           "mem_used": 22860,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 82
+          "util": 0
         },
         {
           "idx": 3,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 100
+          "util": 1
         },
         {
           "idx": 5,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -85,7 +85,7 @@
           "idx": 0,
           "mem_used": 24189,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
@@ -107,7 +107,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 23734,
+          "mem_used": 19690,
           "mem_total": 24576,
           "util": 100
         },
@@ -119,7 +119,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 24234,
+          "mem_used": 19670,
           "mem_total": 24576,
           "util": 100
         },
@@ -201,12 +201,10 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 1:03:11"
+        "123215[R] reg_eval 1:04:11"
       ],
       "recent_events": [
         "==JOB 123215==",
-        "[10:55:26] OK holo2_8b_base/screenspot-pro/baseline  647s  acc=936/1581 = 59.20%",
-        "[10:55:26] START holo2_8b_base/screenspot-pro/scaling",
         "[11:19:17] OK holo2_8b_base/screenspot-pro/scaling  1431s  acc=1030/1581 = 65.15%",
         "[11:19:17] START holo2_8b_base/osworld-g/baseline",
         "[11:22:18] OK holo2_8b_base/osworld-g/baseline  181s  acc=347/510 = 68.04%",
@@ -217,6 +215,8 @@
         "[11:29:15] START holo2_8b_base/ui-vision-basic/scaling",
         "[11:34:29] OK holo2_8b_base/ui-vision-basic/scaling  314s  acc=787/1772 = 44.41%",
         "[11:34:29] START holo2_8b_base/screenspot/baseline",
+        "[11:37:55] OK holo2_8b_base/screenspot/baseline  206s  acc=1164/1272 = 91.51%",
+        "[11:37:55] START holo2_8b_base/screenspot/scaling",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00"
       ],
       "summaries": []
