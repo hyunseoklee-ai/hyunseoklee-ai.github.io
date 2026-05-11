@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 01:52 KST  \u00b7  09:52 PDT",
+  "updated": "2026-05-12 01:53 KST  \u00b7  09:53 PDT",
   "servers": [
     {
       "gpus": [
@@ -193,11 +193,77 @@
     },
     {
       "name": "alin_slurm",
-      "error": "__SSH_ERR__: TIMEOUT: Timeout exceeded.\n<pexpect.pty_spawn.spawn object at 0x7ff3a5cac410>\ncommand: /usr/bin/ssh\nargs: [b'/usr/bin/ssh', b'-o', b'StrictHostKeyChecking=no', b'-o', b'ConnectTimeout=10', b'-o', b'NumberOfPasswordPrompts=2', b'alin_slurm', b'bash', b'-s']\nbuffer (last 100 chars): '       echo \"$label::$line\"\\r\\n    done < <(grep -hE \"acc=\" \"$s\" 2>/dev/null)\\r\\ndone\\r\\necho MARK_END\\r\\n\\r\\n'\nbefore (last 100 chars): '       echo \"$label::$line\"\\r\\n    done < <(grep -hE \"acc=\" \"$s\" 2>/dev/null)\\r\\ndone\\r\\necho MARK_END\\r\\n\\r\\n'\nafter: <class 'pexpect.exceptions.TIMEOUT'>\nmatch: None\nmatch_index: None\nexitstatus: None\nflag_eof: False\npid: 3175886\nchild_fd: 5\nclosed: False\ntimeout: 40\ndelimiter: <class 'pexpect.exceptions.EOF'>\nlogfile: None\nlogfile_read: None\nlogfile_send: None\nmaxread: 2000\nignorecase: False\nsearchwindowsize: None\ndelaybeforesend: 0.05\ndelayafterclose: 0.1\ndelayafterterminate: 0.1\nsearcher: searcher_re:\n    0: EOF",
       "gpus": [],
-      "tmux_sessions": [],
-      "recent_events": [],
-      "summaries": []
+      "gpu_type": "A6000 cluster (node6, 8x48GB)",
+      "tmux_sessions": [
+        "123408[R] reg_eval 1:03:57"
+      ],
+      "recent_events": [
+        "==JOB 123408==",
+        "[01:09:11] OK holo2_8b_cookbook_2k/screenspot-pro/baseline  744s  acc=468/792 = 59.09%",
+        "[01:09:11] START holo2_8b_cookbook_2k/screenspot-pro/scaling",
+        "[01:27:31] OK holo2_8b_cookbook_2k/screenspot-pro/scaling  1100s  acc=511/792 = 64.52%",
+        "[01:27:31] START holo2_8b_cookbook_2k/osworld-g/baseline",
+        "[01:31:55] OK holo2_8b_cookbook_2k/osworld-g/baseline  264s  acc=172/256 = 67.19%",
+        "[01:31:55] START holo2_8b_cookbook_2k/osworld-g/scaling",
+        "[01:35:25] OK holo2_8b_cookbook_2k/osworld-g/scaling  210s  acc=174/256 = 67.97%",
+        "[01:35:25] START holo2_8b_cookbook_2k/ui-vision-basic/baseline",
+        "[01:40:01] OK holo2_8b_cookbook_2k/ui-vision-basic/baseline  276s  acc=372/888 = 41.89%",
+        "[01:40:01] START holo2_8b_cookbook_2k/ui-vision-basic/scaling",
+        "[01:46:41] OK holo2_8b_cookbook_2k/ui-vision-basic/scaling  400s  acc=387/888 = 43.58%",
+        "[01:46:41] START holo2_8b_cookbook_2k/screenspot/baseline",
+        "[sacct] 123386|reg_eval|COMPLETED|0:0|01:08:58"
+      ],
+      "summaries": [
+        {
+          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic base",
+          "metric": "14.22%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic scal",
+          "metric": "24.15%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking screenspot base",
+          "metric": "60.46%"
+        },
+        {
+          "label": "qwen2vl_7b_stage2_thinking screenspot scal",
+          "metric": "81.60%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 screenspot-pro base",
+          "metric": "4.04%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 screenspot-pro scal",
+          "metric": "28.54%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 osworld-g base",
+          "metric": "31.25%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 osworld-g scal",
+          "metric": "41.41%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 ui-vision-basic base",
+          "metric": "14.64%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 ui-vision-basic scal",
+          "metric": "22.07%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 screenspot base",
+          "metric": "48.43%"
+        },
+        {
+          "label": "qwen2vl_7b_uground_sft_v3 screenspot scal",
+          "metric": "77.52%"
+        }
+      ]
     }
   ]
 }
