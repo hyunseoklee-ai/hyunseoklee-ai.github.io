@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:42 KST  \u00b7  19:42 PDT",
+  "updated": "2026-05-11 11:43 KST  \u00b7  19:43 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,7 +7,7 @@
           "idx": 0,
           "mem_used": 22860,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 60
         },
         {
           "idx": 3,
@@ -37,7 +37,7 @@
           "idx": 5,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
@@ -95,7 +95,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 24174,
+          "mem_used": 24194,
           "mem_total": 24576,
           "util": 100
         },
@@ -107,7 +107,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 23832,
+          "mem_used": 24174,
           "mem_total": 24576,
           "util": 100
         },
@@ -119,7 +119,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 24014,
+          "mem_used": 24214,
           "mem_total": 24576,
           "util": 100
         },
@@ -200,26 +200,53 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 1:08:11"
+        "123217[R] reg_eval 0:16"
       ],
       "recent_events": [
-        "==JOB 123215==",
-        "[11:19:17] OK holo2_8b_base/screenspot-pro/scaling  1431s  acc=1030/1581 = 65.15%",
-        "[11:19:17] START holo2_8b_base/osworld-g/baseline",
-        "[11:22:18] OK holo2_8b_base/osworld-g/baseline  181s  acc=347/510 = 68.04%",
-        "[11:22:18] START holo2_8b_base/osworld-g/scaling",
-        "[11:25:49] OK holo2_8b_base/osworld-g/scaling  211s  acc=354/510 = 69.41%",
-        "[11:25:49] START holo2_8b_base/ui-vision-basic/baseline",
-        "[11:29:15] OK holo2_8b_base/ui-vision-basic/baseline  206s  acc=773/1772 = 43.62%",
-        "[11:29:15] START holo2_8b_base/ui-vision-basic/scaling",
-        "[11:34:29] OK holo2_8b_base/ui-vision-basic/scaling  314s  acc=787/1772 = 44.41%",
-        "[11:34:29] START holo2_8b_base/screenspot/baseline",
-        "[11:37:55] OK holo2_8b_base/screenspot/baseline  206s  acc=1164/1272 = 91.51%",
-        "[11:37:55] START holo2_8b_base/screenspot/scaling",
-        "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00"
+        "==JOB 123217==",
+        "MODEL_REPO=hyunseoki/regUIDE-qwen2vl-7b-stage2-thinking LABEL=qwen2vl_7b_stage2_thinking PROMPT=qwen3vl_native MAX_TOK=2048 ENABLE_THINK=1",
+        "=== untar env from /home \u2192 /tmp (11:42:45) ===",
+        "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
+        "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
+        "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
+        "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
+        "[sacct] 123217|reg_eval|RUNNING|0:0|00:00:16",
+        "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
       ],
-      "summaries": []
+      "summaries": [
+        {
+          "label": "holo2_8b_base screenspot-pro base",
+          "metric": "59.20%"
+        },
+        {
+          "label": "holo2_8b_base screenspot-pro scal",
+          "metric": "65.15%"
+        },
+        {
+          "label": "holo2_8b_base osworld-g base",
+          "metric": "68.04%"
+        },
+        {
+          "label": "holo2_8b_base osworld-g scal",
+          "metric": "69.41%"
+        },
+        {
+          "label": "holo2_8b_base ui-vision-basic base",
+          "metric": "43.62%"
+        },
+        {
+          "label": "holo2_8b_base ui-vision-basic scal",
+          "metric": "44.41%"
+        },
+        {
+          "label": "holo2_8b_base screenspot base",
+          "metric": "91.51%"
+        },
+        {
+          "label": "holo2_8b_base screenspot scal",
+          "metric": "90.33%"
+        }
+      ]
     }
   ]
 }
