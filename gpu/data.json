@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:32 KST  \u00b7  17:32 PDT",
+  "updated": "2026-05-11 09:33 KST  \u00b7  17:33 PDT",
   "servers": [
     {
       "gpus": [
@@ -35,7 +35,7 @@
         },
         {
           "idx": 5,
-          "mem_used": 22021,
+          "mem_used": 22405,
           "mem_total": 24576,
           "util": 100
         },
@@ -126,7 +126,7 @@
           "idx": 7,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -197,18 +197,19 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123201[P] reg_eval 0:00",
-        "123197[R] reg_eval 1:58"
+        "123197[R] reg_eval 2:58"
       ],
       "recent_events": [
         "==JOB 123197==",
         "MODEL_REPO=hyunseoki/regUIDE-gta1-7b-sft-stage2 LABEL=gta1_7b_sft_12k PROMPT=gta1 MAX_TOK=64 ENABLE_THINK=0",
         "=== untar env from /home \u2192 /tmp (09:30:03) ===",
         "=== stage model from HF ===",
+        "=== stage code (no-symlink) ===",
         "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
         "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
         "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
-        "[sacct] 123197|reg_eval|RUNNING|0:0|00:01:58",
+        "[sacct] 123197|reg_eval|RUNNING|0:0|00:02:58",
         "[sacct] 123201|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
