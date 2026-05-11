@@ -108,7 +108,7 @@
           "idx": 4,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 5,
@@ -197,13 +197,14 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123281[P] q2vl_ugsft 0:00"
+        "123282[R] q2vl_ugsft 0:28"
       ],
       "recent_events": [
         "[sacct] 123217|reg_eval|COMPLETED|0:0|01:22:39",
         "[sacct] 123218|reg_eval|COMPLETED|0:0|00:57:54",
         "[sacct] 123280|bash|COMPLETED|0:0|00:00:00",
-        "[sacct] 123281|q2vl_ugsft|PENDING|0:0|00:00:00"
+        "[sacct] 123281|q2vl_ugsft|CANCELLED by 54039|0:0|00:00:00",
+        "[sacct] 123282|q2vl_ugsft|RUNNING|0:0|00:00:28"
       ],
       "summaries": [
         {
