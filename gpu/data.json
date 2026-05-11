@@ -1,17 +1,17 @@
 {
-  "updated": "2026-05-11 09:22 KST  \u00b7  17:22 PDT",
+  "updated": "2026-05-11 09:23 KST  \u00b7  17:23 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 20624,
+          "mem_used": 21008,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 21253,
+          "mem_used": 21637,
           "mem_total": 24576,
           "util": 100
         },
@@ -23,7 +23,7 @@
         },
         {
           "idx": 3,
-          "mem_used": 21265,
+          "mem_used": 21649,
           "mem_total": 24576,
           "util": 100
         },
@@ -41,13 +41,13 @@
         },
         {
           "idx": 6,
-          "mem_used": 21429,
+          "mem_used": 21813,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 21423,
+          "mem_used": 22111,
           "mem_total": 24576,
           "util": 100
         }
@@ -190,6 +190,34 @@
           "metric": "88.76%"
         }
       ]
+    },
+    {
+      "name": "alin_slurm",
+      "gpus": [],
+      "gpu_type": "A6000 cluster (node6, 8x48GB)",
+      "tmux_sessions": [
+        "123201[P] reg_eval 0:00",
+        "123197[P] reg_eval 0:00",
+        "123196[P] reg_eval 0:00",
+        "123195[R] reg_eval 3:34"
+      ],
+      "recent_events": [
+        "==JOB 123195==",
+        "MODEL_REPO=hyunseoki/regUIDE-holo2-8b-sft-2k-v2 LABEL=holo2_8b_sft_2k_v2 PROMPT=holo2 MAX_TOK=128 ENABLE_THINK=0",
+        "=== untar env from /home \u2192 /tmp (09:19:27) ===",
+        "=== stage model from HF ===",
+        "=== stage code (no-symlink) ===",
+        "=== eval holo2_8b_sft_2k_v2 ===",
+        "[09:22:16] START holo2_8b_sft_2k_v2/screenspot-pro/baseline",
+        "[09:22:45] OK holo2_8b_sft_2k_v2/screenspot-pro/baseline  29s  acc=0/0 = 0.00%",
+        "[09:22:45] START holo2_8b_sft_2k_v2/screenspot-pro/scaling",
+        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
+        "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
+        "[sacct] 123195|reg_eval|RUNNING|0:0|00:03:34",
+        "[sacct] 123196|reg_eval|PENDING|0:0|00:00:00",
+        "[sacct] 123197|reg_eval|PENDING|0:0|00:00:00"
+      ],
+      "summaries": []
     }
   ]
 }
