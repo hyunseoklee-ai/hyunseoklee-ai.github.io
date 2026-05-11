@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-11 09:45 KST  \u00b7  17:45 PDT",
+  "updated": "2026-05-11 09:46 KST  \u00b7  17:46 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21234,
+          "mem_used": 32,
           "mem_total": 24576,
           "util": 0
         },
@@ -35,9 +35,9 @@
         },
         {
           "idx": 5,
-          "mem_used": 22405,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 6,
@@ -47,9 +47,9 @@
         },
         {
           "idx": 7,
-          "mem_used": 22111,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23611,
+          "mem_used": 21589,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 23188,
+          "mem_used": 23666,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 23716,
+          "mem_used": 24094,
           "mem_total": 24576,
-          "util": 100
+          "util": 98
         },
         {
           "idx": 3,
-          "mem_used": 23192,
+          "mem_used": 23610,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 23456,
+          "mem_used": 23952,
           "mem_total": 24576,
-          "util": 100
+          "util": 90
         },
         {
           "idx": 5,
-          "mem_used": 23210,
+          "mem_used": 23686,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 23936,
+          "mem_used": 23934,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 23194,
+          "mem_used": 23748,
           "mem_total": 24576,
           "util": 100
         }
