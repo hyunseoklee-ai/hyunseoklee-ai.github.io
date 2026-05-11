@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:26 KST  \u00b7  17:26 PDT",
+  "updated": "2026-05-11 09:27 KST  \u00b7  17:27 PDT",
   "servers": [
     {
       "gpus": [
@@ -17,7 +17,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 21511,
+          "mem_used": 21895,
           "mem_total": 24576,
           "util": 100
         },
@@ -35,7 +35,7 @@
         },
         {
           "idx": 5,
-          "mem_used": 21719,
+          "mem_used": 22021,
           "mem_total": 24576,
           "util": 100
         },
@@ -108,7 +108,7 @@
           "idx": 4,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 5,
@@ -198,26 +198,54 @@
       "tmux_sessions": [
         "123201[P] reg_eval 0:00",
         "123197[P] reg_eval 0:00",
-        "123196[P] reg_eval 0:00",
-        "123195[R] reg_eval 6:34"
+        "123196[R] reg_eval 0:52"
       ],
       "recent_events": [
-        "==JOB 123195==",
-        "[09:23:15] OK holo2_8b_sft_2k_v2/screenspot-pro/scaling  30s  acc=0/0 = 0.00%",
-        "[09:23:15] START holo2_8b_sft_2k_v2/osworld-g/baseline",
-        "[09:23:43] OK holo2_8b_sft_2k_v2/osworld-g/baseline  28s  acc=0/0 = 0.00%",
-        "[09:23:43] START holo2_8b_sft_2k_v2/osworld-g/scaling",
-        "[09:24:12] OK holo2_8b_sft_2k_v2/osworld-g/scaling  29s  acc=0/0 = 0.00%",
-        "[09:24:12] START holo2_8b_sft_2k_v2/ui-vision-basic/baseline",
-        "[09:24:42] OK holo2_8b_sft_2k_v2/ui-vision-basic/baseline  30s  acc=0/0 = 0.00%",
-        "[09:24:42] START holo2_8b_sft_2k_v2/ui-vision-basic/scaling",
-        "[09:25:11] OK holo2_8b_sft_2k_v2/ui-vision-basic/scaling  29s  acc=0/0 = 0.00%",
-        "[09:25:11] START holo2_8b_sft_2k_v2/screenspot/baseline",
-        "[09:25:39] OK holo2_8b_sft_2k_v2/screenspot/baseline  28s  acc=0/0 = 0.00%",
-        "[09:25:39] START holo2_8b_sft_2k_v2/screenspot/scaling",
-        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42"
+        "==JOB 123196==",
+        "MODEL_REPO=hyunseoki/regUIDE-qwen2vl-7b-stage2-thinking LABEL=qwen2vl_7b_stage2_thinking PROMPT=qwen3vl_native MAX_TOK=2048 ENABLE_THINK=1",
+        "=== untar env from /home \u2192 /tmp (09:26:09) ===",
+        "=== stage model from HF ===",
+        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
+        "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
+        "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
+        "[sacct] 123196|reg_eval|RUNNING|0:0|00:00:52",
+        "[sacct] 123197|reg_eval|PENDING|0:0|00:00:00",
+        "[sacct] 123201|reg_eval|PENDING|0:0|00:00:00"
       ],
-      "summaries": []
+      "summaries": [
+        {
+          "label": "holo2_8b_sft_2k_v2 screenspot-pro base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 screenspot-pro scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 osworld-g base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 osworld-g scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 ui-vision-basic base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 ui-vision-basic scal",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 screenspot base",
+          "metric": "0.00%"
+        },
+        {
+          "label": "holo2_8b_sft_2k_v2 screenspot scal",
+          "metric": "0.00%"
+        }
+      ]
     }
   ]
 }
