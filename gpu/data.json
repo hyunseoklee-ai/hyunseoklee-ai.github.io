@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:23 KST  \u00b7  18:23 PDT",
+  "updated": "2026-05-11 10:24 KST  \u00b7  18:24 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 21307,
           "mem_total": 24576,
-          "util": 100
+          "util": 44
         },
         {
           "idx": 2,
@@ -25,7 +25,7 @@
           "idx": 3,
           "mem_used": 21307,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
@@ -47,9 +47,9 @@
         },
         {
           "idx": 7,
-          "mem_used": 21657,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23849,
+          "mem_used": 24089,
           "mem_total": 24576,
           "util": 100
         },
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 22734,
+          "mem_used": 22814,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 22332,
+          "mem_used": 24054,
           "mem_total": 24576,
           "util": 100
         },
@@ -118,7 +118,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 24034,
+          "mem_used": 24094,
           "mem_total": 24576,
           "util": 100
         },
@@ -200,7 +200,7 @@
         "123208[P] reg_eval 0:00",
         "123207[P] reg_eval 0:00",
         "123206[P] reg_eval 0:00",
-        "123205[R] reg_eval 21:58"
+        "123205[R] reg_eval 22:58"
       ],
       "recent_events": [
         "==JOB 123205==",
@@ -210,12 +210,13 @@
         "=== stage code (no-symlink) ===",
         "=== eval holo2_8b_base ===",
         "[10:03:59] START holo2_8b_base/screenspot-pro/baseline",
+        "[10:23:59] OK holo2_8b_base/screenspot-pro/baseline  1200s  acc=243/395 = 61.52%",
+        "[10:23:59] START holo2_8b_base/screenspot-pro/scaling",
         "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
         "[sacct] 123204|env_upg|COMPLETED|0:0|00:05:38",
-        "[sacct] 123205|reg_eval|RUNNING|0:0|00:21:58",
+        "[sacct] 123205|reg_eval|RUNNING|0:0|00:22:58",
         "[sacct] 123206|reg_eval|PENDING|0:0|00:00:00",
-        "[sacct] 123207|reg_eval|PENDING|0:0|00:00:00",
-        "[sacct] 123208|reg_eval|PENDING|0:0|00:00:00"
+        "[sacct] 123207|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": []
     }
