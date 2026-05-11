@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 04:51 KST  \u00b7  12:51 PDT",
+  "updated": "2026-05-12 04:52 KST  \u00b7  12:52 PDT",
   "servers": [
     {
       "gpus": [
@@ -200,7 +200,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123444[P] reg_eval 0:00",
-        "123443[R] reg_eval 12:33"
+        "123443[R] reg_eval 13:33"
       ],
       "recent_events": [
         "==JOB 123443==",
@@ -208,8 +208,10 @@
         "=== untar env from /home \u2192 /tmp (04:38:29) ===",
         "=== stage model from HF ===",
         "=== stage code ===",
+        "=== eval qwen35_9b_base_kde ===",
+        "[04:51:47] START qwen35_9b_base_kde/screenspot-pro/baseline",
         "[sacct] 123408|reg_eval|COMPLETED|0:0|01:12:46",
-        "[sacct] 123443|reg_eval|RUNNING|0:0|00:12:33",
+        "[sacct] 123443|reg_eval|RUNNING|0:0|00:13:33",
         "[sacct] 123444|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
