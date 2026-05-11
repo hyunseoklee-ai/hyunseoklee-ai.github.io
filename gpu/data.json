@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:25 KST  \u00b7  19:25 PDT",
+  "updated": "2026-05-11 11:26 KST  \u00b7  19:26 PDT",
   "servers": [
     {
       "gpus": [
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 7,
@@ -83,19 +83,19 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22467,
+          "mem_used": 23829,
           "mem_total": 24576,
-          "util": 91
+          "util": 100
         },
         {
           "idx": 1,
           "mem_used": 23954,
           "mem_total": 24576,
-          "util": 92
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 22694,
+          "mem_used": 22412,
           "mem_total": 24576,
           "util": 100
         },
@@ -103,7 +103,7 @@
           "idx": 3,
           "mem_used": 24114,
           "mem_total": 24576,
-          "util": 92
+          "util": 100
         },
         {
           "idx": 4,
@@ -119,15 +119,15 @@
         },
         {
           "idx": 6,
-          "mem_used": 22534,
+          "mem_used": 22472,
           "mem_total": 24576,
-          "util": 93
+          "util": 100
         },
         {
           "idx": 7,
           "mem_used": 24214,
           "mem_total": 24576,
-          "util": 92
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -201,12 +201,10 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 51:12"
+        "123215[R] reg_eval 52:11"
       ],
       "recent_events": [
         "==JOB 123215==",
-        "MODEL_REPO=Hcompany/Holo2-8B LABEL=holo2_8b_base PROMPT=holo2_cookbook MAX_TOK=128 ENABLE_THINK=0",
-        "=== untar env from /home \u2192 /tmp (10:33:51) ===",
         "=== stage model from HF ===",
         "=== stage code ===",
         "=== eval holo2_8b_base ===",
@@ -217,6 +215,8 @@
         "[11:19:17] START holo2_8b_base/osworld-g/baseline",
         "[11:22:18] OK holo2_8b_base/osworld-g/baseline  181s  acc=347/510 = 68.04%",
         "[11:22:18] START holo2_8b_base/osworld-g/scaling",
+        "[11:25:49] OK holo2_8b_base/osworld-g/scaling  211s  acc=354/510 = 69.41%",
+        "[11:25:49] START holo2_8b_base/ui-vision-basic/baseline",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00"
       ],
       "summaries": []
