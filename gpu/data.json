@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:18 KST  \u00b7  19:18 PDT",
+  "updated": "2026-05-11 11:19 KST  \u00b7  19:19 PDT",
   "servers": [
     {
       "gpus": [
@@ -54,6 +54,7 @@
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
       "tmux_sessions": [
+        "G_orch",
         "a14_q2max",
         "eval_a14",
         "gta1_base_eval",
@@ -82,51 +83,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24129,
+          "mem_used": 24169,
           "mem_total": 24576,
-          "util": 100
+          "util": 86
         },
         {
           "idx": 1,
           "mem_used": 23950,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 2,
           "mem_used": 24114,
           "mem_total": 24576,
-          "util": 100
+          "util": 96
         },
         {
           "idx": 3,
           "mem_used": 24114,
           "mem_total": 24576,
-          "util": 100
+          "util": 91
         },
         {
           "idx": 4,
-          "mem_used": 22734,
+          "mem_used": 14094,
           "mem_total": 24576,
-          "util": 100
+          "util": 85
         },
         {
           "idx": 5,
           "mem_used": 24014,
           "mem_total": 24576,
-          "util": 100
+          "util": 96
         },
         {
           "idx": 6,
-          "mem_used": 24094,
+          "mem_used": 24114,
           "mem_total": 24576,
-          "util": 100
+          "util": 78
         },
         {
           "idx": 7,
           "mem_used": 24214,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -138,7 +139,8 @@
         "dash",
         "h200",
         "h200-backup",
-        "holo2_train"
+        "holo2_train",
+        "holo2_watcher"
       ],
       "recent_events": [
         "[09:08:59] OK holo2_8b_kde_plugin_alin15/screenspot/scaling  1261s  acc=1159/1272 = 91.12%",
@@ -199,7 +201,7 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 44:11"
+        "123215[R] reg_eval 45:11"
       ],
       "recent_events": [
         "==JOB 123215==",
@@ -213,7 +215,7 @@
         "[10:55:26] START holo2_8b_base/screenspot-pro/scaling",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123215|reg_eval|RUNNING|0:0|00:44:11",
+        "[sacct] 123215|reg_eval|RUNNING|0:0|00:45:11",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123217|reg_eval|PENDING|0:0|00:00:00"
       ],
