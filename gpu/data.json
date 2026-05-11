@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-11 09:57 KST  \u00b7  17:57 PDT",
+  "updated": "2026-05-11 09:58 KST  \u00b7  17:58 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 20324,
+          "mem_used": 20638,
           "mem_total": 24576,
           "util": 100
         },
@@ -37,11 +37,11 @@
           "idx": 5,
           "mem_used": 21657,
           "mem_total": 24576,
-          "util": 30
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 20309,
+          "mem_used": 21631,
           "mem_total": 24576,
           "util": 100
         },
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 21489,
+          "mem_used": 23169,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24014,
+          "mem_used": 22874,
           "mem_total": 24576,
           "util": 100
         },
@@ -197,7 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123204[R] env_upg 4:13"
+        "123204[R] env_upg 5:12"
       ],
       "recent_events": [
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
@@ -205,7 +205,7 @@
         "[sacct] 123201|reg_eval|COMPLETED|0:0|00:08:37",
         "[sacct] 123202|bash|FAILED|6:0|00:00:01",
         "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
-        "[sacct] 123204|env_upg|RUNNING|0:0|00:04:13"
+        "[sacct] 123204|env_upg|RUNNING|0:0|00:05:12"
       ],
       "summaries": [
         {
