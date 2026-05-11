@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:55 KST  \u00b7  19:55 PDT",
+  "updated": "2026-05-11 11:56 KST  \u00b7  19:56 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,13 +13,13 @@
           "idx": 1,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
@@ -37,7 +37,7 @@
           "idx": 5,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 22847,
           "mem_total": 24576,
-          "util": 27
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -83,7 +83,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22829,
+          "mem_used": 24029,
           "mem_total": 24576,
           "util": 100
         },
@@ -95,7 +95,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 24074,
+          "mem_used": 24114,
           "mem_total": 24576,
           "util": 100
         },
@@ -107,7 +107,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24014,
+          "mem_used": 23894,
           "mem_total": 24576,
           "util": 100
         },
@@ -200,7 +200,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 12:16"
+        "123217[R] reg_eval 13:16"
       ],
       "recent_events": [
         "==JOB 123217==",
@@ -214,7 +214,7 @@
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123217|reg_eval|RUNNING|0:0|00:12:16",
+        "[sacct] 123217|reg_eval|RUNNING|0:0|00:13:16",
         "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
