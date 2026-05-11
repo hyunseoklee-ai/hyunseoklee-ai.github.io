@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 23:02 KST  \u00b7  07:02 PDT",
+  "updated": "2026-05-11 23:03 KST  \u00b7  07:03 PDT",
   "servers": [
     {
       "gpus": [
@@ -114,7 +114,7 @@
           "idx": 5,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 6,
@@ -196,7 +196,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123386[R] reg_eval 44:23"
+        "123386[R] reg_eval 45:23"
       ],
       "recent_events": [
         "==JOB 123386==",
@@ -210,9 +210,9 @@
         "[22:41:44] START qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling",
         "[22:59:04] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling  1040s  acc=226/792 = 28.54%",
         "[22:59:04] START qwen2vl_7b_uground_sft_v3/osworld-g/baseline",
-        "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28",
-        "[sacct] 123383|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123384|reg_eval|CANCELLED by 54039|0:0|00:00:00"
+        "[23:02:13] OK qwen2vl_7b_uground_sft_v3/osworld-g/baseline  189s  acc=80/256 = 31.25%",
+        "[23:02:13] START qwen2vl_7b_uground_sft_v3/osworld-g/scaling",
+        "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28"
       ],
       "summaries": [
         {
