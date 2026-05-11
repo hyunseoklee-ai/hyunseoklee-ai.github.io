@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 23:16 KST  \u00b7  07:16 PDT",
+  "updated": "2026-05-11 23:17 KST  \u00b7  07:17 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 2,
@@ -37,7 +37,7 @@
           "idx": 5,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 6,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -108,7 +108,7 @@
           "idx": 4,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 5,
@@ -196,12 +196,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123386[R] reg_eval 58:23"
+        "123386[R] reg_eval 59:23"
       ],
       "recent_events": [
         "==JOB 123386==",
-        "=== eval qwen2vl_7b_uground_sft_v3 ===",
-        "[22:27:27] START qwen2vl_7b_uground_sft_v3/screenspot-pro/baseline",
         "[22:41:44] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/baseline  857s  acc=32/792 = 4.04%",
         "[22:41:44] START qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling",
         "[22:59:04] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling  1040s  acc=226/792 = 28.54%",
@@ -212,6 +210,8 @@
         "[23:05:49] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/baseline",
         "[23:10:17] OK qwen2vl_7b_uground_sft_v3/ui-vision-basic/baseline  268s  acc=130/888 = 14.64%",
         "[23:10:17] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling",
+        "[23:16:31] OK qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling  374s  acc=196/888 = 22.07%",
+        "[23:16:31] START qwen2vl_7b_uground_sft_v3/screenspot/baseline",
         "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28"
       ],
       "summaries": [
