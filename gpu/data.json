@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:38 KST  \u00b7  19:38 PDT",
+  "updated": "2026-05-11 11:39 KST  \u00b7  19:39 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,49 +7,49 @@
           "idx": 0,
           "mem_used": 22860,
           "mem_total": 24576,
-          "util": 0
+          "util": 93
         },
         {
           "idx": 1,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 1
+          "util": 100
         },
         {
           "idx": 5,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
           "mem_used": 22845,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -85,7 +85,7 @@
           "idx": 0,
           "mem_used": 24189,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
@@ -107,7 +107,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 19690,
+          "mem_used": 24074,
           "mem_total": 24576,
           "util": 100
         },
@@ -119,7 +119,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 19670,
+          "mem_used": 23874,
           "mem_total": 24576,
           "util": 100
         },
@@ -201,7 +201,7 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 1:04:11"
+        "123215[R] reg_eval 1:05:11"
       ],
       "recent_events": [
         "==JOB 123215==",
