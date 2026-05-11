@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 01:56 KST  \u00b7  09:56 PDT",
+  "updated": "2026-05-12 01:57 KST  \u00b7  09:57 PDT",
   "servers": [
     {
       "gpus": [
@@ -120,7 +120,7 @@
           "idx": 6,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 7,
@@ -196,12 +196,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123408[R] reg_eval 1:06:53"
+        "123408[R] reg_eval 1:07:54"
       ],
       "recent_events": [
         "==JOB 123408==",
-        "[01:09:11] OK holo2_8b_cookbook_2k/screenspot-pro/baseline  744s  acc=468/792 = 59.09%",
-        "[01:09:11] START holo2_8b_cookbook_2k/screenspot-pro/scaling",
         "[01:27:31] OK holo2_8b_cookbook_2k/screenspot-pro/scaling  1100s  acc=511/792 = 64.52%",
         "[01:27:31] START holo2_8b_cookbook_2k/osworld-g/baseline",
         "[01:31:55] OK holo2_8b_cookbook_2k/osworld-g/baseline  264s  acc=172/256 = 67.19%",
@@ -212,6 +210,8 @@
         "[01:40:01] START holo2_8b_cookbook_2k/ui-vision-basic/scaling",
         "[01:46:41] OK holo2_8b_cookbook_2k/ui-vision-basic/scaling  400s  acc=387/888 = 43.58%",
         "[01:46:41] START holo2_8b_cookbook_2k/screenspot/baseline",
+        "[01:56:58] OK holo2_8b_cookbook_2k/screenspot/baseline  616s  acc=564/636 = 88.68%",
+        "[01:56:58] START holo2_8b_cookbook_2k/screenspot/scaling",
         "[sacct] 123386|reg_eval|COMPLETED|0:0|01:08:58"
       ],
       "summaries": [
