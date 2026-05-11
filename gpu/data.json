@@ -1,53 +1,53 @@
 {
-  "updated": "2026-05-11 11:31 KST  \u00b7  19:31 PDT",
+  "updated": "2026-05-11 11:32 KST  \u00b7  19:32 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 32,
+          "mem_used": 20404,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 18,
+          "mem_used": 20389,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 18,
+          "mem_used": 20389,
           "mem_total": 24576,
-          "util": 0
+          "util": 82
         },
         {
           "idx": 3,
-          "mem_used": 18,
+          "mem_used": 20389,
           "mem_total": 24576,
-          "util": 0
+          "util": 20
         },
         {
           "idx": 4,
-          "mem_used": 18,
+          "mem_used": 20389,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 20389,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 20389,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 20389,
           "mem_total": 24576,
           "util": 0
         }
@@ -95,7 +95,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 21314,
+          "mem_used": 23772,
           "mem_total": 24576,
           "util": 100
         },
@@ -201,7 +201,7 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 57:12"
+        "123215[R] reg_eval 58:11"
       ],
       "recent_events": [
         "==JOB 123215==",
