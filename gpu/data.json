@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:55 KST  \u00b7  17:55 PDT",
+  "updated": "2026-05-11 09:56 KST  \u00b7  17:56 PDT",
   "servers": [
     {
       "gpus": [
@@ -7,13 +7,13 @@
           "idx": 0,
           "mem_used": 20324,
           "mem_total": 24576,
-          "util": 98
+          "util": 100
         },
         {
           "idx": 1,
           "mem_used": 21307,
           "mem_total": 24576,
-          "util": 8
+          "util": 100
         },
         {
           "idx": 2,
@@ -31,13 +31,13 @@
           "idx": 4,
           "mem_used": 20309,
           "mem_total": 24576,
-          "util": 100
+          "util": 53
         },
         {
           "idx": 5,
-          "mem_used": 20309,
+          "mem_used": 21657,
           "mem_total": 24576,
-          "util": 34
+          "util": 100
         },
         {
           "idx": 6,
@@ -47,7 +47,7 @@
         },
         {
           "idx": 7,
-          "mem_used": 20309,
+          "mem_used": 21657,
           "mem_total": 24576,
           "util": 100
         }
@@ -94,31 +94,31 @@
         },
         {
           "idx": 2,
-          "mem_used": 17194,
+          "mem_used": 22434,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 23968,
+          "mem_used": 23970,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 23674,
+          "mem_used": 22372,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 23868,
+          "mem_used": 23870,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 23654,
+          "mem_used": 23854,
           "mem_total": 24576,
           "util": 100
         },
@@ -197,7 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123204[R] env_upg 2:12"
+        "123204[R] env_upg 3:11"
       ],
       "recent_events": [
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
@@ -205,7 +205,7 @@
         "[sacct] 123201|reg_eval|COMPLETED|0:0|00:08:37",
         "[sacct] 123202|bash|FAILED|6:0|00:00:01",
         "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
-        "[sacct] 123204|env_upg|RUNNING|0:0|00:02:12"
+        "[sacct] 123204|env_upg|RUNNING|0:0|00:03:11"
       ],
       "summaries": [
         {
