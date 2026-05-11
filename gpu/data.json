@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 13:08 KST  \u00b7  21:08 PDT",
+  "updated": "2026-05-11 13:09 KST  \u00b7  21:09 PDT",
   "servers": [
     {
       "gpus": [
@@ -197,19 +197,20 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123218[R] reg_eval 2:37"
+        "123218[R] reg_eval 3:38"
       ],
       "recent_events": [
         "==JOB 123218==",
         "MODEL_REPO=hyunseoki/regUIDE-gta1-7b-sft-stage2 LABEL=gta1_7b_sft_12k PROMPT=gta1 MAX_TOK=64 ENABLE_THINK=0",
         "=== untar env from /home \u2192 /tmp (13:05:24) ===",
         "=== stage model from HF ===",
+        "=== stage code ===",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123217|reg_eval|COMPLETED|0:0|01:22:39",
-        "[sacct] 123218|reg_eval|RUNNING|0:0|00:02:37"
+        "[sacct] 123218|reg_eval|RUNNING|0:0|00:03:38"
       ],
       "summaries": [
         {
