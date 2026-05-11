@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:39 KST  \u00b7  18:39 PDT",
+  "updated": "2026-05-11 10:40 KST  \u00b7  18:40 PDT",
   "servers": [
     {
       "gpus": [
@@ -93,7 +93,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 24034,
+          "mem_used": 23054,
           "mem_total": 24576,
           "util": 100
         },
@@ -105,7 +105,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24114,
+          "mem_used": 24054,
           "mem_total": 24576,
           "util": 100
         },
@@ -123,7 +123,7 @@
         },
         {
           "idx": 7,
-          "mem_used": 24210,
+          "mem_used": 24212,
           "mem_total": 24576,
           "util": 100
         }
@@ -199,7 +199,7 @@
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
         "123216[P] reg_eval 0:00",
-        "123215[R] reg_eval 5:11"
+        "123215[R] reg_eval 6:11"
       ],
       "recent_events": [
         "==JOB 123215==",
@@ -209,7 +209,7 @@
         "=== stage code ===",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123215|reg_eval|RUNNING|0:0|00:05:11",
+        "[sacct] 123215|reg_eval|RUNNING|0:0|00:06:11",
         "[sacct] 123216|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123217|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
