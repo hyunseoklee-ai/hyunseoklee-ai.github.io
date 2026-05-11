@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 14:58 KST  \u00b7  22:58 PDT",
+  "updated": "2026-05-11 14:59 KST  \u00b7  22:59 PDT",
   "servers": [
     {
       "gpus": [
@@ -25,7 +25,7 @@
           "idx": 3,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 4,
@@ -90,7 +90,7 @@
           "idx": 1,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 2,
@@ -198,7 +198,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123286[P] reg_eval 0:00",
-        "123285[R] q2vl_ugsft 0:20"
+        "123285[R] q2vl_ugsft 1:21"
       ],
       "recent_events": [
         "[sacct] 123280|bash|COMPLETED|0:0|00:00:00",
@@ -206,7 +206,7 @@
         "[sacct] 123282|q2vl_ugsft|COMPLETED|0:0|00:03:23",
         "[sacct] 123283|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123284|q2vl_ugsft|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123285|q2vl_ugsft|RUNNING|0:0|00:00:20"
+        "[sacct] 123285|q2vl_ugsft|RUNNING|0:0|00:01:21"
       ],
       "summaries": [
         {
