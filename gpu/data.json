@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 12:30 KST  \u00b7  20:30 PDT",
+  "updated": "2026-05-11 12:31 KST  \u00b7  20:31 PDT",
   "servers": [
     {
       "gpus": [
@@ -11,9 +11,9 @@
         },
         {
           "idx": 1,
-          "mem_used": 23023,
+          "mem_used": 23025,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
@@ -23,19 +23,19 @@
         },
         {
           "idx": 3,
-          "mem_used": 22753,
+          "mem_used": 22755,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 22989,
+          "mem_used": 22991,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 22745,
+          "mem_used": 22747,
           "mem_total": 24576,
           "util": 100
         },
@@ -47,7 +47,7 @@
         },
         {
           "idx": 7,
-          "mem_used": 22543,
+          "mem_used": 22545,
           "mem_total": 24576,
           "util": 100
         }
@@ -199,7 +199,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 47:16"
+        "123217[R] reg_eval 48:16"
       ],
       "recent_events": [
         "==JOB 123217==",
