@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-11 09:49 KST  \u00b7  17:49 PDT",
+  "updated": "2026-05-11 09:50 KST  \u00b7  17:50 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 35,
+          "mem_used": 20324,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 55
         },
         {
           "idx": 2,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 20,
+          "mem_used": 20309,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23749,
+          "mem_used": 23549,
           "mem_total": 24576,
           "util": 100
         },
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 21452,
+          "mem_used": 24014,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 21294,
+          "mem_used": 23834,
           "mem_total": 24576,
           "util": 100
         },
@@ -118,13 +118,13 @@
         },
         {
           "idx": 6,
-          "mem_used": 24034,
+          "mem_used": 23332,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 23748,
+          "mem_used": 23828,
           "mem_total": 24576,
           "util": 100
         }
