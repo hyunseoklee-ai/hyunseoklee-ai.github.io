@@ -1,11 +1,11 @@
 {
-  "updated": "2026-05-11 13:49 KST  \u00b7  21:49 PDT",
+  "updated": "2026-05-11 13:50 KST  \u00b7  21:50 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23490,
+          "mem_used": 24030,
           "mem_total": 24576,
           "util": 100
         },
@@ -23,31 +23,31 @@
         },
         {
           "idx": 3,
-          "mem_used": 24135,
+          "mem_used": 24155,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 24135,
+          "mem_used": 23975,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 19715,
+          "mem_used": 23735,
           "mem_total": 24576,
-          "util": 18
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 24035,
+          "mem_used": 22535,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 24095,
+          "mem_used": 24155,
           "mem_total": 24576,
           "util": 100
         }
@@ -114,7 +114,7 @@
           "idx": 5,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 6,
@@ -197,12 +197,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123218[R] reg_eval 43:37"
+        "123218[R] reg_eval 44:37"
       ],
       "recent_events": [
         "==JOB 123218==",
-        "=== stage model from HF ===",
-        "=== stage code ===",
         "=== eval gta1_7b_sft_12k ===",
         "[13:15:30] START gta1_7b_sft_12k/screenspot-pro/baseline",
         "[13:24:56] OK gta1_7b_sft_12k/screenspot-pro/baseline  566s  acc=604/1581 = 38.20%",
@@ -213,6 +211,8 @@
         "[13:42:40] START gta1_7b_sft_12k/osworld-g/scaling",
         "[13:46:08] OK gta1_7b_sft_12k/osworld-g/scaling  208s  acc=285/510 = 55.88%",
         "[13:46:08] START gta1_7b_sft_12k/ui-vision-basic/baseline",
+        "[13:49:43] OK gta1_7b_sft_12k/ui-vision-basic/baseline  215s  acc=521/1772 = 29.40%",
+        "[13:49:43] START gta1_7b_sft_12k/ui-vision-basic/scaling",
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55"
       ],
       "summaries": [
