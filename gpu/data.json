@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 22:14 KST  \u00b7  06:14 PDT",
+  "updated": "2026-05-11 22:15 KST  \u00b7  06:15 PDT",
   "servers": [
     {
       "gpus": [
@@ -196,18 +196,23 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123385[R] reg_eval 9:59"
+        "123385[R] reg_eval 10:59"
       ],
       "recent_events": [
         "==JOB 123385==",
-        "MODEL_REPO=hyunseoki/regUIDE-qwen2vl-7b-uground-sft-a6k-v3 LABEL=qwen2vl_7b_uground_sft_v3 PROMPT= MAX_TOK= ENABLE_THINK=",
-        "=== untar env from /home \u2192 /tmp (22:04:03) ===",
-        "=== stage model from HF ===",
-        "=== stage code ===",
-        "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28",
-        "[sacct] 123383|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123384|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123385|reg_eval|RUNNING|0:0|00:09:59"
+        "[22:14:28] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/scaling  6s  acc=0/0 = 0.00%",
+        "[22:14:28] START qwen2vl_7b_uground_sft_v3/osworld-g/baseline",
+        "[22:14:34] OK qwen2vl_7b_uground_sft_v3/osworld-g/baseline  6s  acc=0/0 = 0.00%",
+        "[22:14:34] START qwen2vl_7b_uground_sft_v3/osworld-g/scaling",
+        "[22:14:40] OK qwen2vl_7b_uground_sft_v3/osworld-g/scaling  6s  acc=0/0 = 0.00%",
+        "[22:14:40] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/baseline",
+        "[22:14:46] OK qwen2vl_7b_uground_sft_v3/ui-vision-basic/baseline  6s  acc=0/0 = 0.00%",
+        "[22:14:46] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling",
+        "[22:14:52] OK qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling  6s  acc=0/0 = 0.00%",
+        "[22:14:52] START qwen2vl_7b_uground_sft_v3/screenspot/baseline",
+        "[22:14:58] OK qwen2vl_7b_uground_sft_v3/screenspot/baseline  6s  acc=0/0 = 0.00%",
+        "[22:14:58] START qwen2vl_7b_uground_sft_v3/screenspot/scaling",
+        "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28"
       ],
       "summaries": [
         {
