@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 13:55 KST  \u00b7  21:55 PDT",
+  "updated": "2026-05-11 13:56 KST  \u00b7  21:56 PDT",
   "servers": [
     {
       "gpus": [
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 403,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 7,
@@ -197,7 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123218[R] reg_eval 49:37"
+        "123218[R] reg_eval 50:37"
       ],
       "recent_events": [
         "==JOB 123218==",
