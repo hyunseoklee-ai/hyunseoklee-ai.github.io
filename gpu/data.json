@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 05:11 KST  \u00b7  13:11 PDT",
+  "updated": "2026-05-12 05:12 KST  \u00b7  13:12 PDT",
   "servers": [
     {
       "gpus": [
@@ -29,9 +29,9 @@
         },
         {
           "idx": 4,
-          "mem_used": 23347,
+          "mem_used": 18,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
@@ -41,9 +41,9 @@
         },
         {
           "idx": 6,
-          "mem_used": 23499,
+          "mem_used": 17,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 7,
@@ -97,7 +97,7 @@
           "idx": 2,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 3,
@@ -121,13 +121,13 @@
           "idx": 6,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
           "mem_used": 24088,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -200,7 +200,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123444[P] reg_eval 0:00",
-        "123443[R] reg_eval 32:33"
+        "123443[R] reg_eval 33:33"
       ],
       "recent_events": [
         "==JOB 123443==",
@@ -212,7 +212,7 @@
         "[04:51:47] START qwen35_9b_base_kde/screenspot-pro/baseline",
         "[05:03:41] OK qwen35_9b_base_kde/screenspot-pro/baseline  714s  acc=486/792 = 61.36%",
         "[05:03:41] START qwen35_9b_base_kde/screenspot-pro/scaling",
-        "[sacct] 123443|reg_eval|RUNNING|0:0|00:32:33",
+        "[sacct] 123443|reg_eval|RUNNING|0:0|00:33:33",
         "[sacct] 123444|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
