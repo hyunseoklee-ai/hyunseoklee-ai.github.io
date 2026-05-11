@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 12:43 KST  \u00b7  20:43 PDT",
+  "updated": "2026-05-11 12:44 KST  \u00b7  20:44 PDT",
   "servers": [
     {
       "gpus": [
@@ -37,7 +37,7 @@
           "idx": 5,
           "mem_used": 22631,
           "mem_total": 24576,
-          "util": 100
+          "util": 92
         },
         {
           "idx": 6,
@@ -199,12 +199,10 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 1:00:16"
+        "123217[R] reg_eval 1:01:17"
       ],
       "recent_events": [
         "==JOB 123217==",
-        "=== stage model from HF ===",
-        "=== stage code ===",
         "=== eval qwen2vl_7b_stage2_thinking ===",
         "[11:53:25] START qwen2vl_7b_stage2_thinking/screenspot-pro/baseline",
         "[12:08:43] OK qwen2vl_7b_stage2_thinking/screenspot-pro/baseline  918s  acc=70/1581 = 4.43%",
@@ -215,6 +213,8 @@
         "[12:33:29] START qwen2vl_7b_stage2_thinking/osworld-g/scaling",
         "[12:38:16] OK qwen2vl_7b_stage2_thinking/osworld-g/scaling  287s  acc=205/510 = 40.20%",
         "[12:38:16] START qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline",
+        "[12:43:20] OK qwen2vl_7b_stage2_thinking/ui-vision-basic/baseline  304s  acc=252/1772 = 14.22%",
+        "[12:43:20] START qwen2vl_7b_stage2_thinking/ui-vision-basic/scaling",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00"
       ],
       "summaries": [
