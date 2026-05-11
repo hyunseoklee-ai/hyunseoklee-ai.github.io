@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:33 KST  \u00b7  17:33 PDT",
+  "updated": "2026-05-11 09:34 KST  \u00b7  17:34 PDT",
   "servers": [
     {
       "gpus": [
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 34,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -137,7 +137,8 @@
         "3",
         "dash",
         "h200",
-        "h200-backup"
+        "h200-backup",
+        "holo2_fit"
       ],
       "recent_events": [
         "[09:08:59] OK holo2_8b_kde_plugin_alin15/screenspot/scaling  1261s  acc=1159/1272 = 91.12%",
@@ -197,7 +198,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123201[P] reg_eval 0:00",
-        "123197[R] reg_eval 2:58"
+        "123197[R] reg_eval 3:58"
       ],
       "recent_events": [
         "==JOB 123197==",
@@ -205,12 +206,15 @@
         "=== untar env from /home \u2192 /tmp (09:30:03) ===",
         "=== stage model from HF ===",
         "=== stage code (no-symlink) ===",
+        "=== eval gta1_7b_sft_12k ===",
+        "[09:33:54] START gta1_7b_sft_12k/screenspot-pro/baseline",
+        "[09:34:00] OK gta1_7b_sft_12k/screenspot-pro/baseline  6s  acc=0/0 = 0.00%",
+        "[09:34:00] START gta1_7b_sft_12k/screenspot-pro/scaling",
         "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
         "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
         "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
-        "[sacct] 123197|reg_eval|RUNNING|0:0|00:02:58",
-        "[sacct] 123201|reg_eval|PENDING|0:0|00:00:00"
+        "[sacct] 123197|reg_eval|RUNNING|0:0|00:03:58"
       ],
       "summaries": [
         {
