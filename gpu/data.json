@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:52 KST  \u00b7  17:52 PDT",
+  "updated": "2026-05-11 09:53 KST  \u00b7  17:53 PDT",
   "servers": [
     {
       "gpus": [
@@ -19,7 +19,7 @@
           "idx": 2,
           "mem_used": 20309,
           "mem_total": 24576,
-          "util": 63
+          "util": 100
         },
         {
           "idx": 3,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 20309,
           "mem_total": 24576,
-          "util": 100
+          "util": 58
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24089,
+          "mem_used": 24189,
           "mem_total": 24576,
           "util": 100
         },
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 23974,
+          "mem_used": 24054,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 23894,
+          "mem_used": 24194,
           "mem_total": 24576,
           "util": 100
         },
@@ -118,13 +118,13 @@
         },
         {
           "idx": 6,
-          "mem_used": 23974,
+          "mem_used": 23994,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 23828,
+          "mem_used": 23848,
           "mem_total": 24576,
           "util": 100
         }
@@ -196,14 +196,16 @@
       "name": "alin_slurm",
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
-      "tmux_sessions": [],
+      "tmux_sessions": [
+        "123204[R] env_upg 0:12"
+      ],
       "recent_events": [
-        "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
         "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
         "[sacct] 123197|reg_eval|COMPLETED|0:0|00:04:35",
         "[sacct] 123201|reg_eval|COMPLETED|0:0|00:08:37",
         "[sacct] 123202|bash|FAILED|6:0|00:00:01",
-        "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00"
+        "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
+        "[sacct] 123204|env_upg|RUNNING|0:0|00:00:12"
       ],
       "summaries": [
         {
