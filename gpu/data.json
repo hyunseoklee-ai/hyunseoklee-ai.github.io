@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-11 10:01 KST  \u00b7  18:01 PDT",
+  "updated": "2026-05-11 10:02 KST  \u00b7  18:02 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 20810,
+          "mem_used": 20984,
           "mem_total": 24576,
-          "util": 100
+          "util": 66
         },
         {
           "idx": 1,
@@ -31,7 +31,7 @@
           "idx": 4,
           "mem_used": 21077,
           "mem_total": 24576,
-          "util": 86
+          "util": 100
         },
         {
           "idx": 5,
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 23869,
+          "mem_used": 23889,
           "mem_total": 24576,
           "util": 100
         },
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 21734,
+          "mem_used": 23714,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 23892,
+          "mem_used": 24154,
           "mem_total": 24576,
           "util": 100
         },
@@ -118,7 +118,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 23894,
+          "mem_used": 23914,
           "mem_total": 24576,
           "util": 100
         },
@@ -196,65 +196,25 @@
       "name": "alin_slurm",
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
-      "tmux_sessions": [],
-      "recent_events": [
-        "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
-        "[sacct] 123197|reg_eval|COMPLETED|0:0|00:04:35",
-        "[sacct] 123201|reg_eval|COMPLETED|0:0|00:08:37",
-        "[sacct] 123202|bash|FAILED|6:0|00:00:01",
-        "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
-        "[sacct] 123204|env_upg|COMPLETED|0:0|00:05:38"
+      "tmux_sessions": [
+        "123208[P] reg_eval 0:00",
+        "123207[P] reg_eval 0:00",
+        "123206[P] reg_eval 0:00",
+        "123205[R] reg_eval 1:01"
       ],
-      "summaries": [
-        {
-          "label": "holo2_8b_sft_2k_v2 ui-vision-basic base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "holo2_8b_sft_2k_v2 ui-vision-basic scal",
-          "metric": "0.00%"
-        },
-        {
-          "label": "holo2_8b_sft_2k_v2 screenspot base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "holo2_8b_sft_2k_v2 screenspot scal",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking screenspot-pro base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking screenspot-pro scal",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking osworld-g base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking osworld-g scal",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic scal",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking screenspot base",
-          "metric": "0.00%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking screenspot scal",
-          "metric": "0.00%"
-        }
-      ]
+      "recent_events": [
+        "==JOB 123205==",
+        "MODEL_REPO=Hcompany/Holo2-8B LABEL=holo2_8b_base PROMPT=holo2_cookbook MAX_TOK=128 ENABLE_THINK=0",
+        "=== untar env from /home \u2192 /tmp (10:01:04) ===",
+        "=== stage model from HF ===",
+        "[sacct] 123203|nvidia-smi|COMPLETED|0:0|00:00:00",
+        "[sacct] 123204|env_upg|COMPLETED|0:0|00:05:38",
+        "[sacct] 123205|reg_eval|RUNNING|0:0|00:01:01",
+        "[sacct] 123206|reg_eval|PENDING|0:0|00:00:00",
+        "[sacct] 123207|reg_eval|PENDING|0:0|00:00:00",
+        "[sacct] 123208|reg_eval|PENDING|0:0|00:00:00"
+      ],
+      "summaries": []
     }
   ]
 }
