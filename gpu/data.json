@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:39 KST  \u00b7  17:39 PDT",
+  "updated": "2026-05-11 09:40 KST  \u00b7  17:40 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,13 +13,13 @@
           "idx": 1,
           "mem_used": 21637,
           "mem_total": 24576,
-          "util": 97
+          "util": 100
         },
         {
           "idx": 2,
           "mem_used": 22233,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 21813,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
@@ -82,51 +82,51 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 10583,
+          "mem_used": 24233,
           "mem_total": 24576,
-          "util": 69
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 2550,
+          "mem_used": 23698,
           "mem_total": 24576,
-          "util": 59
+          "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 2550,
+          "mem_used": 24154,
           "mem_total": 24576,
-          "util": 34
+          "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 2550,
+          "mem_used": 23810,
           "mem_total": 24576,
-          "util": 59
+          "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 10568,
+          "mem_used": 23576,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 2550,
+          "mem_used": 23710,
           "mem_total": 24576,
-          "util": 49
+          "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 2550,
+          "mem_used": 20692,
           "mem_total": 24576,
-          "util": 51
+          "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 2550,
+          "mem_used": 22528,
           "mem_total": 24576,
-          "util": 50
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -197,7 +197,7 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123201[R] reg_eval 4:23"
+        "123201[R] reg_eval 5:22"
       ],
       "recent_events": [
         "==JOB 123201==",
@@ -209,11 +209,11 @@
         "[09:37:41] START holo2_8b_base/screenspot-pro/baseline",
         "[09:38:26] OK holo2_8b_base/screenspot-pro/baseline  45s  acc=0/0 = 0.00%",
         "[09:38:26] START holo2_8b_base/screenspot-pro/scaling",
-        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42",
-        "[sacct] 123194|reg_eval|COMPLETED|0:0|00:03:33",
-        "[sacct] 123195|reg_eval|COMPLETED|0:0|00:06:42",
-        "[sacct] 123196|reg_eval|COMPLETED|0:0|00:03:54",
-        "[sacct] 123197|reg_eval|COMPLETED|0:0|00:04:35"
+        "[09:39:08] OK holo2_8b_base/screenspot-pro/scaling  42s  acc=0/0 = 0.00%",
+        "[09:39:08] START holo2_8b_base/osworld-g/baseline",
+        "[09:39:49] OK holo2_8b_base/osworld-g/baseline  41s  acc=0/0 = 0.00%",
+        "[09:39:49] START holo2_8b_base/osworld-g/scaling",
+        "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42"
       ],
       "summaries": [
         {
