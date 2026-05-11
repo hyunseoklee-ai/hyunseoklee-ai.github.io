@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 12:07 KST  \u00b7  20:07 PDT",
+  "updated": "2026-05-11 12:08 KST  \u00b7  20:08 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 22849,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 2,
@@ -25,13 +25,13 @@
           "idx": 3,
           "mem_used": 22849,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 4,
           "mem_used": 22849,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 5,
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 22849,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 7,
@@ -97,7 +97,7 @@
           "idx": 2,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 3,
@@ -199,7 +199,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 24:16"
+        "123217[R] reg_eval 25:16"
       ],
       "recent_events": [
         "==JOB 123217==",
@@ -213,7 +213,7 @@
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123217|reg_eval|RUNNING|0:0|00:24:16",
+        "[sacct] 123217|reg_eval|RUNNING|0:0|00:25:16",
         "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
