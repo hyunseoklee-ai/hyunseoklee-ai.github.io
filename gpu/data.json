@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 04:45 KST  \u00b7  12:45 PDT",
+  "updated": "2026-05-12 04:46 KST  \u00b7  12:46 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 2,
@@ -96,7 +96,7 @@
           "idx": 2,
           "mem_used": 24084,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         },
         {
           "idx": 3,
@@ -126,7 +126,7 @@
           "idx": 7,
           "mem_used": 24088,
           "mem_total": 24576,
-          "util": 100
+          "util": 99
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -198,7 +198,8 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123443[R] reg_eval 6:32"
+        "123444[P] reg_eval 0:00",
+        "123443[R] reg_eval 7:33"
       ],
       "recent_events": [
         "==JOB 123443==",
@@ -207,7 +208,8 @@
         "=== stage model from HF ===",
         "=== stage code ===",
         "[sacct] 123408|reg_eval|COMPLETED|0:0|01:12:46",
-        "[sacct] 123443|reg_eval|RUNNING|0:0|00:06:32"
+        "[sacct] 123443|reg_eval|RUNNING|0:0|00:07:33",
+        "[sacct] 123444|reg_eval|PENDING|0:0|00:00:00"
       ],
       "summaries": [
         {
