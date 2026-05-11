@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 14:03 KST  \u00b7  22:03 PDT",
+  "updated": "2026-05-11 14:04 KST  \u00b7  22:04 PDT",
   "servers": [
     {
       "gpus": [
@@ -90,7 +90,7 @@
           "idx": 1,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 2,
@@ -196,24 +196,12 @@
       "name": "alin_slurm",
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
-      "tmux_sessions": [
-        "123218[R] reg_eval 57:37"
-      ],
+      "tmux_sessions": [],
       "recent_events": [
-        "==JOB 123218==",
-        "[13:39:38] OK gta1_7b_sft_12k/screenspot-pro/scaling  882s  acc=744/1581 = 47.06%",
-        "[13:39:38] START gta1_7b_sft_12k/osworld-g/baseline",
-        "[13:42:40] OK gta1_7b_sft_12k/osworld-g/baseline  182s  acc=262/510 = 51.37%",
-        "[13:42:40] START gta1_7b_sft_12k/osworld-g/scaling",
-        "[13:46:08] OK gta1_7b_sft_12k/osworld-g/scaling  208s  acc=285/510 = 55.88%",
-        "[13:46:08] START gta1_7b_sft_12k/ui-vision-basic/baseline",
-        "[13:49:43] OK gta1_7b_sft_12k/ui-vision-basic/baseline  215s  acc=521/1772 = 29.40%",
-        "[13:49:43] START gta1_7b_sft_12k/ui-vision-basic/scaling",
-        "[13:54:58] OK gta1_7b_sft_12k/ui-vision-basic/scaling  315s  acc=584/1772 = 32.96%",
-        "[13:54:58] START gta1_7b_sft_12k/screenspot/baseline",
-        "[13:58:30] OK gta1_7b_sft_12k/screenspot/baseline  212s  acc=1115/1272 = 87.66%",
-        "[13:58:30] START gta1_7b_sft_12k/screenspot/scaling",
-        "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55"
+        "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
+        "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
+        "[sacct] 123217|reg_eval|COMPLETED|0:0|01:22:39",
+        "[sacct] 123218|reg_eval|COMPLETED|0:0|00:57:54"
       ],
       "summaries": [
         {
