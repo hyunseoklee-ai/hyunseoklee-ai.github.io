@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 22:20 KST  \u00b7  06:20 PDT",
+  "updated": "2026-05-11 22:21 KST  \u00b7  06:21 PDT",
   "servers": [
     {
       "gpus": [
@@ -25,7 +25,7 @@
           "idx": 3,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 4,
@@ -43,7 +43,7 @@
           "idx": 6,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 7,
@@ -196,18 +196,19 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123386[R] reg_eval 2:23"
+        "123386[R] reg_eval 3:23"
       ],
       "recent_events": [
         "==JOB 123386==",
         "MODEL_REPO=hyunseoki/regUIDE-qwen2vl-7b-uground-sft-a6k-v3 LABEL=qwen2vl_7b_uground_sft_v3 PROMPT=native MAX_TOK=128 ENABLE_THINK=0",
         "=== untar env from /home \u2192 /tmp (22:17:38) ===",
         "=== stage model from HF ===",
+        "=== stage code ===",
         "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28",
         "[sacct] 123383|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123384|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123385|reg_eval|COMPLETED|0:0|00:11:02",
-        "[sacct] 123386|reg_eval|RUNNING|0:0|00:02:23"
+        "[sacct] 123386|reg_eval|RUNNING|0:0|00:03:23"
       ],
       "summaries": [
         {
