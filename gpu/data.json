@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:25 KST  \u00b7  18:25 PDT",
+  "updated": "2026-05-11 10:26 KST  \u00b7  18:26 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 21307,
           "mem_total": 24576,
-          "util": 100
+          "util": 78
         },
         {
           "idx": 2,
@@ -82,7 +82,7 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 24089,
+          "mem_used": 24149,
           "mem_total": 24576,
           "util": 100
         },
@@ -94,7 +94,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 24174,
+          "mem_used": 24194,
           "mem_total": 24576,
           "util": 100
         },
@@ -106,7 +106,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24134,
+          "mem_used": 23892,
           "mem_total": 24576,
           "util": 100
         },
@@ -118,7 +118,7 @@
         },
         {
           "idx": 6,
-          "mem_used": 24094,
+          "mem_used": 19812,
           "mem_total": 24576,
           "util": 100
         },
@@ -200,7 +200,7 @@
         "123214[P] reg_eval 0:00",
         "123213[P] reg_eval 0:00",
         "123212[P] reg_eval 0:00",
-        "123211[R] reg_eval 0:43"
+        "123211[R] reg_eval 1:43"
       ],
       "recent_events": [
         "==JOB 123211==",
@@ -209,7 +209,7 @@
         "=== stage model from HF ===",
         "[sacct] 123207|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123208|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123211|reg_eval|RUNNING|0:0|00:00:43",
+        "[sacct] 123211|reg_eval|RUNNING|0:0|00:01:43",
         "[sacct] 123212|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123213|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123214|reg_eval|PENDING|0:0|00:00:00"
