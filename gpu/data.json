@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 18:14 KST  \u00b7  02:14 PDT",
+  "updated": "2026-05-11 18:15 KST  \u00b7  02:15 PDT",
   "servers": [
     {
       "gpus": [
@@ -196,13 +196,13 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123302[R] q2vl_ugv3 1:24:36"
+        "123302[R] q2vl_ugv3 1:25:37"
       ],
       "recent_events": [
         "[sacct] 123291|q2vl_ugsft|CANCELLED by 54039|0:0|00:11:54",
         "[sacct] 123294|q2vl_ugsft|FAILED|1:0|00:27:34",
         "[sacct] 123298|q2vl_ugv2|FAILED|1:0|00:48:40",
-        "[sacct] 123302|q2vl_ugv3|RUNNING|0:0|01:24:36"
+        "[sacct] 123302|q2vl_ugv3|RUNNING|0:0|01:25:37"
       ],
       "summaries": [
         {
