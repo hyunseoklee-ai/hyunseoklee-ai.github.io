@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 11:33 KST  \u00b7  19:33 PDT",
+  "updated": "2026-05-11 11:34 KST  \u00b7  19:34 PDT",
   "servers": [
     {
       "gpus": [
@@ -95,7 +95,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 23994,
+          "mem_used": 22414,
           "mem_total": 24576,
           "util": 100
         },
@@ -107,7 +107,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24114,
+          "mem_used": 24174,
           "mem_total": 24576,
           "util": 100
         },
@@ -201,7 +201,7 @@
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
-        "123215[R] reg_eval 59:11"
+        "123215[R] reg_eval 1:00:11"
       ],
       "recent_events": [
         "==JOB 123215==",
