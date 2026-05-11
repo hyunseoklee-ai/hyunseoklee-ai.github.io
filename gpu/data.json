@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 09:41 KST  \u00b7  17:41 PDT",
+  "updated": "2026-05-11 09:42 KST  \u00b7  17:42 PDT",
   "servers": [
     {
       "gpus": [
@@ -82,49 +82,49 @@
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 31,
+          "mem_used": 34,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 1,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 2,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 3,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 4,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 5,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 6,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         },
         {
           "idx": 7,
-          "mem_used": 17,
+          "mem_used": 20,
           "mem_total": 24576,
           "util": 0
         }
@@ -137,8 +137,7 @@
         "3",
         "dash",
         "h200",
-        "h200-backup",
-        "holo2_train"
+        "h200-backup"
       ],
       "recent_events": [
         "[09:08:59] OK holo2_8b_kde_plugin_alin15/screenspot/scaling  1261s  acc=1159/1272 = 91.12%",
@@ -197,14 +196,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123201[R] reg_eval 6:23"
+        "123201[R] reg_eval 7:23"
       ],
       "recent_events": [
         "==JOB 123201==",
-        "=== stage model from HF ===",
-        "=== stage code (no-symlink) ===",
-        "=== eval holo2_8b_base ===",
-        "[09:37:41] START holo2_8b_base/screenspot-pro/baseline",
         "[09:38:26] OK holo2_8b_base/screenspot-pro/baseline  45s  acc=0/0 = 0.00%",
         "[09:38:26] START holo2_8b_base/screenspot-pro/scaling",
         "[09:39:08] OK holo2_8b_base/screenspot-pro/scaling  42s  acc=0/0 = 0.00%",
@@ -213,6 +208,10 @@
         "[09:39:49] START holo2_8b_base/osworld-g/scaling",
         "[09:40:31] OK holo2_8b_base/osworld-g/scaling  42s  acc=0/0 = 0.00%",
         "[09:40:31] START holo2_8b_base/ui-vision-basic/baseline",
+        "[09:41:12] OK holo2_8b_base/ui-vision-basic/baseline  41s  acc=0/0 = 0.00%",
+        "[09:41:12] START holo2_8b_base/ui-vision-basic/scaling",
+        "[09:41:53] OK holo2_8b_base/ui-vision-basic/scaling  41s  acc=0/0 = 0.00%",
+        "[09:41:53] START holo2_8b_base/screenspot/baseline",
         "[sacct] 123186|reg_eval|COMPLETED|0:0|00:03:42"
       ],
       "summaries": [
