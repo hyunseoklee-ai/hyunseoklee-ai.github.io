@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 05:51 KST  \u00b7  13:51 PDT",
+  "updated": "2026-05-12 05:52 KST  \u00b7  13:52 PDT",
   "servers": [
     {
       "gpus": [
@@ -199,8 +199,8 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123444[R] reg_eval 24:32",
-        "123443[R] reg_eval 1:12:33"
+        "123444[R] reg_eval 25:32",
+        "123443[R] reg_eval 1:13:33"
       ],
       "recent_events": [
         "==JOB 123444==",
@@ -210,13 +210,13 @@
         "=== stage code ===",
         "=== eval qwen2vl_7b_base_kde ===",
         "[05:36:35] START qwen2vl_7b_base_kde/screenspot-pro/baseline",
+        "[05:51:16] OK qwen2vl_7b_base_kde/screenspot-pro/baseline  881s  acc=15/792 = 1.89%",
+        "[05:51:16] START qwen2vl_7b_base_kde/screenspot-pro/scaling",
         "==JOB 123443==",
         "MODEL_REPO=Qwen/Qwen3.5-9B LABEL=qwen35_9b_base_kde PROMPT=native MAX_TOK=128 ENABLE_THINK=0",
         "=== untar env from /home \u2192 /tmp (04:38:29) ===",
         "=== stage model from HF ===",
-        "=== stage code ===",
-        "=== eval qwen35_9b_base_kde ===",
-        "[04:51:47] START qwen35_9b_base_kde/screenspot-pro/baseline"
+        "=== stage code ==="
       ],
       "summaries": [
         {
