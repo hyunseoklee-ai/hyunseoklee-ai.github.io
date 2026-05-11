@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 01:39 KST  \u00b7  09:39 PDT",
+  "updated": "2026-05-12 01:40 KST  \u00b7  09:40 PDT",
   "servers": [
     {
       "gpus": [
@@ -196,12 +196,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123408[R] reg_eval 49:53"
+        "123408[R] reg_eval 50:53"
       ],
       "recent_events": [
         "==JOB 123408==",
-        "=== untar env from /home -> /tmp (00:49:09) ===",
-        "=== stage code ===",
         "=== eval holo2_8b_cookbook_2k ===",
         "[00:56:47] START holo2_8b_cookbook_2k/screenspot-pro/baseline",
         "[01:09:11] OK holo2_8b_cookbook_2k/screenspot-pro/baseline  744s  acc=468/792 = 59.09%",
@@ -212,6 +210,8 @@
         "[01:31:55] START holo2_8b_cookbook_2k/osworld-g/scaling",
         "[01:35:25] OK holo2_8b_cookbook_2k/osworld-g/scaling  210s  acc=174/256 = 67.97%",
         "[01:35:25] START holo2_8b_cookbook_2k/ui-vision-basic/baseline",
+        "[01:40:01] OK holo2_8b_cookbook_2k/ui-vision-basic/baseline  276s  acc=372/888 = 41.89%",
+        "[01:40:01] START holo2_8b_cookbook_2k/ui-vision-basic/scaling",
         "[sacct] 123386|reg_eval|COMPLETED|0:0|01:08:58"
       ],
       "summaries": [
