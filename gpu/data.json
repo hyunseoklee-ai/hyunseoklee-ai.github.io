@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 23:10 KST  \u00b7  07:10 PDT",
+  "updated": "2026-05-11 23:11 KST  \u00b7  07:11 PDT",
   "servers": [
     {
       "gpus": [
@@ -196,12 +196,10 @@
       "gpus": [],
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
-        "123386[R] reg_eval 52:23"
+        "123386[R] reg_eval 53:23"
       ],
       "recent_events": [
         "==JOB 123386==",
-        "=== stage model from HF ===",
-        "=== stage code ===",
         "=== eval qwen2vl_7b_uground_sft_v3 ===",
         "[22:27:27] START qwen2vl_7b_uground_sft_v3/screenspot-pro/baseline",
         "[22:41:44] OK qwen2vl_7b_uground_sft_v3/screenspot-pro/baseline  857s  acc=32/792 = 4.04%",
@@ -212,6 +210,8 @@
         "[23:02:13] START qwen2vl_7b_uground_sft_v3/osworld-g/scaling",
         "[23:05:49] OK qwen2vl_7b_uground_sft_v3/osworld-g/scaling  216s  acc=106/256 = 41.41%",
         "[23:05:49] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/baseline",
+        "[23:10:17] OK qwen2vl_7b_uground_sft_v3/ui-vision-basic/baseline  268s  acc=130/888 = 14.64%",
+        "[23:10:17] START qwen2vl_7b_uground_sft_v3/ui-vision-basic/scaling",
         "[sacct] 123302|q2vl_ugv3|COMPLETED|0:0|04:57:28"
       ],
       "summaries": [
