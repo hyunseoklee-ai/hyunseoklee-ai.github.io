@@ -1,55 +1,55 @@
 {
-  "updated": "2026-05-11 14:07 KST  \u00b7  22:07 PDT",
+  "updated": "2026-05-11 14:08 KST  \u00b7  22:08 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 4670,
+          "mem_used": 22680,
           "mem_total": 24576,
-          "util": 71
+          "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 3635,
+          "mem_used": 22761,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 4655,
+          "mem_used": 22821,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 3,
-          "mem_used": 3635,
+          "mem_used": 22721,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 4655,
+          "mem_used": 22701,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 4655,
+          "mem_used": 22661,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 3635,
+          "mem_used": 22983,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 7,
-          "mem_used": 4655,
+          "mem_used": 22821,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -199,7 +199,6 @@
       "tmux_sessions": [],
       "recent_events": [
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
-        "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123217|reg_eval|COMPLETED|0:0|01:22:39",
         "[sacct] 123218|reg_eval|COMPLETED|0:0|00:57:54"
       ],
