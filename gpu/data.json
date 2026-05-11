@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-12 02:33 KST  \u00b7  10:33 PDT",
+  "updated": "2026-05-12 02:34 KST  \u00b7  10:34 PDT",
   "servers": [
     {
       "gpus": [
@@ -13,7 +13,7 @@
           "idx": 1,
           "mem_used": 18,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 2,
@@ -49,7 +49,7 @@
           "idx": 7,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -84,37 +84,37 @@
           "idx": 0,
           "mem_used": 21771,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 1,
           "mem_used": 22068,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 2,
           "mem_used": 22512,
           "mem_total": 24576,
-          "util": 0
+          "util": 100
         },
         {
           "idx": 3,
           "mem_used": 22070,
           "mem_total": 24576,
-          "util": 0
+          "util": 67
         },
         {
           "idx": 4,
           "mem_used": 21562,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         },
         {
           "idx": 5,
           "mem_used": 21506,
           "mem_total": 24576,
-          "util": 0
+          "util": 99
         },
         {
           "idx": 6,
@@ -126,7 +126,7 @@
           "idx": 7,
           "mem_used": 22422,
           "mem_total": 24576,
-          "util": 100
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -193,63 +193,11 @@
     },
     {
       "name": "alin_slurm",
+      "error": "__SSH_ERR__: TIMEOUT: Timeout exceeded.\n<pexpect.pty_spawn.spawn object at 0x7ff3a5cad590>\ncommand: /usr/bin/ssh\nargs: [b'/usr/bin/ssh', b'-o', b'StrictHostKeyChecking=no', b'-o', b'ConnectTimeout=10', b'-o', b'NumberOfPasswordPrompts=2', b'alin_slurm', b'bash', b'-s']\nbuffer (last 100 chars): '       echo \"$label::$line\"\\r\\n    done < <(grep -hE \"acc=\" \"$s\" 2>/dev/null)\\r\\ndone\\r\\necho MARK_END\\r\\n\\r\\n'\nbefore (last 100 chars): '       echo \"$label::$line\"\\r\\n    done < <(grep -hE \"acc=\" \"$s\" 2>/dev/null)\\r\\ndone\\r\\necho MARK_END\\r\\n\\r\\n'\nafter: <class 'pexpect.exceptions.TIMEOUT'>\nmatch: None\nmatch_index: None\nexitstatus: None\nflag_eof: False\npid: 3216898\nchild_fd: 5\nclosed: False\ntimeout: 40\ndelimiter: <class 'pexpect.exceptions.EOF'>\nlogfile: None\nlogfile_read: None\nlogfile_send: None\nmaxread: 2000\nignorecase: False\nsearchwindowsize: None\ndelaybeforesend: 0.05\ndelayafterclose: 0.1\ndelayafterterminate: 0.1\nsearcher: searcher_re:\n    0: EOF",
       "gpus": [],
-      "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [],
-      "recent_events": [
-        "[sacct] 123407|q2vl_ugv3|CANCELLED by 54039|0:0|00:00:54",
-        "[sacct] 123408|reg_eval|COMPLETED|0:0|01:12:46"
-      ],
-      "summaries": [
-        {
-          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic base",
-          "metric": "14.22%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking ui-vision-basic scal",
-          "metric": "24.15%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking screenspot base",
-          "metric": "60.46%"
-        },
-        {
-          "label": "qwen2vl_7b_stage2_thinking screenspot scal",
-          "metric": "81.60%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 screenspot-pro base",
-          "metric": "4.04%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 screenspot-pro scal",
-          "metric": "28.54%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 osworld-g base",
-          "metric": "31.25%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 osworld-g scal",
-          "metric": "41.41%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 ui-vision-basic base",
-          "metric": "14.64%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 ui-vision-basic scal",
-          "metric": "22.07%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 screenspot base",
-          "metric": "48.43%"
-        },
-        {
-          "label": "qwen2vl_7b_uground_sft_v3 screenspot scal",
-          "metric": "77.52%"
-        }
-      ]
+      "recent_events": [],
+      "summaries": []
     }
   ]
 }
