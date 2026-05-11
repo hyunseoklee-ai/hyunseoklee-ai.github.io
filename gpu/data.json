@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 12:29 KST  \u00b7  20:29 PDT",
+  "updated": "2026-05-11 12:30 KST  \u00b7  20:30 PDT",
   "servers": [
     {
       "gpus": [
@@ -11,7 +11,7 @@
         },
         {
           "idx": 1,
-          "mem_used": 22763,
+          "mem_used": 23023,
           "mem_total": 24576,
           "util": 100
         },
@@ -23,27 +23,27 @@
         },
         {
           "idx": 3,
-          "mem_used": 22749,
+          "mem_used": 22753,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 4,
-          "mem_used": 22713,
+          "mem_used": 22989,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 22743,
+          "mem_used": 22745,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 6,
-          "mem_used": 23023,
+          "mem_used": 23029,
           "mem_total": 24576,
-          "util": 56
+          "util": 100
         },
         {
           "idx": 7,
@@ -109,7 +109,7 @@
           "idx": 4,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         },
         {
           "idx": 5,
@@ -199,7 +199,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 46:16"
+        "123217[R] reg_eval 47:16"
       ],
       "recent_events": [
         "==JOB 123217==",
@@ -211,11 +211,11 @@
         "[11:53:25] START qwen2vl_7b_stage2_thinking/screenspot-pro/baseline",
         "[12:08:43] OK qwen2vl_7b_stage2_thinking/screenspot-pro/baseline  918s  acc=70/1581 = 4.43%",
         "[12:08:43] START qwen2vl_7b_stage2_thinking/screenspot-pro/scaling",
+        "[12:29:55] OK qwen2vl_7b_stage2_thinking/screenspot-pro/scaling  1272s  acc=489/1581 = 30.93%",
+        "[12:29:55] START qwen2vl_7b_stage2_thinking/osworld-g/baseline",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
-        "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123217|reg_eval|RUNNING|0:0|00:46:16"
+        "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55"
       ],
       "summaries": [
         {
