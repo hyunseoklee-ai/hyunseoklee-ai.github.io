@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11 10:44 KST  \u00b7  18:44 PDT",
+  "updated": "2026-05-11 10:45 KST  \u00b7  18:45 PDT",
   "servers": [
     {
       "gpus": [
@@ -93,7 +93,7 @@
         },
         {
           "idx": 2,
-          "mem_used": 22714,
+          "mem_used": 24094,
           "mem_total": 24576,
           "util": 100
         },
@@ -105,7 +105,7 @@
         },
         {
           "idx": 4,
-          "mem_used": 24174,
+          "mem_used": 22794,
           "mem_total": 24576,
           "util": 100
         },
@@ -199,7 +199,7 @@
         "123218[P] reg_eval 0:00",
         "123217[P] reg_eval 0:00",
         "123216[P] reg_eval 0:00",
-        "123215[R] reg_eval 10:11"
+        "123215[R] reg_eval 11:11"
       ],
       "recent_events": [
         "==JOB 123215==",
@@ -207,9 +207,11 @@
         "=== untar env from /home \u2192 /tmp (10:33:51) ===",
         "=== stage model from HF ===",
         "=== stage code ===",
+        "=== eval holo2_8b_base ===",
+        "[10:44:39] START holo2_8b_base/screenspot-pro/baseline",
         "[sacct] 123213|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123215|reg_eval|RUNNING|0:0|00:10:11",
+        "[sacct] 123215|reg_eval|RUNNING|0:0|00:11:11",
         "[sacct] 123216|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123217|reg_eval|PENDING|0:0|00:00:00",
         "[sacct] 123218|reg_eval|PENDING|0:0|00:00:00"
