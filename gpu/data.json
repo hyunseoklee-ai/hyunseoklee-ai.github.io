@@ -1,23 +1,23 @@
 {
-  "updated": "2026-05-11 12:28 KST  \u00b7  20:28 PDT",
+  "updated": "2026-05-11 12:29 KST  \u00b7  20:29 PDT",
   "servers": [
     {
       "gpus": [
         {
           "idx": 0,
-          "mem_used": 22556,
+          "mem_used": 22558,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 1,
-          "mem_used": 22759,
+          "mem_used": 22763,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 2,
-          "mem_used": 22771,
+          "mem_used": 22777,
           "mem_total": 24576,
           "util": 100
         },
@@ -29,25 +29,25 @@
         },
         {
           "idx": 4,
-          "mem_used": 22711,
+          "mem_used": 22713,
           "mem_total": 24576,
           "util": 100
         },
         {
           "idx": 5,
-          "mem_used": 22741,
+          "mem_used": 22743,
           "mem_total": 24576,
-          "util": 99
+          "util": 100
         },
         {
           "idx": 6,
           "mem_used": 23023,
           "mem_total": 24576,
-          "util": 100
+          "util": 56
         },
         {
           "idx": 7,
-          "mem_used": 22541,
+          "mem_used": 22543,
           "mem_total": 24576,
           "util": 100
         }
@@ -109,7 +109,7 @@
           "idx": 4,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 0
+          "util": 1
         },
         {
           "idx": 5,
@@ -127,7 +127,7 @@
           "idx": 7,
           "mem_used": 17,
           "mem_total": 24576,
-          "util": 1
+          "util": 0
         }
       ],
       "gpu_type": "NVIDIA GeForce RTX 3090",
@@ -199,7 +199,7 @@
       "gpu_type": "A6000 cluster (node6, 8x48GB)",
       "tmux_sessions": [
         "123218[P] reg_eval 0:00",
-        "123217[R] reg_eval 45:16"
+        "123217[R] reg_eval 46:16"
       ],
       "recent_events": [
         "==JOB 123217==",
@@ -215,7 +215,7 @@
         "[sacct] 123214|reg_eval|CANCELLED by 54039|0:0|00:00:00",
         "[sacct] 123215|reg_eval|COMPLETED|0:0|01:08:55",
         "[sacct] 123216|reg_eval|CANCELLED by 54039|0:0|00:00:00",
-        "[sacct] 123217|reg_eval|RUNNING|0:0|00:45:16"
+        "[sacct] 123217|reg_eval|RUNNING|0:0|00:46:16"
       ],
       "summaries": [
         {
