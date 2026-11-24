@@ -96,6 +96,29 @@
         height: 80px;
       }
 
+      #pub-list { display: flex; flex-direction: column; }
+      .pub-toolbar {
+        display: flex; flex-wrap: wrap; align-items: center;
+        justify-content: space-between; gap: 8px;
+        margin: 14px 0 2px;
+      }
+      .pub-toggle {
+        display: inline-flex; padding: 3px; gap: 2px;
+        background: #f0f0f0; border-radius: 8px;
+      }
+      .pub-toggle button {
+        border: none; background: transparent; cursor: pointer;
+        font-family: 'Noto Sans KR', sans-serif; font-size: 14px; font-weight: 400;
+        color: #666; padding: 4px 14px; border-radius: 6px;
+        transition: background-color .15s, color .15s;
+      }
+      .pub-toggle button:hover { color: #1772d0; }
+      .pub-toggle button[aria-pressed="true"] {
+        background: #fff; color: #222; font-weight: 500; cursor: default;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+      }
+      .pub-toggle button:focus-visible { outline: 2px solid #1772d0; outline-offset: 1px; }
+      .pub-note { font-size: 13px; color: #888; }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
@@ -132,8 +155,8 @@
     <h2 id="orgc5d597d">About</h2>
     <div class="outline-text-2" id="text-orgc5d597d">
     <p style="text-align:justify">
-        I am a second-year Ph.D. student at KAIST, advised by Prof. <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>,
-        and a Research Intern at <a href='http://research.microsoft.com'>Microsoft Research Asia Vancouver</a>.
+        I am a third-year M.S./Ph.D. student at KAIST, advised by Prof. <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>,
+        and currently an Applied Scientist Intern at Amazon, working with <a href='https://youngsuk0723.github.io/'>Dr. Youngsuk Park</a>.
         My research interests lie in building intelligence that is self-aware and safe.
         To this end, I focus on developing Large Language Models (LLMs) that can reason, make decisions (i.e., exhibit agentic behaviors), and ensure safety. 
         I am also broadly interested in the continual pretraining of LLMs and their multilingual capabilities.</p>
@@ -145,48 +168,71 @@
     <div id="outline-container-orgc5d597d" class="outline-2">
     <h2 id="orgc5d597d">Publications</h2>
     <div class="outline-text-2" id="text-orgc5d597d">
-    <p>
-    * denotes equal contribution
-    </p>
-    <dl class="org-dl">
+    <div class="pub-toolbar">
+      <div class="pub-toggle" role="group" aria-label="Filter publications">
+        <button type="button" data-view="selected" aria-pressed="true">Selected</button>
+        <button type="button" data-view="all" aria-pressed="false">All</button>
+      </div>
+      <span class="pub-note">* denotes equal contribution</span>
+    </div>
+    <div id="pub-list">
+    <dl class="org-dl pub" data-all="1" data-selected="1">
+      <dt><strong>Beyond Correctness: Learning Robust Reasoning via Transfer</strong></dt>
+      <u> Hyunseok Lee</u>, <a> Soheil Abbasloo</a>, <a href='https://jihoontack.github.io'>Jihoon Tack</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><br />
+      <strong>Preprint</strong> <br />
+      <a href="https://arxiv.org/abs/2602.08489">paper</a>
+    </dl>
+    <dl class="org-dl pub" data-all="2" data-selected="2">
+      <dt><strong>Who's Behind the Text? Robust Model Authorship Attribution</strong></dt>
+      <a> Minseok Ko</a>*, <u> Hyunseok Lee</u>*, <a> Woomin Song</a>, <a href='https://github.com/i3ullbum'> Beomjun Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a> Kunwoong Kim</a><br />
+      <strong>Preprint</strong> <br />
+      <a href="https://arxiv.org/abs/2610.19583">paper</a> | <a href="https://github.com/komseok0109/ATLAS">code</a> | <a href="https://komseok0109.github.io/ATLAS/">project page</a> | <a href="https://huggingface.co/spaces/ming9999/ATLAS-demo">demo</a>
+    </dl>
+    <dl class="org-dl pub" data-all="3">
+      <dt><strong>Latent Reasoning in Continuous Space for Unified Multimodal Models</strong></dt>
+      <a> Byungwoo Jeon</a>, <a> Yoonwoo Jeong</a>, <u> Hyunseok Lee</u>, <a> Minsu Cho</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><br />
+      <strong>NeurIPS 2026</strong> <br />
+      <a href="https://arxiv.org/abs/2610.42149">paper</a> | <a href="https://github.com/rootyJeon/LARC">code</a> | <a href="https://rootyjeon.github.io/larc-umm/">project page</a>
+    </dl>
+    <dl class="org-dl pub" data-all="4" data-selected="3">
       <dt><strong>Benchmarking Visual State Tracking in Multimodal Video Understanding</strong></dt>
       <a href="https://sihyun.me">Sihyun Yu</a>†*, <a href="https://willisma.github.io/">Nanye Ma</a>†*, <a href="https://pinzhihuang.github.io/">Pinzhi Huang</a>†*, <u>Hyunseok Lee</u>*, <a href="https://shushengyang.com/">Shusheng Yang</a>, <a href="https://choi403.github.io/">June Suk Choi</a>, <a href="https://ellisbrown.github.io/">Ellis Brown</a>, <a href="https://ojmichel.github.io/">Oscar Michel</a>, <a href="https://bytetriper.github.io/">Boyang Zheng</a>, <a href="https://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>, <a href="https://www.sainingxie.com/">Saining Xie</a><br />
-      <strong>Technical Report</strong> <br />
+      <strong>NeurIPS 2026 Workshop VLM4RWD</strong> <font color="red"><strong>(Oral)</strong></font> <br />
       <a href="https://arxiv.org/abs/2606.03920">paper</a> | <a href="https://github.com/vision-x-nyu/vstat">code</a> | <a href="https://vision-x-nyu.github.io/vstat-site/">project page</a> | <a href="https://huggingface.co/collections/nyu-visionx/vstat">benchmark</a>
     </dl>
-    <dl class="org-dl">
+    <dl class="org-dl pub" data-all="5" data-selected="4">
       <dt><strong>Vision-aligned Latent Reasoning for Multi-modal Large Language Model</strong></dt>
       <a> Byungwoo Jeon</a>, <a> Yoonwoo Jeong</a>, <u> Hyunseok Lee</u>, <a> Minsu Cho</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><br />
       <strong>ICML 2026</strong> <br />
-      <a href="https://arxiv.org/abs/2602.04476">paper</a> | code | <a href="https://rootyjeon.github.io/valr/">project page</a>
+      <a href="https://arxiv.org/abs/2602.04476">paper</a> | <a href="https://rootyjeon.github.io/valr/">project page</a>
     </dl>
-    <dl class="org-dl">
-      <dt><strong>Beyond Correctness: Learning Robust Reasoning via Transfer</strong></dt>
-      <u> Hyunseok Lee</u>, <a> Soheil Abbasloo</a>, <a href='https://jihoontack.github.io'>Jihoon Tack</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><br />
-      <a href="https://arxiv.org/abs/2602.08489">paper</a> | code
+    <dl class="org-dl pub" data-all="6">
+      <dt><strong>Cog3DMap: Multi-View Vision-Language Reasoning with 3D Cognitive Maps</strong></dt>
+      <a> Chanyoung Gwak</a>, <a> Yoonwoo Jeong</a>, <a> Byungwoo Jeon</a>, <u> Hyunseok Lee</u>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a> Minsu Cho</a><br />
+      <strong>Preprint</strong> <br />
+      <a href="https://arxiv.org/abs/2603.23023">paper</a> | <a href="https://cog3dmap.github.io">project page</a>
     </dl>
-    <dl class="org-dl">
+    <dl class="org-dl pub" data-all="7">
     <dt><strong>ReGUIDE: Data Efficient GUI Grounding via Spatial Reasoning and Search</strong></dt>
     <u> Hyunseok Lee</u>, <a href='https://scholar.google.co.kr/citations?user=IUXo_qcAAAAJ&hl=ko'> Jeonghoon Kim</a>, <a href='https://github.com/i3ullbum'> Beomjun Kim</a>, <a href='https://jihoontack.github.io'>Jihoon Tack</a>, <a>Chansong Jo</a>, <a>Jaehong Lee</a>, <a href="https://scholar.google.com/citations?hl=en&user=nwU418UAAAAJ">Cheonbok Park</a>, <a>Sookyo In</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://scholar.google.com/citations?user=BqaWtH8AAAAJ&hl=en'>Kang Min Yoo</a><br />
-    <a href="https://arxiv.org/abs/2505.15259">paper</a> | code
+    <strong>Preprint</strong> <br />
+    <a href="https://arxiv.org/abs/2505.15259">paper</a>
     </dl>
-
-    <dl class="org-dl">
+    <dl class="org-dl pub" data-all="8" data-selected="5">
     <dt><strong>ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification</strong></dt>
     <u> Hyunseok Lee</u>*, <a href='https://seunghyukoh.com'> Seunghyuk Oh</a>*, <a href='https://sites.google.com/view/jaehyungkim'>Jaehyung Kim</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://jihoontack.github.io'>Jihoon Tack</a><br />
     <strong>ICML 2025</strong> <br />
     <!-- ICLR Workshop on Reasoning and Planning for Large Language Models 2025 <br /> -->
-    <a href="https://arxiv.org/abs/2502.14565v1">paper</a> | <a href="https://github.com/seunghyukoh/ReVISE">code</a>
+    <a href="https://arxiv.org/abs/2502.14565">paper</a> | <a href="https://github.com/seunghyukoh/ReVISE">code</a>
     </dl>
-
-    <dl class="org-dl">
+    <dl class="org-dl pub" data-all="9" data-selected="6">
     <dt><strong>ReMoDetect: Reward Models Recognize Aligned LLM's Generations</strong></dt>
     <u> Hyunseok Lee</u>*, <a href='https://jihoontack.github.io'>Jihoon Tack</a>*, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a><br />
     <strong>NeurIPS 2024</strong> <br />
     Qualcomm Innovation Fellowship Korea 2024 <br />
     <a href="https://arxiv.org/abs/2405.17382">paper</a> | <a href="https://github.com/hyunseoklee-ai/ReMoDetect.git">code</a> | <a href="assets/neurips24_remodetect_slide.pdf">slide</a> | <a href="assets/neurips24_remodetect_poster.pdf">poster</a> | <a href="https://hyunseoklee-ai.github.io/ReMoDetect/">project page</a> | <a href="https://huggingface.co/spaces/hyunseoki/ReMoDetect">demo</a>
     </dl>
-
+    </div>
     </div>
     </div>
 
@@ -195,7 +241,7 @@
     <div class="outline-text-2" id="text-orgc5d597d">
     
     <dl class="org-dl">
-    <strong>Ph.D. in Artificial Intelligence</strong><br />
+    <strong>M.S./Ph.D. in Artificial Intelligence</strong><br />
     Korea Advanced Institute of Science and Technology (KAIST), Mar. 2024 - Current<br />
     Advisor: Prof. <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>
     </dl>
@@ -213,13 +259,12 @@
     <div class="outline-text-2" id="text-orgc5d597d", style="line-height:170%">
 
     <dl class="org-dl">
-    <strong>Qualcomm Innovation Fellowship Korea 2024</strong> <br />
-    <strong>Research Intern</strong>, Microsoft Research Vancouver, May. 2026 - July. 2026 <br />
-    <strong>Research Intern</strong>, Microsoft Research Asia, July. 2025 - Dec. 2025 <br />
+    <strong>Applied Scientist Intern</strong>, Amazon, Oct. 2026 - Present <br />
+    <strong>Research Intern</strong>, Microsoft Research Vancouver, Apr. 2026 - Jul. 2026 <br />
+    <strong>Research Intern</strong>, Microsoft Research Asia, Jul. 2025 - Dec. 2025 <br />
     <strong>Research Intern</strong>, Naver Cloud, Feb. 2025 - Jun. 2025 <br />
     <!-- <strong>Research Intern</strong>, Omnious AI, Jun. 2023 - Dec. 2023 <br /> -->
-    <strong>1st Place in Korean LLM Leaderboard</strong>, <a href="https://huggingface.co/hyunseoki/ko-en-llama2-13b">hyunseoki/ko-en-llama2-13b</a>, Oct. 2023 <br />
-    <strong>Conference Reviewer</strong>, NeurIPS ICML ICLR <br />
+    <strong>Conference Reviewer</strong>, NeurIPS, ICML, ICLR, ECCV <br />
     <strong>Workshop Reviewer</strong>, Reasoning and Planning for LLMs@ICLR <br />
     <!-- <strong>Teaching Assistant,</strong>“CS101: Introduction to Programming”, KAIST 2023 <br /> -->
 
@@ -228,7 +273,41 @@
     </div>
     </div>
 
+    <div id="outline-container-orgc5d597d" class="outline-2">
+    <h2 id="orgc5d597d">Honors</h2>
+    <div class="outline-text-2" id="text-orgc5d597d", style="line-height:170%">
+
+    <dl class="org-dl">
+    <strong>Qualcomm Innovation Fellowship Korea</strong>, 2024 <br />
+    <strong>1st Place in Korean LLM Leaderboard</strong>, <a href="https://huggingface.co/hyunseoki/ko-en-llama2-13b">hyunseoki/ko-en-llama2-13b</a>, Oct. 2023 <br />
+    </dl>
+
+    </div>
+    </div>
+
     <h2 id="orgc5d597d"></h2>
 
+
+    <script>
+      (function () {
+        var list = document.getElementById('pub-list');
+        var pubs = list.querySelectorAll('.pub');
+        var buttons = document.querySelectorAll('.pub-toggle button');
+        function show(view) {
+          pubs.forEach(function (el) {
+            var key = view === 'selected' ? el.dataset.selected : el.dataset.all;
+            el.style.display = key ? '' : 'none';
+            el.style.order = key || 0;
+          });
+          buttons.forEach(function (b) {
+            b.setAttribute('aria-pressed', b.dataset.view === view ? 'true' : 'false');
+          });
+        }
+        buttons.forEach(function (b) {
+          b.addEventListener('click', function () { show(b.dataset.view); });
+        });
+        show('selected');
+      })();
+    </script>
   </body>
 </html>
